@@ -110,6 +110,7 @@ import { loadMasterKeysFromSettings, migrateMasterPassword } from '@joplin/lib/s
 import { setRSA } from '@joplin/lib/services/e2ee/ppk';
 import RSA from './services/e2ee/RSA.react-native';
 import { runIntegrationTests as runRsaIntegrationTests } from '@joplin/lib/services/e2ee/ppkTestUtils';
+import { runIntegrationTests as runCryptoIntegrationTests } from '@joplin/lib/services/e2ee/cryptoTestUtils';
 import { Theme, ThemeAppearance } from '@joplin/lib/themes/type';
 import ProfileSwitcher from './components/ProfileSwitcher/ProfileSwitcher';
 import ProfileEditor from './components/ProfileSwitcher/ProfileEditor';
@@ -818,8 +819,9 @@ async function initialize(dispatch: Dispatch) {
 		if (Platform.OS !== 'web') {
 			await runRsaIntegrationTests();
 		} else {
-			logger.info('Skipping RSA tests -- not supported on mobile.');
+			logger.info('Skipping encryption tests -- not supported on web.');
 		}
+		await runCryptoIntegrationTests();
 		await runOnDeviceFsDriverTests();
 	}
 
