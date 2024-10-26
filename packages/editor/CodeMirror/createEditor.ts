@@ -7,7 +7,7 @@ import { classHighlighter } from '@lezer/highlight';
 import {
 	EditorView, drawSelection, highlightSpecialChars, ViewUpdate, Command, rectangularSelection,
 } from '@codemirror/view';
-import { history, undoDepth, redoDepth, standardKeymap } from '@codemirror/commands';
+import { history, undoDepth, redoDepth, standardKeymap, insertTab } from '@codemirror/commands';
 
 import { keymap, KeyBinding } from '@codemirror/view';
 import { searchKeymap } from '@codemirror/search';
@@ -186,7 +186,13 @@ const createEditor = (
 			notifyLinkEditRequest();
 			return true;
 		}),
-		keyCommand('Tab', insertOrIncreaseIndent, true),
+		keyCommand('Tab', (view: EditorView) => {
+			if (settings.autocompleteMarkup) {
+				return insertOrIncreaseIndent(view);
+			}
+			// Use the default indent behavior (which doesn't adjust markup)
+			return insertTab(view);
+		}, true),
 		keyCommand('Shift-Tab', (view) => {
 			// When at the beginning of the editor, allow shift-tab to act
 			// normally.
