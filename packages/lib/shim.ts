@@ -309,7 +309,7 @@ const shim = {
 	detectAndSetLocale: null as Function,
 
 	// eslint-disable-next-line @typescript-eslint/no-explicit-any -- Old code before rule was applied
-	attachFileToNote: async (_note: any, _filePath: string): Promise<NoteEntity> => {
+	attachFileToNote: async (_note: any, _filePath: string, _position: number, _options: any): Promise<NoteEntity> => {
 		throw new Error('Not implemented: attachFileToNote');
 	},
 
