@@ -13,6 +13,7 @@ jobs:
 
   automerge:
     runs-on: ubuntu-latest
+    needs: allchecks
     permissions:
       contents: write
     steps:
