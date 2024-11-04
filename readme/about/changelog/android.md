@@ -1,5 +1,9 @@
 # Joplin Android Changelog
 
+## [android-v3.1.7](https://github.com/laurent22/joplin/releases/tag/android-v3.1.7) (Pre-release) - 2024-11-04T20:27:52Z
+
+- Fixed: Fix search result note hidden after powering on device (#11297) (#11197 by [@personalizedrefrigerator](https://github.com/personalizedrefrigerator))
+
 ## [android-v3.1.6](https://github.com/laurent22/joplin/releases/tag/android-v3.1.6) (Pre-release) - 2024-10-17T22:13:06Z
 
 - Improved: Downgrade CodeMirror packages to fix various Android regressions (#11170 by [@personalizedrefrigerator](https://github.com/personalizedrefrigerator))
