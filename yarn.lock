@@ -8226,7 +8226,7 @@ __metadata:
     "@types/react": 18.3.3
     "@types/react-native": 0.70.6
     "@types/react-redux": 7.1.33
-    "@types/serviceworker": 0.0.90
+    "@types/serviceworker": 0.0.92
     "@types/tar-stream": 3.1.3
     assert-browserify: 2.0.0
     babel-jest: 29.7.0
@@ -13434,10 +13434,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/serviceworker@npm:0.0.90":
-  version: 0.0.90
-  resolution: "@types/serviceworker@npm:0.0.90"
-  checksum: 7f80dc353540101ba9ef97e3a5214dc7a10617c8f3cca253ca91ac85b1318da73dc4fb339784a1f99cc5cd2b7dbde9e1167bd724b0c40162c67491327695c657
+"@types/serviceworker@npm:0.0.92":
+  version: 0.0.92
+  resolution: "@types/serviceworker@npm:0.0.92"
+  checksum: e6f73abe305961935afe082fcc4e2c4b63f47b5c5d0ff118f9f6df0abb55e8383e188c544c0a66c142e356da0613be48091060388f5e9dfc72f06a9ec47bbd5c
   languageName: node
   linkType: hard
 
