@@ -8704,7 +8704,7 @@ __metadata:
     jsdom: 24.1.1
     knex: 3.1.0
     koa: 2.15.3
-    ldapts: 7.0.12
+    ldapts: 7.1.0
     markdown-it: 13.0.2
     mustache: 4.2.0
     node-cron: 3.0.3
@@ -13554,13 +13554,6 @@ __metadata:
   version: 9.0.7
   resolution: "@types/uuid@npm:9.0.7"
   checksum: c7321194aeba9ea173efd1e721403bdf4e7ae6945f8f8cdbc87c791f4b505ccf3dbc4a8883d90b394ef13b7c2dc778045792b05dbb23b3c746f8ea347804d448
-  languageName: node
-  linkType: hard
-
-"@types/uuid@npm:>=9":
-  version: 9.0.6
-  resolution: "@types/uuid@npm:9.0.6"
-  checksum: 739dcb2e620ff097fa916edeab455eb75640c4883a850784fdb15b32f67b719e05275c6d6419bb6da11350d26bd14ed05ba5e992ff228411cdd98cbc772d71ef
   languageName: node
   linkType: hard
 
@@ -20802,7 +20795,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"debug@npm:4.3.4, debug@npm:^4, debug@npm:^4.3.2, debug@npm:^4.3.3, debug@npm:^4.3.4, debug@npm:~4.3.1, debug@npm:~4.3.4":
+"debug@npm:4.3.4, debug@npm:^4, debug@npm:^4.3.2, debug@npm:^4.3.3, debug@npm:^4.3.4, debug@npm:~4.3.1":
   version: 4.3.4
   resolution: "debug@npm:4.3.4"
   dependencies:
@@ -20823,7 +20816,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"debug@npm:~4.3.6":
+"debug@npm:~4.3.5, debug@npm:~4.3.6":
   version: 4.3.7
   resolution: "debug@npm:4.3.7"
   dependencies:
@@ -31418,17 +31411,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ldapts@npm:7.0.12":
-  version: 7.0.12
-  resolution: "ldapts@npm:7.0.12"
+"ldapts@npm:7.1.0":
+  version: 7.1.0
+  resolution: "ldapts@npm:7.1.0"
   dependencies:
     "@types/asn1": ">=0.2.4"
-    "@types/uuid": ">=9"
     asn1: ~0.2.6
-    debug: ~4.3.4
+    debug: ~4.3.5
     strict-event-emitter-types: ~2.0.0
-    uuid: ~9.0.1
-  checksum: 4b3fe6796d3763e414cb98121af656437c994ff159872855e1fd747a68bea300b6a18744e7215a01755dc16faa0fda091bc324b23283729638cde5b293b614fd
+    uuid: ~10.0.0
+  checksum: 84d280a158e0315e9ee69f9d87381b57ef2ba64eb9d43a2eab922b1bb0b455224b6aaa1fc7cca89bf8dd1ed8ce22482b75883440758f411bce0d6ab19cdb9692
   languageName: node
   linkType: hard
 
@@ -47426,7 +47418,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"uuid@npm:9.0.1, uuid@npm:~9.0.1":
+"uuid@npm:9.0.1":
   version: 9.0.1
   resolution: "uuid@npm:9.0.1"
   bin:
@@ -47459,6 +47451,15 @@ __metadata:
   bin:
     uuid: dist/bin/uuid
   checksum: 8dd2c83c43ddc7e1c71e36b60aea40030a6505139af6bee0f382ebcd1a56f6cd3028f7f06ffb07f8cf6ced320b76aea275284b224b002b289f89fe89c389b028
+  languageName: node
+  linkType: hard
+
+"uuid@npm:~10.0.0":
+  version: 10.0.0
+  resolution: "uuid@npm:10.0.0"
+  bin:
+    uuid: dist/bin/uuid
+  checksum: 4b81611ade2885d2313ddd8dc865d93d8dccc13ddf901745edca8f86d99bc46d7a330d678e7532e7ebf93ce616679fb19b2e3568873ac0c14c999032acb25869
   languageName: node
   linkType: hard
 
