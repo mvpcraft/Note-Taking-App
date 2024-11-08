@@ -8708,7 +8708,7 @@ __metadata:
     markdown-it: 13.0.2
     mustache: 4.2.0
     node-cron: 3.0.3
-    node-mocks-http: 1.15.0
+    node-mocks-http: 1.15.1
     node-os-utils: 1.3.7
     nodemailer: 6.9.14
     nodemon: 3.1.7
@@ -13135,15 +13135,6 @@ __metadata:
   version: 17.0.45
   resolution: "@types/node@npm:17.0.45"
   checksum: aa04366b9103b7d6cfd6b2ef64182e0eaa7d4462c3f817618486ea0422984c51fc69fd0d436eae6c9e696ddfdbec9ccaa27a917f7c2e8c75c5d57827fe3d95e8
-  languageName: node
-  linkType: hard
-
-"@types/node@npm:^20.10.6":
-  version: 20.11.16
-  resolution: "@types/node@npm:20.11.16"
-  dependencies:
-    undici-types: ~5.26.4
-  checksum: 51f0831c1219bf4698e7430aeb9892237bd851deeb25ce23c5bb0ceefcc77c3b114e48f4e98d9fc26def5a87ba9d8079f0281dd37bee691140a93f133812c152
   languageName: node
   linkType: hard
 
@@ -35116,12 +35107,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-mocks-http@npm:1.15.0":
-  version: 1.15.0
-  resolution: "node-mocks-http@npm:1.15.0"
+"node-mocks-http@npm:1.15.1":
+  version: 1.15.1
+  resolution: "node-mocks-http@npm:1.15.1"
   dependencies:
     "@types/express": ^4.17.21
-    "@types/node": ^20.10.6
+    "@types/node": "*"
     accepts: ^1.3.7
     content-disposition: ^0.5.3
     depd: ^1.1.0
@@ -35132,7 +35123,7 @@ __metadata:
     parseurl: ^1.3.3
     range-parser: ^1.2.0
     type-is: ^1.6.18
-  checksum: 9be3ef4eec1b283800bbae50d7615fb633c7d28a0bedcf13e2ddfaa7ed4aa865d00c1d26e929ee8d617b3734958d8c19345f615760004f1940a8268c9bbacf07
+  checksum: f6e64065abf0e1fbb6c4b954646d96fa77d4e6cd705f1c883e7147d192efed76a1e98aa2cafee77c299ba74e2563be75315cacc421527bb97917a5a48a242bbb
   languageName: node
   linkType: hard
 
