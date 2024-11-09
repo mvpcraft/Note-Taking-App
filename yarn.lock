@@ -8267,7 +8267,7 @@ __metadata:
     "@js-draw/material-icons": 1.20.3
     "@react-native-clipboard/clipboard": 1.14.1
     "@react-native-community/datetimepicker": 8.2.0
-    "@react-native-community/geolocation": 3.2.1
+    "@react-native-community/geolocation": 3.3.0
     "@react-native-community/netinfo": 11.3.2
     "@react-native-community/push-notification-ios": 1.11.0
     "@react-native-community/slider": 4.5.2
@@ -11032,13 +11032,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-native-community/geolocation@npm:3.2.1":
-  version: 3.2.1
-  resolution: "@react-native-community/geolocation@npm:3.2.1"
+"@react-native-community/geolocation@npm:3.3.0":
+  version: 3.3.0
+  resolution: "@react-native-community/geolocation@npm:3.3.0"
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 9d2749a9a86697f1b0da7ebf873d444efbf926eedee89a35810016385b81005d4802cbd7d1188ebfdfb146a41d5a11b8c907ee3ce8b434a4929fd81cac100f75
+  checksum: a0920ff7ff2f9f24300a8eabd641fd5bd9124a8a5274f0077d64bc143111c925986eaf7c29fa25b6b0daaebb780ebf1aeee12e908584fe200fc619e30de330c6
   languageName: node
   linkType: hard
 
@@ -42849,17 +42849,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"source-map-js@npm:^1.0.1, source-map-js@npm:^1.2.1":
+  version: 1.2.1
+  resolution: "source-map-js@npm:1.2.1"
+  checksum: 4eb0cd997cdf228bc253bcaff9340afeb706176e64868ecd20efbe6efea931465f43955612346d6b7318789e5265bdc419bc7669c1cebe3db0eb255f57efa76b
+  languageName: node
+  linkType: hard
+
 "source-map-js@npm:^1.2.0":
   version: 1.2.0
   resolution: "source-map-js@npm:1.2.0"
   checksum: 791a43306d9223792e84293b00458bf102a8946e7188f3db0e4e22d8d530b5f80a4ce468eb5ec0bf585443ad55ebbd630bf379c98db0b1f317fd902500217f97
-  languageName: node
-  linkType: hard
-
-"source-map-js@npm:^1.2.1":
-  version: 1.2.1
-  resolution: "source-map-js@npm:1.2.1"
-  checksum: 4eb0cd997cdf228bc253bcaff9340afeb706176e64868ecd20efbe6efea931465f43955612346d6b7318789e5265bdc419bc7669c1cebe3db0eb255f57efa76b
   languageName: node
   linkType: hard
 
