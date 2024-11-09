@@ -56,6 +56,7 @@ const configFromSettings = (settings: EditorSettings) => {
 			autocapitalize: 'sentence',
 			autocorrect: settings.spellcheckEnabled ? 'true' : 'false',
 			spellcheck: settings.spellcheckEnabled ? 'true' : 'false',
+			'aria-label': settings.editorLabel,
 		}),
 		EditorState.readOnly.of(settings.readOnly),
 		indentUnit.of(settings.indentWithTabs ? '\t' : '    '),
