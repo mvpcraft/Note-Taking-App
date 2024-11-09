@@ -1,11 +1,11 @@
 import paginationToSql from './models/utils/paginationToSql';
 import Database from './database';
+import uuid from './uuid';
 import time from './time';
 import JoplinDatabase, { TableField } from './JoplinDatabase';
 import { LoadOptions, SaveOptions } from './models/utils/types';
 import ActionLogger, { ItemActionType as ItemActionType } from './utils/ActionLogger';
 import { BaseItemEntity, SqlQuery } from './services/database/types';
-import uuid from './uuid';
 const Mutex = require('async-mutex').Mutex;
 
 // New code should make use of this enum
@@ -79,8 +79,6 @@ class BaseModel {
 		['TYPE_SMART_FILTER', ModelType.SmartFilter],
 		['TYPE_COMMAND', ModelType.Command],
 	];
-
-	private static uuidGenerator: ()=> string = uuid.create;
 
 	public static TYPE_NOTE = ModelType.Note;
 	public static TYPE_FOLDER = ModelType.Folder;
@@ -578,7 +576,7 @@ class BaseModel {
 
 		if (options.isNew) {
 			if (this.useUuid() && !o.id) {
-				modelId = this.generateUuid();
+				modelId = uuid.create();
 				o.id = modelId;
 			}
 
@@ -759,15 +757,6 @@ class BaseModel {
 		return this.db_;
 	}
 
-	public static generateUuid() {
-		return this.uuidGenerator();
-	}
-
-	public static setIdGenerator(generator: ()=> string) {
-		const previous = this.uuidGenerator;
-		this.uuidGenerator = generator;
-		return previous;
-	}
 	// static isReady() {
 	// 	return !!this.db_;
 	// }

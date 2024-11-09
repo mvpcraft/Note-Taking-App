@@ -51,8 +51,6 @@ export interface ImportOptions {
 	onProgress?: (progressState: any, progress?: any)=> void;
 	// eslint-disable-next-line @typescript-eslint/no-explicit-any -- Old code before rule was applied
 	onError?: (error: any)=> void;
-	document?: Document;
-	xmlSerializer?: XMLSerializer;
 
 	defaultFolderTitle?: string;
 }

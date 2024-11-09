@@ -17,7 +17,6 @@ import crypto from './services/e2ee/crypto';
 
 import FileApiDriverLocal from './file-api-driver-local';
 import * as mimeUtils from './mime-utils';
-import BaseItem from './models/BaseItem';
 const { _ } = require('./locale');
 const http = require('http');
 const https = require('https');
@@ -310,11 +309,13 @@ function shimInit(options: ShimInitOptions = null) {
 
 		const isUpdate = !!options.destinationResourceId;
 
+		const uuid = require('./uuid').default;
+
 		if (!(await fs.pathExists(filePath))) throw new Error(_('Cannot access %s', filePath));
 
 		defaultProps = defaultProps ? defaultProps : {};
 
-		let resourceId = defaultProps.id ? defaultProps.id : BaseItem.generateUuid();
+		let resourceId = defaultProps.id ? defaultProps.id : uuid.create();
 		if (isUpdate) resourceId = options.destinationResourceId;
 
 		let resource = isUpdate ? {} : Resource.new();

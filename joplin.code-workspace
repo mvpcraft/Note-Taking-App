@@ -5,9 +5,6 @@
 		},
 	],
 	"settings": {
-		"rust-analyzer.linkedProjects": [
-			"./packages/onenote-converter/Cargo.toml",
-		],
 		"files.exclude": {
 			"_mydocs/mdtest/": true,
 			"_releases/": true,
