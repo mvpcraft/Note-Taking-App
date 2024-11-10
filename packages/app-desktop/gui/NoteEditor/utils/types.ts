@@ -1,6 +1,6 @@
 import AsyncActionQueue from '@joplin/lib/AsyncActionQueue';
 import { ToolbarButtonInfo } from '@joplin/lib/services/commands/ToolbarButtonUtils';
-import { PluginStates } from '@joplin/lib/services/plugins/reducer';
+import { PluginHtmlContents, PluginStates } from '@joplin/lib/services/plugins/reducer';
 import { MarkupLanguage } from '@joplin/renderer';
 import { RenderResult, RenderResultPluginAsset } from '@joplin/renderer/types';
 import { Dispatch } from 'redux';
@@ -55,9 +55,11 @@ export interface NoteEditorProps {
 	shareCacheSetting: string;
 	syncUserId: string;
 	searchResults: ProcessResultsRow[];
-
+	pluginHtmlContents: PluginHtmlContents;
+	'plugins.shownEditorViewIds': string[];
 	onTitleChange?: (title: string)=> void;
 	bodyEditor: string;
+	startupPluginsLoaded: boolean;
 }
 
 export interface NoteBodyEditorRef {

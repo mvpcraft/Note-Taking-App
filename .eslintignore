@@ -292,6 +292,8 @@ packages/app-desktop/gui/NoteEditor/utils/useFormNote.js
 packages/app-desktop/gui/NoteEditor/utils/useMarkupToHtml.js
 packages/app-desktop/gui/NoteEditor/utils/useMessageHandler.js
 packages/app-desktop/gui/NoteEditor/utils/useNoteSearchBar.js
+packages/app-desktop/gui/NoteEditor/utils/usePluginEditorView.test.js
+packages/app-desktop/gui/NoteEditor/utils/usePluginEditorView.js
 packages/app-desktop/gui/NoteEditor/utils/usePluginServiceRegistration.js
 packages/app-desktop/gui/NoteEditor/utils/useScheduleSaveCallbacks.js
 packages/app-desktop/gui/NoteEditor/utils/useScrollWhenReadyOptions.js
@@ -445,6 +447,7 @@ packages/app-desktop/gui/WindowCommandsAndDialogs/commands/restoreNote.js
 packages/app-desktop/gui/WindowCommandsAndDialogs/commands/revealResourceFile.js
 packages/app-desktop/gui/WindowCommandsAndDialogs/commands/search.js
 packages/app-desktop/gui/WindowCommandsAndDialogs/commands/setTags.js
+packages/app-desktop/gui/WindowCommandsAndDialogs/commands/showEditorPlugin.js
 packages/app-desktop/gui/WindowCommandsAndDialogs/commands/showModalMessage.js
 packages/app-desktop/gui/WindowCommandsAndDialogs/commands/showNoteContentProperties.js
 packages/app-desktop/gui/WindowCommandsAndDialogs/commands/showNoteProperties.js
@@ -453,6 +456,7 @@ packages/app-desktop/gui/WindowCommandsAndDialogs/commands/showShareFolderDialog
 packages/app-desktop/gui/WindowCommandsAndDialogs/commands/showShareNoteDialog.js
 packages/app-desktop/gui/WindowCommandsAndDialogs/commands/showSpellCheckerMenu.test.js
 packages/app-desktop/gui/WindowCommandsAndDialogs/commands/showSpellCheckerMenu.js
+packages/app-desktop/gui/WindowCommandsAndDialogs/commands/toggleEditorPlugin.js
 packages/app-desktop/gui/WindowCommandsAndDialogs/commands/toggleEditors.js
 packages/app-desktop/gui/WindowCommandsAndDialogs/commands/toggleLayoutMoveMode.js
 packages/app-desktop/gui/WindowCommandsAndDialogs/commands/toggleMenuBar.js
@@ -1226,6 +1230,7 @@ packages/lib/services/plugins/api/JoplinPlugins.js
 packages/lib/services/plugins/api/JoplinSettings.js
 packages/lib/services/plugins/api/JoplinViews.js
 packages/lib/services/plugins/api/JoplinViewsDialogs.js
+packages/lib/services/plugins/api/JoplinViewsEditor.js
 packages/lib/services/plugins/api/JoplinViewsMenuItems.js
 packages/lib/services/plugins/api/JoplinViewsMenus.js
 packages/lib/services/plugins/api/JoplinViewsNoteList.js
@@ -1244,6 +1249,7 @@ packages/lib/services/plugins/testing/MockPlatformImplementation.js
 packages/lib/services/plugins/testing/MockPluginRunner.js
 packages/lib/services/plugins/utils/createViewHandle.js
 packages/lib/services/plugins/utils/executeSandboxCall.js
+packages/lib/services/plugins/utils/getActivePluginEditorView.js
 packages/lib/services/plugins/utils/getPluginIssueReportUrl.test.js
 packages/lib/services/plugins/utils/getPluginIssueReportUrl.js
 packages/lib/services/plugins/utils/getPluginNamespacedSettingKey.js

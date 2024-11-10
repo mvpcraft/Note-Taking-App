@@ -926,6 +926,12 @@ const builtInMetadata = (Setting: typeof SettingType) => {
 			storage: SettingStorage.File,
 		},
 
+		'plugins.shownEditorViewIds': {
+			value: [] as string[],
+			type: SettingItemType.Array,
+			public: false,
+		},
+
 		// Deprecated - use markdown.plugin.*
 		'markdown.softbreaks': { storage: SettingStorage.File, isGlobal: true, value: false, type: SettingItemType.Bool, public: false, appTypes: [AppType.Mobile, AppType.Desktop] },
 		'markdown.typographer': { storage: SettingStorage.File, isGlobal: true, value: false, type: SettingItemType.Bool, public: false, appTypes: [AppType.Mobile, AppType.Desktop] },

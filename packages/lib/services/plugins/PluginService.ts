@@ -14,6 +14,7 @@ import isCompatible from './utils/isCompatible';
 import { AppType } from './api/types';
 import minVersionForPlatform from './utils/isCompatible/minVersionForPlatform';
 import { _ } from '../../locale';
+import ViewController from './ViewController';
 const uslug = require('@joplin/fork-uslug');
 
 const logger = Logger.create('PluginService');
@@ -200,6 +201,13 @@ export default class PluginService extends BaseService {
 		if (!this.plugins_[id]) throw new Error(`Plugin not found: ${id}`);
 
 		return this.plugins_[id];
+	}
+
+	public viewControllerByViewId(id: string): ViewController|null {
+		for (const [, plugin] of Object.entries(this.plugins_)) {
+			if (plugin.hasViewController(id)) return plugin.viewController(id);
+		}
+		return null;
 	}
 
 	public unserializePluginSettings(settings: SerializedPluginSettings): PluginSettings {

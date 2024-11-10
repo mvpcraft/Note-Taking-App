@@ -637,6 +637,7 @@ class MainScreenComponent extends React.Component<Props, State> {
 					<NoteEditor
 						windowId={defaultWindowId}
 						key={key}
+						startupPluginsLoaded={this.props.startupPluginsLoaded}
 					/>
 				</div>;
 			},
