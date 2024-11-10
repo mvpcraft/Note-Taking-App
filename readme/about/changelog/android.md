@@ -1,5 +1,23 @@
 # Joplin Android Changelog
 
+## [android-v3.2.1](https://github.com/laurent22/joplin/releases/tag/android-v3.2.1) (Pre-release) - 2024-11-10T14:23:47Z
+
+- New: Add new encryption methods based on native crypto libraries (#10696 by Self Not Found)
+- New: Add setting to disable markup autocompletion (#11222 by [@personalizedrefrigerator](https://github.com/personalizedrefrigerator))
+- New: Add support for overwrite mode in the Markdown editor (#11262 by [@personalizedrefrigerator](https://github.com/personalizedrefrigerator))
+- Improved: Accessibility: Improve setting control accessibility (#11358 by [@personalizedrefrigerator](https://github.com/personalizedrefrigerator))
+- Improved: Allow switching the voice typing library to Whisper (#11158 by [@personalizedrefrigerator](https://github.com/personalizedrefrigerator))
+- Improved: Allow user to generate deletion logs (#11083) (#10664 by [@pedr](https://github.com/pedr))
+- Improved: Camera screen: Support scanning QR codes (#11245 by [@personalizedrefrigerator](https://github.com/personalizedrefrigerator))
+- Improved: Center sidebar icons (#11299 by [@personalizedrefrigerator](https://github.com/personalizedrefrigerator))
+- Improved: Updated packages @adobe/css-tools (v4.4.0), @react-native-community/datetimepicker (v8.2.0), @react-native-community/geolocation (v3.3.0), @react-native/babel-preset (v0.74.86), @react-native/metro-config (v0.74.87), compare-versions (v6.1.1), dayjs (v1.11.12), expo (v51.0.26), highlight.js (v11.10.0), jsdom (v24.1.1), react-native-localize (v3.2.1), react-native-paper (v5.12.5), react-native-quick-crypto (v0.7.2), react-native-safe-area-context (v4.10.8), react-native-webview (v13.10.5), sass (v1.77.8), url (v0.11.4)
+- Improved: Upgrade CodeMirror packages (#11221 by [@personalizedrefrigerator](https://github.com/personalizedrefrigerator))
+- Improved: Use a FontAwesome icon for the trash folder (#11357) (#11202 by [@personalizedrefrigerator](https://github.com/personalizedrefrigerator))
+- Fixed: Fix list renumbering in the Markdown editor resets the first list item number to 1 (#11220 by [@personalizedrefrigerator](https://github.com/personalizedrefrigerator))
+- Fixed: Fixed vertical alignment of checkboxes (49e86d1)
+- Fixed: Handle callback url triggered app launch (#11280) (#9204 by [@tiberiusteng](https://github.com/tiberiusteng))
+- Fixed: Upgrade react-native-quick-crypto to v0.7.5 (#11294 by [@personalizedrefrigerator](https://github.com/personalizedrefrigerator))
+
 ## [android-v3.1.8](https://github.com/laurent22/joplin/releases/tag/android-v3.1.8) (Pre-release) - 2024-11-09T13:02:33Z
 
 - Fixed: Fix error on creating new notes if the user is a share recipient (#11326) (#11325 by [@personalizedrefrigerator](https://github.com/personalizedrefrigerator))
