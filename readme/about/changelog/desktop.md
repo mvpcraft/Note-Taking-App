@@ -47,7 +47,7 @@
 
 - Fixed: Fix error screen shown on opening settings when an incompatible plugin is installed ([#11223](https://github.com/laurent22/joplin/issues/11223) by [@personalizedrefrigerator](https://github.com/personalizedrefrigerator))
 - Security: Improve KaTeX error handling ([#11207](https://github.com/laurent22/joplin/issues/11207) by [@personalizedrefrigerator](https://github.com/personalizedrefrigerator))
-- Security: Improve Markdown viewer link handling ([#11201](https://github.com/laurent22/joplin/issues/11201) by [@personalizedrefrigerator](https://github.com/personalizedrefrigerator))
+- Security: Improve Markdown viewer link handling ([#11201](https://github.com/laurent22/joplin/issues/11201) by [@personalizedrefrigerator](https://github.com/personalizedrefrigerator)) (CVE-2024-49362 - Thank you @jackfromeast for reporting this issue)
 - Security: Open more target="_blank" links in a browser ([#11212](https://github.com/laurent22/joplin/issues/11212) by [@personalizedrefrigerator](https://github.com/personalizedrefrigerator))
 
 ## [v3.1.18](https://github.com/laurent22/joplin/releases/tag/v3.1.18) (Pre-release) - 2024-10-11T23:27:10Z
