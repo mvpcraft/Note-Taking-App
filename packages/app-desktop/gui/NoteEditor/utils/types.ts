@@ -8,6 +8,7 @@ import { ProcessResultsRow } from '@joplin/lib/services/search/SearchEngine';
 import { DropHandler } from './useDropHandler';
 import { SearchMarkers } from './useSearchMarkers';
 import { ParseOptions } from '@joplin/lib/HtmlToMd';
+import { ScrollStrategy } from '@joplin/editor/CodeMirror/CodeMirrorControl';
 
 export interface AllAssetsOptions {
 	contentMaxWidthTarget?: string;
@@ -271,3 +272,12 @@ export type DropCommandValue = ({
 	paths: string[];
 	createFileURL: boolean;
 }) & DropCommandBase;
+
+export interface ScrollToTextValue {
+	// Text should be plain text - it should not include Markdown characters as it needs to work
+	// with both TinyMCE and CodeMirror. To specific an element use the `element` property. For
+	// example to scroll to `## Scroll to this`, use `{ text: 'Scroll to this', element: 'h2' }`.
+	text: string;
+	element: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'strong' | 'ul';
+	scrollStrategy?: ScrollStrategy;
+}

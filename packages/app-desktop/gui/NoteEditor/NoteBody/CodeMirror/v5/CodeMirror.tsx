@@ -244,6 +244,10 @@ function CodeMirror(props: NoteBodyEditorProps, ref: ForwardedRef<NoteBodyEditor
 								reg.logger().warn('CodeMirror execCommand: unsupported command: ', value.name);
 							}
 						},
+						'editor.scrollToText': (_text: string) => {
+							reg.logger().warn('"editor.scrollToText" is unsupported in legacy editor - please use the new editor');
+							return false;
+						},
 					};
 
 					if (commands[cmd.name]) {
