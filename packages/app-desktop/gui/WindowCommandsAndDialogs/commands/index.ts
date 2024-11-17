@@ -6,7 +6,6 @@ import * as duplicateNote from './duplicateNote';
 import * as editAlarm from './editAlarm';
 import * as exportPdf from './exportPdf';
 import * as gotoAnything from './gotoAnything';
-import * as hideEditorPlugin from './hideEditorPlugin';
 import * as hideModalMessage from './hideModalMessage';
 import * as leaveSharedFolder from './leaveSharedFolder';
 import * as moveToFolder from './moveToFolder';
@@ -57,7 +56,6 @@ const index: any[] = [
 	editAlarm,
 	exportPdf,
 	gotoAnything,
-	hideEditorPlugin,
 	hideModalMessage,
 	leaveSharedFolder,
 	moveToFolder,
