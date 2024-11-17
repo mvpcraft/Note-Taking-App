@@ -23,6 +23,9 @@ There are also a few forks of existing packages under the "fork-*" name.
 - macOS: Install Cocoapods - `brew install cocoapods`. Apple Silicon [may require libvips](https://github.com/laurent22/joplin/pull/5966#issuecomment-1007158597) - `brew install vips`.
 - Linux: Install dependencies - `sudo apt install build-essential libnss3 libsecret-1-dev python rsync libgbm-dev libatk-bridge2.0-0 libgtk-3.0 libasound2`
 
+If using the `onenote-converter` you will require Rust:
+- Install Rust 1.80+. Follow the instructions on [Rust toolchain website](https://rustup.rs/)
+
 ## Building
 
 Make sure the path to the project directory does not contain spaces or the build may fail.
