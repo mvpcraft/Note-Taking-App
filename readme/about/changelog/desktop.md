@@ -1,5 +1,19 @@
 # Joplin Desktop Changelog
 
+## [v3.2.3](https://github.com/laurent22/joplin/releases/tag/v3.2.3) (Pre-release) - 2024-11-18T00:09:05Z
+
+- New: Add OneNote Importer ([#11392](https://github.com/laurent22/joplin/issues/11392) by [@pedr](https://github.com/pedr))
+- New: Plugins: Add support for editor.scrollToText on desktop ([6eac8d9](https://github.com/laurent22/joplin/commit/6eac8d9))
+- Improved: Deprecated OneDrive sync method ([e36f377](https://github.com/laurent22/joplin/commit/e36f377))
+- Improved: Trying to fix issue with permission errors when installing a plugin ([fb6a807](https://github.com/laurent22/joplin/commit/fb6a807))
+- Improved: Mermaid version update ([#11367](https://github.com/laurent22/joplin/issues/11367) by [@LEVIII007](https://github.com/LEVIII007))
+- Improved: Plugins: Allow specifying render options on renderMarkup command ([8e3c817](https://github.com/laurent22/joplin/commit/8e3c817))
+- Improved: Remove the need for sync locks ([#11377](https://github.com/laurent22/joplin/issues/11377))
+- Fixed: Fix PDF export fails with error ([#11390](https://github.com/laurent22/joplin/issues/11390) by [@personalizedrefrigerator](https://github.com/personalizedrefrigerator))
+- Fixed: Fix dropping files into the editor ([#11380](https://github.com/laurent22/joplin/issues/11380) by [@personalizedrefrigerator](https://github.com/personalizedrefrigerator))
+- Fixed: Fix race condition which may cause data loss, particularly before or after pasting text in the note editor ([#11334](https://github.com/laurent22/joplin/issues/11334)) ([#11317](https://github.com/laurent22/joplin/issues/11317) by [@mrjo118](https://github.com/mrjo118))
+- Fixed: Fix vertical alignment of checkboxes when text wraps over multiple lines ([226a8b3](https://github.com/laurent22/joplin/commit/226a8b3))
+
 ## [v3.2.1](https://github.com/laurent22/joplin/releases/tag/v3.2.1) (Pre-release) - 2024-11-10T16:16:27Z
 
 - New: Accessibility: Add ARIA information to the sidebar's notebook and tag list ([#11196](https://github.com/laurent22/joplin/issues/11196) by [@personalizedrefrigerator](https://github.com/personalizedrefrigerator))
