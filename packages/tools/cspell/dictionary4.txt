@@ -142,3 +142,4 @@ qrcode
 Rocketbook
 datamatrix
 nosniff
+CNIL
