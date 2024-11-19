@@ -1,5 +1,14 @@
 # Joplin Android Changelog
 
+## [android-v3.2.2](https://github.com/laurent22/joplin/releases/tag/android-v3.2.2) (Pre-release) - 2024-11-19T01:12:43Z
+
+- Improved: Accessibility: Improve dialog accessibility (#11395 by [@personalizedrefrigerator](https://github.com/personalizedrefrigerator))
+- Improved: Deprecated OneDrive sync method (e36f377)
+- Improved: Remove the need for sync locks (#11377)
+- Fixed: Fix `undefined` errors in translations (#11407 by Self Not Found)
+- Fixed: Fix race condition which may cause data loss, particularly before or after pasting text in the note editor (#11334) (#11317 by [@mrjo118](https://github.com/mrjo118))
+- Fixed: Fix vertical alignment of checkboxes when text wraps over multiple lines (226a8b3)
+
 ## [android-v3.2.1](https://github.com/laurent22/joplin/releases/tag/android-v3.2.1) (Pre-release) - 2024-11-10T14:23:47Z
 
 - New: Add new encryption methods based on native crypto libraries (#10696 by Self Not Found)
