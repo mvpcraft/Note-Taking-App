@@ -143,3 +143,5 @@ Rocketbook
 datamatrix
 nosniff
 CNIL
+Comprar
+seguidores
