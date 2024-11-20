@@ -1,9 +1,10 @@
 import * as React from 'react';
-import { Button, Dialog, Divider, Surface, Text } from 'react-native-paper';
+import { Dialog, Divider, Surface, Text } from 'react-native-paper';
 import { DialogType, PromptDialogData } from './types';
 import { StyleSheet } from 'react-native';
 import { useMemo } from 'react';
 import { themeStyle } from '../global-style';
+import PromptButton from './PromptButton';
 
 interface Props {
 	dialog: PromptDialogData;
@@ -17,16 +18,10 @@ const useStyles = (themeId: number, isMenu: boolean) => {
 		return StyleSheet.create({
 			dialogContainer: {
 				backgroundColor: theme.backgroundColor,
-				borderRadius: 24,
-				paddingTop: 24,
+				borderRadius: theme.borderRadius,
+				paddingTop: theme.borderRadius,
 				marginLeft: 4,
 				marginRight: 4,
-			},
-
-			buttonScrollerContent: {
-				flexDirection: 'row',
-				justifyContent: 'flex-end',
-				flexWrap: 'wrap',
 			},
 
 			dialogContent: {
@@ -53,12 +48,11 @@ const PromptDialog: React.FC<Props> = ({ dialog, themeId }) => {
 	const styles = useStyles(themeId, isMenu);
 
 	const buttons = dialog.buttons.map((button, index) => {
-		return (
-			<Button
-				key={`${index}-${button.text}`}
-				onPress={button.onPress}
-			>{button.text}</Button>
-		);
+		return <PromptButton
+			key={`${index}-${button.text}`}
+			buttonSpec={button}
+			themeId={themeId}
+		/>;
 	});
 	const titleComponent = <Text
 		variant='titleMedium'
