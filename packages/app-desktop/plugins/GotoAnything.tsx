@@ -379,8 +379,10 @@ class DialogComponent extends React.PureComponent<Props, State> {
 					const keywordRegexes = (await this.keywords(searchQuery)).map(term => {
 						if (typeof term === 'string') {
 							return new RegExp(escapeRegExp(term), 'ig');
-						} else {
+						} else if (term.valueRegex) {
 							return new RegExp(removeDiacritics(term.valueRegex), 'ig');
+						} else {
+							return new RegExp(escapeRegExp(term.value), 'ig');
 						}
 					});
 
