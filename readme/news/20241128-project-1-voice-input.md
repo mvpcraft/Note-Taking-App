@@ -1,3 +1,7 @@
+---
+forum_url: https://discourse.joplinapp.org/t/42222
+---
+
 # Project 1: Making voice typing even better for everyone
 
 Joplin is partnering with a French government institution to bring you innovative new features! We will work on accessibility, voice typing, HTR and add Rocketbook integration. Today we'll present the planned improvements to voice typing:
