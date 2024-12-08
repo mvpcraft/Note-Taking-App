@@ -1,3 +1,7 @@
+---
+forum_url: https://discourse.joplinapp.org/t/42371
+---
+
 # Project 2: Making Joplin more accessible with WCAG-2 compliance
 
 We're always looking for ways to make Joplin better for everyone, and one of the key steps in improving accessibility is implementing the [Web Content Accessibility Guidelines](https://www.w3.org/TR/WCAG20/) (WCAG 2). These guidelines help ensure that our app is usable for all users, including those with disabilities, while also enhancing the overall user experience for everyone.
