@@ -1056,7 +1056,7 @@ PODS:
     - Yoga
   - react-native-rsa-native (2.0.5):
     - React
-  - react-native-saf-x (3.2.0):
+  - react-native-saf-x (3.2.1):
     - React-Core
   - react-native-safe-area-context (4.10.8):
     - React-Core
@@ -1728,7 +1728,7 @@ SPEC CHECKSUMS:
   react-native-netinfo: 076df4f9b07f6670acf4ce9a75aac8d34c2e2ccc
   react-native-quick-crypto: 7085e4e4607e7e8fa57f4193f994d5262d351e45
   react-native-rsa-native: 12132eb627797529fdb1f0d22fd0f8f9678df64a
-  react-native-saf-x: 4eb5df05a53de42a943e8c460e1fff8d1d0df770
+  react-native-saf-x: 6f56a9739c214070665ab0a9399b2dcb9a02c4b8
   react-native-safe-area-context: b7daa1a8df36095a032dff095a1ea8963cb48371
   react-native-slider: 03f213d3ffbf919b16298c7896c1b60101d8e137
   react-native-sqlite-storage: f6d515e1c446d1e6d026aa5352908a25d4de3261
