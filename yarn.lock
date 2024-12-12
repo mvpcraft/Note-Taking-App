@@ -8533,7 +8533,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@joplin/fork-htmlparser2@^4.1.55, @joplin/fork-htmlparser2@workspace:packages/fork-htmlparser2":
+"@joplin/fork-htmlparser2@^4.1.56, @joplin/fork-htmlparser2@workspace:packages/fork-htmlparser2":
   version: 0.0.0-use.local
   resolution: "@joplin/fork-htmlparser2@workspace:packages/fork-htmlparser2"
   dependencies:
@@ -8554,7 +8554,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@joplin/fork-sax@^1.2.59, @joplin/fork-sax@workspace:packages/fork-sax":
+"@joplin/fork-sax@^1.2.60, @joplin/fork-sax@workspace:packages/fork-sax":
   version: 0.0.0-use.local
   resolution: "@joplin/fork-sax@workspace:packages/fork-sax"
   dependencies:
@@ -8563,7 +8563,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@joplin/fork-uslug@^1.0.20, @joplin/fork-uslug@workspace:packages/fork-uslug":
+"@joplin/fork-uslug@^1.0.21, @joplin/fork-uslug@workspace:packages/fork-uslug":
   version: 0.0.0-use.local
   resolution: "@joplin/fork-uslug@workspace:packages/fork-uslug"
   dependencies:
@@ -8573,12 +8573,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@joplin/htmlpack@^3.2.3, @joplin/htmlpack@workspace:packages/htmlpack":
+"@joplin/htmlpack@^3.2.4, @joplin/htmlpack@workspace:packages/htmlpack":
   version: 0.0.0-use.local
   resolution: "@joplin/htmlpack@workspace:packages/htmlpack"
   dependencies:
     "@adobe/css-tools": 4.4.0
-    "@joplin/fork-htmlparser2": ^4.1.55
+    "@joplin/fork-htmlparser2": ^4.1.56
     "@types/fs-extra": 11.0.4
     datauri: 4.1.0
     fs-extra: 11.2.0
@@ -8586,22 +8586,22 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@joplin/lib@^3.2.3, @joplin/lib@workspace:packages/lib, @joplin/lib@~3.2":
+"@joplin/lib@^3.2.4, @joplin/lib@workspace:packages/lib, @joplin/lib@~3.2":
   version: 0.0.0-use.local
   resolution: "@joplin/lib@workspace:packages/lib"
   dependencies:
     "@adobe/css-tools": 4.4.0
     "@aws-sdk/client-s3": 3.296.0
     "@aws-sdk/s3-request-presigner": 3.296.0
-    "@joplin/fork-htmlparser2": ^4.1.55
-    "@joplin/fork-sax": ^1.2.59
-    "@joplin/fork-uslug": ^1.0.20
-    "@joplin/htmlpack": ^3.2.3
-    "@joplin/onenote-converter": ^3.2.3
-    "@joplin/renderer": ^3.2.3
-    "@joplin/turndown": ^4.0.77
-    "@joplin/turndown-plugin-gfm": ^1.0.59
-    "@joplin/utils": ^3.2.3
+    "@joplin/fork-htmlparser2": ^4.1.56
+    "@joplin/fork-sax": ^1.2.60
+    "@joplin/fork-uslug": ^1.0.21
+    "@joplin/htmlpack": ^3.2.4
+    "@joplin/onenote-converter": ^3.2.4
+    "@joplin/renderer": ^3.2.4
+    "@joplin/turndown": ^4.0.78
+    "@joplin/turndown-plugin-gfm": ^1.0.60
+    "@joplin/utils": ^3.2.4
     "@testing-library/react-hooks": 8.0.1
     "@types/adm-zip": 0.5.5
     "@types/fs-extra": 11.0.4
@@ -8678,7 +8678,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@joplin/onenote-converter@^3.2.3, @joplin/onenote-converter@workspace:packages/onenote-converter":
+"@joplin/onenote-converter@^3.2.4, @joplin/onenote-converter@workspace:packages/onenote-converter":
   version: 0.0.0-use.local
   resolution: "@joplin/onenote-converter@workspace:packages/onenote-converter"
   dependencies:
@@ -8722,9 +8722,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@joplin/plugin-repo-cli@workspace:packages/plugin-repo-cli"
   dependencies:
-    "@joplin/lib": ^3.2.3
-    "@joplin/tools": ^3.2.3
-    "@joplin/utils": ^3.2.3
+    "@joplin/lib": ^3.2.4
+    "@joplin/tools": ^3.2.4
+    "@joplin/utils": ^3.2.4
     "@types/fs-extra": 11.0.4
     "@types/jest": 29.5.12
     "@types/node": 18.19.50
@@ -8773,13 +8773,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@joplin/renderer@^3.2.3, @joplin/renderer@workspace:packages/renderer, @joplin/renderer@~3.2":
+"@joplin/renderer@^3.2.4, @joplin/renderer@workspace:packages/renderer, @joplin/renderer@~3.2":
   version: 0.0.0-use.local
   resolution: "@joplin/renderer@workspace:packages/renderer"
   dependencies:
-    "@joplin/fork-htmlparser2": ^4.1.55
-    "@joplin/fork-uslug": ^1.0.20
-    "@joplin/utils": ^3.2.3
+    "@joplin/fork-htmlparser2": ^4.1.56
+    "@joplin/fork-uslug": ^1.0.21
+    "@joplin/utils": ^3.2.4
     "@types/jest": 29.5.12
     "@types/markdown-it": 13.0.9
     "@types/node": 18.19.50
@@ -8877,15 +8877,15 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@joplin/tools@^3.2.3, @joplin/tools@workspace:packages/tools, @joplin/tools@~3.2":
+"@joplin/tools@^3.2.4, @joplin/tools@workspace:packages/tools, @joplin/tools@~3.2":
   version: 0.0.0-use.local
   resolution: "@joplin/tools@workspace:packages/tools"
   dependencies:
     "@docusaurus/plugin-sitemap": 2.4.3
-    "@joplin/fork-htmlparser2": ^4.1.55
-    "@joplin/lib": ^3.2.3
-    "@joplin/renderer": ^3.2.3
-    "@joplin/utils": ^3.2.3
+    "@joplin/fork-htmlparser2": ^4.1.56
+    "@joplin/lib": ^3.2.4
+    "@joplin/renderer": ^3.2.4
+    "@joplin/utils": ^3.2.4
     "@rmp135/sql-ts": 1.18.1
     "@types/fs-extra": 11.0.4
     "@types/jest": 29.5.12
@@ -8927,7 +8927,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@joplin/turndown-plugin-gfm@^1.0.59, @joplin/turndown-plugin-gfm@workspace:packages/turndown-plugin-gfm":
+"@joplin/turndown-plugin-gfm@^1.0.60, @joplin/turndown-plugin-gfm@workspace:packages/turndown-plugin-gfm":
   version: 0.0.0-use.local
   resolution: "@joplin/turndown-plugin-gfm@workspace:packages/turndown-plugin-gfm"
   dependencies:
@@ -8939,7 +8939,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@joplin/turndown@^4.0.77, @joplin/turndown@workspace:packages/turndown":
+"@joplin/turndown@^4.0.78, @joplin/turndown@workspace:packages/turndown":
   version: 0.0.0-use.local
   resolution: "@joplin/turndown@workspace:packages/turndown"
   dependencies:
@@ -8956,11 +8956,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@joplin/utils@^3.2.3, @joplin/utils@workspace:packages/utils, @joplin/utils@~3.2":
+"@joplin/utils@^3.2.4, @joplin/utils@workspace:packages/utils, @joplin/utils@~3.2":
   version: 0.0.0-use.local
   resolution: "@joplin/utils@workspace:packages/utils"
   dependencies:
-    "@joplin/fork-htmlparser2": ^4.1.55
+    "@joplin/fork-htmlparser2": ^4.1.56
     "@types/fs-extra": 11.0.4
     "@types/jest": 29.5.12
     "@types/markdown-it": 13.0.9
