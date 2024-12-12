@@ -1,5 +1,9 @@
 # Joplin Terminal App Changelog
 
+## [cli-v3.2.2](https://github.com/laurent22/joplin/releases/tag/cli-v3.2.2) - 2024-12-12T15:44:50Z
+
+- Improved: Make Sharp package optional (388d124)
+
 ## [cli-v3.2.1](https://github.com/laurent22/joplin/releases/tag/cli-v3.2.1) - 2024-12-12T14:16:34Z
 
 - New: Add new encryption methods based on native crypto libraries (#10696 by Self Not Found)
