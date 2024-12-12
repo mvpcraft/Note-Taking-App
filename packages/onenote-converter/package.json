@@ -4,7 +4,7 @@
     "Pedro Luiz <pedrlz.frn@gmail.com>"
   ],
   "description": "This package file only exists to build the @joplin/onenote-converter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "repository": {
     "type": "git",
