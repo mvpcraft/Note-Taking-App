@@ -109,8 +109,6 @@ interface State {
 	noteResources: Record<string, ResourceInfo>;
 	newAndNoTitleChangeNoteId: boolean|null;
 
-	HACK_webviewLoadingState: number;
-
 	undoRedoButtonState: {
 		canUndo: boolean;
 		canRedo: boolean;
@@ -177,15 +175,6 @@ class NoteScreenComponent extends BaseScreenComponent<ComponentProps, State> imp
 			noteResources: {},
 			imageEditorResourceFilepath: null,
 			newAndNoTitleChangeNoteId: null,
-
-			// HACK: For reasons I can't explain, when the WebView is present, the TextInput initially does not display (It's just a white rectangle with
-			// no visible text). It will only appear when tapping it or doing certain action like selecting text on the webview. The bug started to
-			// appear one day and did not go away - reverting to an old RN version did not help, undoing all
-			// the commits till a working version did not help. The bug also does not happen in the simulator which makes it hard to fix.
-			// Eventually, a way that "worked" is to add a 1px margin on top of the text input just after the webview has loaded, then removing this
-			// margin. This forces RN to update the text input and to display it. Maybe that hack can be removed once RN is upgraded.
-			// See https://github.com/laurent22/joplin/issues/1057
-			HACK_webviewLoadingState: 0,
 
 			undoRedoButtonState: {
 				canUndo: false,
@@ -307,7 +296,6 @@ class NoteScreenComponent extends BaseScreenComponent<ComponentProps, State> imp
 		this.undoRedoService_stackChange = this.undoRedoService_stackChange.bind(this);
 		this.screenHeader_undoButtonPress = this.screenHeader_undoButtonPress.bind(this);
 		this.screenHeader_redoButtonPress = this.screenHeader_redoButtonPress.bind(this);
-		this.onBodyViewerLoadEnd = this.onBodyViewerLoadEnd.bind(this);
 		this.onBodyViewerCheckboxChange = this.onBodyViewerCheckboxChange.bind(this);
 		this.onUndoRedoDepthChange = this.onUndoRedoDepthChange.bind(this);
 		this.voiceTypingDialog_onText = this.voiceTypingDialog_onText.bind(this);
@@ -413,7 +401,7 @@ class NoteScreenComponent extends BaseScreenComponent<ComponentProps, State> imp
 		const themeId = this.props.themeId;
 		const theme = themeStyle(themeId);
 
-		const cacheKey = [themeId, this.state.titleTextInputHeight, this.state.HACK_webviewLoadingState].join('_');
+		const cacheKey = [themeId, this.state.titleTextInputHeight].join('_');
 
 		if (this.styles_[cacheKey]) return this.styles_[cacheKey];
 		this.styles_ = {};
@@ -492,8 +480,6 @@ class NoteScreenComponent extends BaseScreenComponent<ComponentProps, State> imp
 			paddingTop: 10, // Added for iOS (Not needed for Android??)
 			paddingBottom: 10, // Added for iOS (Not needed for Android??)
 		};
-
-		if (this.state.HACK_webviewLoadingState === 1) styles.titleTextInput.marginTop = 1;
 
 		this.styles_[cacheKey] = StyleSheet.create(styles);
 		return this.styles_[cacheKey];
@@ -1360,15 +1346,6 @@ class NoteScreenComponent extends BaseScreenComponent<ComponentProps, State> imp
 		return this.folderPickerOptions_;
 	}
 
-	public onBodyViewerLoadEnd() {
-		shim.setTimeout(() => {
-			this.setState({ HACK_webviewLoadingState: 1 });
-			shim.setTimeout(() => {
-				this.setState({ HACK_webviewLoadingState: 0 });
-			}, 50);
-		}, 5);
-	}
-
 	private onBodyViewerScroll = (scrollTop: number) => {
 		this.lastBodyScroll = scrollTop;
 	};
@@ -1457,7 +1434,6 @@ class NoteScreenComponent extends BaseScreenComponent<ComponentProps, State> imp
 						onCheckboxChange={this.onBodyViewerCheckboxChange}
 						onMarkForDownload={this.onMarkForDownload}
 						onRequestEditResource={this.onEditResource}
-						onLoadEnd={this.onBodyViewerLoadEnd}
 						onScroll={this.onBodyViewerScroll}
 						initialScroll={this.lastBodyScroll}
 						pluginStates={this.props.plugins}
