@@ -212,4 +212,15 @@ describe('models/Tag', () => {
 		expect(commonTagIds.includes(tagc.id)).toBe(true);
 	});
 
+	it('should allow finding tags even with special Unicode characters', async () => {
+		const note1 = await Note.save({});
+		// cSpell:disable
+		await Tag.setNoteTagsByTitles(note1.id, ['Ökonomie']);
+
+		const tag1 = await Tag.loadByTitle('Ökonomie');
+		const tag2 = await Tag.loadByTitle('ökonomie');
+		// cSpell:enable
+
+		expect(tag1).toStrictEqual(tag2);
+	});
 });
