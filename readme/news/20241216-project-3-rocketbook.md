@@ -1,3 +1,7 @@
+---
+forum_url: https://discourse.joplinapp.org/t/42542
+---
+
 # Project 3: Rocketbook integration with Joplin
 
 Joplin is partnering with a French government institution to bring you innovative new features! We will work on accessibility, voice typing, HTR and add Rocketbook integration. Today we'll present the planned Rocketbook integration:
