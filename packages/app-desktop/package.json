@@ -1,6 +1,6 @@
 {
   "name": "@joplin/app-desktop",
-  "version": "3.2.4",
+  "version": "3.2.5",
   "description": "Joplin for Desktop",
   "main": "main.js",
   "private": true,
@@ -120,7 +120,10 @@
           "MimeType": "x-scheme-handler/joplin;"
         }
       },
-      "target": ["AppImage", "deb"],
+      "target": [
+        "AppImage",
+        "deb"
+      ],
       "executableName": "joplin",
       "maintainer": "Joplin Team <no-reply@joplinapp.org>",
       "artifactName": "Joplin-${version}.${ext}"
