@@ -1,5 +1,16 @@
 # Joplin Desktop Changelog
 
+## [v3.2.5](https://github.com/laurent22/joplin/releases/tag/v3.2.5) (Pre-release) - 2024-12-18T10:41:13Z
+
+- Improved: Generate .deb package ([#11526](https://github.com/laurent22/joplin/issues/11526) by [@pedr](https://github.com/pedr))
+- Improved: Make js-draw a default plugin ([#11516](https://github.com/laurent22/joplin/issues/11516)) ([#11314](https://github.com/laurent22/joplin/issues/11314))
+- Improved: Make table in HTML format horizontally scrollable ([#11198](https://github.com/laurent22/joplin/issues/11198) by [@wljince007](https://github.com/wljince007))
+- Improved: Reduce application size ([#11505](https://github.com/laurent22/joplin/issues/11505) by [@personalizedrefrigerator](https://github.com/personalizedrefrigerator))
+- Improved: Updated packages adm-zip (v0.5.16)
+- Fixed: Fix pressing enter during composition in the title input moves focus ([#11491](https://github.com/laurent22/joplin/issues/11491)) ([#11485](https://github.com/laurent22/joplin/issues/11485) by [@personalizedrefrigerator](https://github.com/personalizedrefrigerator))
+- Fixed: Fixed tags with same special unicode characters not matching ([#11513](https://github.com/laurent22/joplin/issues/11513)) ([#11179](https://github.com/laurent22/joplin/issues/11179) by [@pedr](https://github.com/pedr))
+- Fixed: Upgrade `electron-builder` and `@electron/rebuild` ([#11512](https://github.com/laurent22/joplin/issues/11512)) ([#11508](https://github.com/laurent22/joplin/issues/11508) by [@personalizedrefrigerator](https://github.com/personalizedrefrigerator))
+
 ## [v3.2.4](https://github.com/laurent22/joplin/releases/tag/v3.2.4) (Pre-release) - 2024-12-12T17:59:52Z
 
 - New: Added support for rendered note metadata, in particular the joplin-metadata-print-title tag ([5d84f80](https://github.com/laurent22/joplin/commit/5d84f80))
