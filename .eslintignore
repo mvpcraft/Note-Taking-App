@@ -31,6 +31,7 @@ packages/app-cli/tests/tmp
 packages/app-clipper/content_scripts/JSDOMParser.js
 packages/app-clipper/content_scripts/Readability-readerable.js
 packages/app-clipper/content_scripts/Readability.js
+packages/app-clipper/content_scripts/clipperUtils.js
 packages/app-clipper/dist
 packages/app-clipper/icons
 packages/app-clipper/popup/build
