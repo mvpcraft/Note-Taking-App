@@ -1,36 +1,36 @@
 {
 	"\"%s\" is missing the required \"%s\" property.": [
-		"A \"% s\" manca la proprietà \"% s\" richiesta."
+		"\"%s\" chýba požadovaná vlastnosť \"%s\"."
 	],
 	"%d days": [
-		"%d giorni"
+		"%d dní"
 	],
 	"%d GB": [
 		"%d GB"
 	],
 	"%d GB storage space": [
-		"%d GB di spazio di archiviazione"
+		"%d GB úložného priestoru"
 	],
 	"%d hour": [
-		"%d ora"
+		"%d hodina"
 	],
 	"%d hours": [
-		"%d ore"
+		"%d hodín"
 	],
 	"%d MB": [
 		"%d MB"
 	],
 	"%d MB per note or attachment": [
-		"%d MB per nota o allegato"
+		"%d MB na poznámku alebo prílohu"
 	],
 	"%d minutes": [
-		"%d minuti"
+		"%d minút"
 	],
 	"%d notes match this pattern. Delete them?": [
-		"%d note corrispondono. Eliminarle?"
+		"%d poznámok zodpovedá tomuto vzoru. Vymazať ich?"
 	],
 	"%d notes will be permanently deleted. Continue?": [
-		"%d note saranno eliminate definitivamente. Continuare?"
+		"%d poznámok bude natrvalo vymazaných. Pokračovať?"
 	],
 	"%s": [
 		"%s"
@@ -39,19 +39,19 @@
 		"%s %s (%s, %s)"
 	],
 	"%s (%s) could not be uploaded: %s": [
-		"%s (%s) non può essere caricato: %s"
+		"%s (%s) sa nepodarilo nahrať: %s"
 	],
 	"%s (%s) would like to share a notebook with you.": [
-		"%s (%s) vuole condividere un taccuino con te."
+		"%s (%s) by s vami rád zdieľal zápisník."
 	],
 	"%s (%s): %s": [
 		"%s (%s): %s"
 	],
 	"%s (pre-release)": [
-		"%s (pre-rilascio)"
+		"%s (predbežné vydanie)"
 	],
 	"%s - Copy": [
-		"%s - Copia"
+		"%s - Kópia"
 	],
 	"%s / %s": [
 		"%s / %s"
@@ -66,16 +66,16 @@
 		"%s = %s (%s)"
 	],
 	"%s is not optimised for synchronising many small files so your initial synchronisation will be slow.": [
-		"%s non è ottimizzato per la sincronizzazione di molti file di piccole dimensioni quindi la sincronizzazione iniziale sarà lenta."
+		"%s nie je optimalizovaný na synchronizáciu mnohých malých súborov, takže počiatočná synchronizácia bude pomalá."
 	],
 	"%s tab opened": [
-		"scheda %s aperta"
+		"%s karta otvorená"
 	],
 	"%s: %d": [
 		"%s: %d"
 	],
 	"%s: %d notes": [
-		"%s: %d note"
+		"%s: %d poznámok"
 	],
 	"%s: %d/%d": [
 		"%s: %d/%d"
@@ -84,64 +84,64 @@
 		"%s: %s"
 	],
 	"%s: Missing password.": [
-		"%s: Password mancante."
+		"%s: Chýbajúce heslo."
 	],
 	"&Edit": [
-		"&Modifica"
+		"&Upraviť"
 	],
 	"&File": [
-		"&File"
+		"&Súbor"
 	],
 	"&Go": [
-		"&Vai"
+		"&Prejsť"
 	],
 	"&Help": [
-		"&Aiuto"
+		"&Pomoc"
 	],
 	"&Note": [
-		"&Note"
+		"&Poznámka"
 	],
 	"&Tools": [
-		"&Strumenti"
+		"&Nástroje"
 	],
 	"&View": [
-		"&Vista"
+		"&Zobraziť"
 	],
 	"&Window": [
-		"&Finestra"
+		"&Okno"
 	],
 	"(%s)": [
 		"(%s)"
 	],
 	"(In plugin: %s)": [
-		"(Nel plugin: %s)"
+		"(V doplnku: %s)"
 	],
 	"(level %d)": [
 		""
 	],
 	"(None)": [
-		"(Nessuno)"
+		"(Žiadny)"
 	],
 	"(wysiwyg: %s)": [
 		"(wysiwyg: %s)"
 	],
 	"(You may disable this prompt in the options)": [
-		"(Puoi disabilitare questo messaggio nelle opzioni)"
+		"(Túto výzvu môžete vypnúť v možnostiach)"
 	],
 	"- Camera: to allow taking a picture and attaching it to a note.": [
-		"- Fotocamera: per consentire di scattare una foto e allegarla a una nota."
+		"- Fotoaparát: umožňuje zhotoviť obrázok a pripojiť ho k poznámke."
 	],
 	"- Location: to allow attaching geo-location information to a note.": [
-		"- Posizione: per consentire il collegamento di informazioni sulla posizione geografica ad una nota."
+		"- Umiestnenie: umožňuje pripojiť informácie o geografickej polohe k poznámke."
 	],
 	"- Storage: to allow attaching files to notes and to enable filesystem synchronisation.": [
-		"- Archiviazione: per consentire il collegamento di file alle note e per abilitare la sincronizzazione del filesystem."
+		"- Úložisko: umožňuje pripájanie súborov k poznámkam a umožňuje synchronizáciu súborového systému."
 	],
 	"<tag-command> can be \"add\", \"remove\", \"list\", or \"notetags\" to assign or remove [tag] from [note], to list notes associated with [tag], or to list tags associated with [note]. The command `tag list` can be used to list all the tags (use -l for long option).": [
-		"<tag-command> può essere \"add\", \"remove\", \"list\", or \"notetags\" per assegnare o rimuovere [tag] da [note], per mostrare le note associate a [tag], oppure mostrare i tag associati a [note]. Il comando `tag list` può essere usato per mostrare tutte le etichette (usa -l per l'opzione lunga)."
+		"<tag-command> môže byť „add“, „remove“, „list“ alebo „notetags“ na priradenie alebo odstránenie [tag] z [note], na zoznam poznámok spojených s [tag] alebo na zoznam tagov spojených s [note]. Príkaz `tag list` možno použiť na vypísanie všetkých značiek (pre dlhú voľbu použite -l)."
 	],
 	"<todo-command> can either be \"toggle\" or \"clear\". Use \"toggle\" to toggle the given to-do between completed and uncompleted state (If the target is a regular note it will be converted to a to-do). Use \"clear\" to convert the to-do back to a regular note.": [
-		"<todo-command> può essere \"toggle\" or \"clear\". Usa \"toggle\" per modificare lo stato di un'attività in completato/non completato (se viene utilizzato su una nota la nota verrà convertita in un'attività). Usa \"clear\" convertire le attività in normali note."
+		"<todo-command> môže byť buď „toggle“ alebo „clear“. Príkazom „toggle“ prepnete danú úlohu medzi dokončeným a nedokončeným stavom (ak je cieľom bežná poznámka, bude prevedená na úlohu). Použite „clear“ (vyčistiť), ak chcete úlohu previesť späť na bežnú poznámku."
 	],
 	"A3": [
 		"A3"
@@ -153,1299 +153,1301 @@
 		"A5"
 	],
 	"About": [
-		"Informazioni"
+		"O aplikácii"
 	],
 	"About Joplin": [
-		"Informazione su Joplin"
+		"O Joplin"
 	],
 	"accelerator": [
-		"accelerator"
+		"urýchľovač"
 	],
 	"Accelerator \"%s\" is not valid.": [
-		"L'accelerator \"%s\" non è valido."
+		"Urýchľovač \"%s\" nie je platný."
 	],
 	"Accelerator \"%s\" is used for \"%s\" and \"%s\" commands. This may lead to unexpected behaviour.": [
-		"Accelerator \"%s\" è utilizzato per i comandi \"%s\" e \"%s\". Questo potrebbe portare a comportamenti inaspettati."
+		"Urýchľovač „%s“ sa používa pre príkazy „%s“ a „%s“. To môže viesť k neočakávanému správaniu."
 	],
 	"Accept": [
-		"Accetta"
+		"Prijať"
 	],
 	"Accepted invitations": [
-		"Inviti accettati"
+		"Prijaté pozvánky"
 	],
 	"Access denied: Please check your username and password": [
-		"Accesso negato: controlla nome utente e password"
+		"Prístup odmietnutý: Skontrolujte svoje používateľské meno a heslo"
 	],
 	"Access denied: Please re-enter your password and/or username": [
-		"Accesso negato: inserisci nuovamente la password e/o il nome utente"
+		"Prístup odmietnutý: Zadajte znova svoje heslo a/alebo používateľské meno"
 	],
 	"Account": [
-		"Account"
+		"Účet"
 	],
 	"Account information": [
-		"Informazioni account"
+		"Informácie o účte"
 	],
 	"Account type": [
-		"Tipo account"
+		"Typ účtu"
 	],
 	"Action": [
-		"Azione"
+		"Akcia"
 	],
 	"Actions": [
-		"Azioni"
+		"Akcie"
 	],
 	"Active": [
-		"Attivo"
+		"Aktívne"
 	],
 	"Actual Size": [
-		"Dimensione attuale"
+		"Skutočná veľkosť"
 	],
 	"Add body": [
-		"Aggiungi corpo"
+		"Pridať telo"
 	],
 	"Add new": [
-		"Aggiungi nuova"
+		"Pridať novú"
 	],
 	"Add or remove tags:": [
-		"Aggiungi o rimuovi etichetta:"
+		"Pridať alebo odstrániť štítky:"
 	],
 	"Add recipient:": [
-		"Aggiungi destinatario:"
+		"Pridať príjemcu:"
 	],
 	"Add tag %s to note": [
 		""
 	],
 	"Add title": [
-		"Aggiungi titolo"
+		"Pridať názov"
 	],
 	"Add to dictionary": [
-		"Aggiungi al dizionario"
+		"Pridať do slovníka"
 	],
 	"Admin": [
-		"Admin"
+		"Správca"
 	],
 	"Admin dashboard": [
-		"Pannello di controllo admin"
+		"Ovládací panel správcu"
 	],
 	"Advanced options": [
-		"Opzioni avanzate"
+		"Pokročilé možnosti"
 	],
 	"Advanced settings": [
-		"Opzioni avanzate"
+		"Pokročilé nastavenia"
 	],
 	"Advanced tools": [
-		"Strumenti avanzati"
+		"Pokročilé nástroje"
 	],
 	"All data, including notes, notebooks and tags will be permanently deleted.": [
-		"Tutti i dati, incluse note, taccuini e etichette verranno eliminati definitivamente."
+		"Všetky údaje vrátane poznámok, zápisníkov a štítkov budú natrvalo vymazané."
 	],
 	"All item sync failures have been marked as \"ignored\".": [
-		"Tutti gli errori di sincronizzazione degli elementi sono stati contrassegnati come \"ignorati\"."
+		"Všetky zlyhania synchronizácie položiek boli označené ako \"ignorované\"."
 	],
 	"All notes": [
-		"Tutte le note"
+		"Všetky poznámky"
 	],
 	"All potential ports are in use - please report the issue at %s": [
-		"Tutte le potenziali porte sono in uso - per favore riportare il problema a %s"
+		"Všetky potenciálne porty sa používajú - nahláste problém na %s"
 	],
 	"Allows debugging mobile plugins. See %s for details.": [
-		"Consenti il debug dei plugin mobili. Vedi %s per dettagli."
+		"Umožňuje ladenie mobilných doplnkov. Podrobnosti nájdete v časti %s."
 	],
 	"Also displays unset and hidden config variables.": [
-		"Mostra anche le variabili di configurazione non impostate o nascoste."
+		"Tiež zobrazuje nenastavené a skryté konfiguračné premenné."
 	],
 	"Also publish linked notes": [
-		"Pubblica anche le note collegate"
+		"Zverejniť aj prepojené poznámky"
 	],
 	"Always": [
-		"Sempre"
+		"Vždy"
 	],
 	"Always ask": [
-		"Chiedi sempre"
+		"Vždy sa opýtať"
 	],
 	"Always open %s files without asking.": [
-		"Apri sempre i file %s senza chiedere."
+		"Vždy otvárať súbory %s bez opýtania."
 	],
 	"Always resize": [
-		"Ridimensiona sempre"
+		"Vždy zmeniť veľkosť"
 	],
 	"Ambiguous notebook \"%s\". Please use notebook id instead - press \"ti\" to see the short notebook id or use $b for current selected notebook": [
-		"Taccuino ambiguo \"%s\". Per favore usa l'ID del taccuino - premi \"ti\" per cercare l'ID breve del taccuino o usa $b per il taccuino corrente"
+		"Nejednoznačný zápisník „%s“. Namiesto toho použite id zápisníku - stlačte „ti“, aby ste videli krátke id zápisníka, alebo použite $b pre aktuálne vybraný zápisník"
 	],
 	"Ambiguous notebook \"%s\". Please use short notebook id instead - press \"ti\" to see the short notebook id": [
-		"Taccuino ambiguo \"%s\". Per favore usa l'ID breve del taccuino - premi \"ti\" per cercare l'ID breve del taccuino"
+		"Nejednoznačný zápisník „%s“. Namiesto toho použite krátke id zápisníka - stlačte „ti“, aby ste videli krátke id zápisníka"
 	],
 	"An autosaved drawing was found. Attach a copy of it to the note?": [
-		"È stato trovato un disegno salvato automaticamente. Allegarne una copia alla nota?"
+		"Bol nájdený automaticky uložený náčrt. Pripojiť jeho kópiu k poznámke?"
 	],
 	"An error occurred: %s": [
-		"Si è verificato un errore: %s"
+		"Vyskytla sa chyba: %s"
 	],
 	"An update is available, do you want to download it now?": [
-		"È disponibile un aggiornamento, vuoi scaricarlo ora?"
+		"Aktualizácia je k dispozícii, chcete ju teraz stiahnuť?"
 	],
 	"Android API level: %d": [
-		"Livello API Android: %s"
+		"Úroveň Android API: %d"
 	],
 	"Any email sent to this address will be converted into a note and added to your collection. The note will be saved into the Inbox notebook": [
-		"Qualsiasi email inviata a questo indirizzo verrà convertita in una nota e aggiunta alla tua raccolta. La nota verrà salvata nel taccuino della Posta in arrivo"
+		"Každý e-mail odoslaný na túto adresu sa premení na poznámku a pridá sa do vašej zbierky. Poznámka sa uloží do zápisníka Doručená pošta"
 	],
 	"Appearance": [
-		"Aspetto"
+		"Vzhľad"
 	],
 	"Application": [
-		"Applicazione"
+		"Aplikácia"
 	],
 	"Apply": [
-		"Applica"
+		"Vykonať"
 	],
 	"Are you sure you want to renew the authorisation token?": [
-		"Sei sicuro di voler rinnovare il token di autorizzazione?"
+		"Naozaj chcete obnoviť autorizačný token?"
 	],
 	"Are you sure you want to return to the default layout? The current layout configuration will be lost.": [
-		"Sei sicuro di voler tornare al layout predefinito? La configurazione del layout corrente andrà persa."
+		"Ste si istí, že sa chcete vrátiť k predvolenému rozloženiu? Aktuálne nastavenie rozloženia sa stratí."
 	],
 	"Arguments:": [
-		"Argomenti:"
+		"Argumenty:"
 	],
 	"Aritim Dark": [
-		"Scuro Aritim"
+		"Aritim Dark"
 	],
 	"At present, Joplin Web can only be open in one tab at a time. Please close the other instance of Joplin.": [
 		""
 	],
 	"Attach": [
-		"Allega"
+		"Pripojiť"
 	],
 	"Attach file": [
-		"Allega file"
+		"Pripojiť súbor"
 	],
 	"Attach photo": [
-		"Allega foto"
+		"Pripojiť fotografiu"
 	],
 	"Attach...": [
-		"Allega..."
+		"Pripojiť..."
 	],
 	"Attaches the given file to the note.": [
-		"Allega il seguente file alla nota."
+		"Pripojí daný súbor k poznámke."
 	],
 	"attachment": [
-		"allegato"
+		"príloha"
 	],
 	"Attachment conflict: \"%s\"": [
-		"Conflitto tra gli allegati: \"%s\""
+		"Konflikt príloh: \"%s\""
 	],
 	"Attachment download behaviour": [
-		"Comportamento scaricamento allegati"
+		"Správanie pri sťahovaní príloh"
 	],
 	"Attachments": [
-		"Allegati"
+		"Prílohy"
 	],
 	"Attachments that could not be downloaded": [
-		"Allegati che non possono essere scaricati"
+		"Prílohy, ktoré nebolo možné stiahnuť"
 	],
 	"Attention: If you change this location, make sure you copy all your content to it before syncing, otherwise all files will be removed! See the FAQ for more details: %s": [
-		"Attenzione: se si cambia questa posizione, accertarsi di copiare tutto il contenuto prima di sincronizzare, altrimenti tutti i file saranno rimossi! Vedi le FAQ per maggiori dettagli: %s"
+		"Pozor: Ak toto umiestnenie zmeníte, pred synchronizáciou doň skopírujte všetok obsah, inak budú všetky súbory odstránené! Viac informácií nájdete v častých otázkach: %s"
 	],
 	"Authentication was not completed (did not receive an authentication token).": [
-		"Autenticazione non completata (non è stato ricevuto alcun token di autenticazione)."
+		"Overovanie nebolo dokončené (nebol prijatý overovací token)."
 	],
 	"Authorisation token:": [
-		"Token di autorizzazione:"
+		"Overovací token:"
 	],
 	"Authorise": [
-		"Autorizza"
+		"Overiť"
 	],
 	"Auto": [
-		"Auto"
+		"Automaticky"
 	],
 	"Auto-add disabled accounts for deletion": [
-		"Aggiungi automaticamente gli account disabilitati per la cancellazione"
+		"Automaticky pridávať zakázané účty na vymazanie"
 	],
 	"Auto-pair braces, parentheses, quotations, etc.": [
-		"Auto- accoppia parentesi graffe, parentesi, citazione, ecc."
+		"Automatické párovanie zložených zátvoriek, zátvoriek, úvodzoviek atď."
 	],
 	"Autocomplete Markdown and HTML": [
 		""
 	],
 	"Automatically check for updates": [
-		"Controlla aggiornamenti automaticamente"
+		"Automaticky kontrolovať aktualizácie"
 	],
 	"Automatically delete notes in the trash after a number of days": [
-		"Elimina automaticamente le note nel cestino dopo un certo numero di giorni"
+		"Automatické odstraňovanie poznámok v koši po určitom počte dní"
 	],
 	"Automatically switch theme to match system theme": [
-		"Usa il tema di sistema"
+		"Automaticky prepínať tému tak, aby zodpovedala systémovej téme"
 	],
 	"Back": [
-		"Indietro"
+		"Späť"
 	],
 	"Basic": [
-		"Base"
+		"Základné"
 	],
 	"Beta": [
 		"Beta"
 	],
 	"Bold": [
-		"Grassetto"
+		"Tučné"
 	],
 	"Browse all plugins": [
-		"Sfoglia tutti i plugins"
+		"Prehliadať všetky doplnky"
 	],
 	"Browse...": [
-		"Naviga..."
+		"Prehliadať..."
 	],
 	"Built-in": [
-		"Integrato"
+		"Vstavané"
 	],
 	"Bulleted List": [
-		"Elenco puntato"
+		"Zoznam s odrážkami"
 	],
 	"by %s": [
-		"da %s"
+		"od %s"
 	],
 	"by word": [
 		""
 	],
 	"Can Share": [
-		"Può condividere"
+		"Môže zdieľať"
 	],
 	"Can view": [
-		"Solo lettura"
+		"Môže zobraziť"
 	],
 	"Can view and edit": [
-		"Lettura e modifica"
+		"Môže prezerať a upravovať"
 	],
 	"Cancel": [
-		"Annulla"
+		"Zrušiť"
 	],
 	"Cancelling background synchronisation... Please wait.": [
-		"Annullamento della sincronizzazione in background... Attendere per favore."
+		"Prebieha rušenie synchronizácie na pozadí... Čakajte prosím."
 	],
 	"Cancelling...": [
-		"Annullamento..."
+		"Prebieha rušenie..."
 	],
 	"Cancelling... Please wait.": [
-		"Annullamento... Attendere per favore."
+		"Prebieha rušenie... Čakajte prosím."
 	],
 	"Cannot access %s": [
-		"Non è possibile accedere a %s"
+		"Nedá sa získať prístup k %s"
 	],
 	"Cannot change encrypted item": [
-		"Impossibile modificare l'elemento criptato"
+		"Nedá sa zmeniť zašifrovaná položka"
 	],
 	"Cannot copy note to \"%s\" notebook": [
-		"Non posso copiare la nota nel Taccuino \"%s\""
+		"Nie je možné skopírovať poznámku do zápisníka „%s“"
 	],
 	"Cannot create a new note: %s": [
-		"Impossibile creare una nuova nota: %s"
+		"Nedá sa vytvoriť nová poznámka: %s"
 	],
 	"Cannot find \"%s\".": [
-		"Impossibile trovare \"%s\"."
+		"Nedá sa nájsť \"%s\"."
 	],
 	"Cannot find: \"%s\"": [
-		"Impossibile trovare: \"%s\""
+		"Nedá sa nájsť: \"%s\""
 	],
 	"Cannot initialise synchroniser.": [
-		"Non è possibile inizializzare la sincronizzazione."
+		"Nie je možné inicializovať synchronizátor."
 	],
 	"Cannot load \"%s\" module for format \"%s\" and output \"%s\"": [
-		"Impossibile caricare il modulo \"%s\" per il formato \"%s\" e per l'output \"%s\""
+		"Nedá sa načítať \"%s\" modul pre formát \"%s\" a výstup \"%s\""
 	],
 	"Cannot load \"%s\" module for format \"%s\" and target \"%s\"": [
-		"Impossibile caricare il modulo \"%s\" per il formato \"%s\" e per il target \"%s\""
+		"Nedá sa načítať \"%s\" modul pre formát \"%s\" a cieľ \"%s\""
 	],
 	"Cannot move note to \"%s\" notebook": [
-		"Non posso spostare la nota nel Taccuino \"%s\""
+		"Nie je možné presunúť poznámku do zápisníka „%s“"
 	],
 	"Cannot move notebook to this location": [
-		"Impossibile spostare il Taccuino in questa posizione"
+		"Nedá sa presunúť zápisník na toto miesto"
 	],
 	"Cannot refresh token: authentication data is missing. Starting the synchronisation again may fix the problem.": [
-		"Non è possibile aggiornare il token. mancano i dati di autenticazione. Ricominciare la sincronizzazione da capo potrebbe risolvere il problema."
+		"Nie je možné obnoviť token: chýbajú autentifikačné údaje. Problém môže vyriešiť opätovné spustenie synchronizácie."
 	],
 	"Cannot save %s \"%s\" because it is larger than the allowed limit (%s)": [
-		"Impossibile salvare %s \"%s\" perché è più grande del limite consentito (%s)"
+		"Nie je možné uložiť %s \"%s\", pretože je väčšie ako povolený limit (%s)"
 	],
 	"Cannot save %s \"%s\" because it would go over the total allowed size (%s) for this account": [
-		"Impossibile salvare %s \"%s\" perché supererebbe la dimensione massima consentita (%s) per questo account"
+		"Nie je možné uložiť %s \"%s\", pretože by to prekročilo celkovú povolenú veľkosť (%s) pre tento účet"
 	],
 	"Cannot share encrypted notebook with recipient %s because they have not enabled end-to-end encryption. They may do so from the screen Configuration > Encryption.": [
-		"Impossibile condividere il taccuino crittato con %s perché non hanno abilitato la crittografia end-to-end. Possono attivarla da Opzioni > Crittografia."
+		"Nie je možné zdieľať zašifrovaný zápisník s príjemcom %s, pretože nemá povolené end-to-end šifrovanie. Môže tak urobiť cez stránku Nastavenie > Šifrovanie."
 	],
 	"Case sensitive": [
-		"Case sensitive"
+		"Rozlišujú sa malé a veľké písmená"
 	],
 	"Change application layout": [
-		"Modifica il layout dell'applicazione"
+		"Zmeniť rozloženie aplikácie"
 	],
 	"Change language": [
-		"Cambia lingua"
+		"Zmeniť jazyk"
 	],
 	"Change shortcut for \"%s\"": [
 		""
 	],
 	"Characters": [
-		"Caratteri"
+		"Znaky"
 	],
 	"Characters excluding spaces": [
-		"Caratteri esclusi spazi"
+		"Znakov bez medzier"
 	],
 	"Check elements to display in the toolbar": [
 		""
 	],
 	"Check for updates...": [
-		"Controlla aggiornamenti..."
+		"Skontrolovať aktualizácie..."
 	],
 	"Check synchronisation configuration": [
-		"Controlla la configurazione della sincronizzazione"
+		"Skontrolovať nastavenie synchronizácie"
 	],
 	"Checkbox": [
-		"Casella di controllo"
+		"Výberové políčko"
 	],
 	"Checkbox list": [
-		"Lista di caselle di spunta"
+		"Zoznam výberových políčok"
 	],
 	"Checking... Please wait.": [
-		"Controllo... Attendere per favore."
+		"Prebieha kontrola... Čakajte prosím."
 	],
 	"Choose an option": [
-		"Scegli un'opzione"
+		"Vyberte možnosť"
 	],
 	"Chrome Web Store": [
 		"Chrome Web Store"
 	],
 	"Clear": [
-		"Pulisci"
+		"Vyčistiť"
 	],
 	"Clear alarm": [
-		"Pulisci avviso"
+		"Zrušiť budík"
 	],
 	"Clear search": [
-		"Pulisci ricerca"
+		"Vyčistiť vyhľadávanie"
 	],
 	"Click \"%s\" to restore the note. It will be copied in the notebook named \"%s\". The current version of the note will not be replaced or modified.": [
-		"Clicca \"%s\" per ripristinare la nota. Verrà copiata nel taccuino denominato \"%s\". La versione corrente della nota non verrà sostituita o modificata."
+		"Kliknutím na „%s“ obnovíte poznámku. Bude skopírovaná do zápisníka s názvom „%s“. Aktuálna verzia poznámky nebude nahradená ani upravená."
 	],
 	"Click to add tags...": [
-		"Clicca per aggiungere etichetta..."
+		"Kliknutím pridáte štítky..."
 	],
 	"Client ID: %s": [
-		"ID del Client: %s"
+		"ID klienta: %s"
 	],
 	"Close": [
-		"Chiudi"
+		"Zavrieť"
 	],
 	"Close dropdown": [
-		"Chiudi Menù a discesa"
+		"Zavrieť rozbaľovaciu ponuku"
 	],
 	"Close side menu": [
 		""
 	],
 	"Close the application, then delete your profile in \"%s\", and start the application again. Make sure you create a backup first by exporting all your notes as JEX.": [
-		"Chiudi l'applicazione, quindi cancella il profilo in “%s” e avvia nuovamente l'applicazione. Assicurati di creare prima un backup esportando tutte le note come JEX."
+		"Zatvorte aplikáciu, potom odstráňte svoj profil v „%s“ a znovu spustite aplikáciu. Uistite sa, že ste si najprv vytvorili zálohu exportovaním všetkých svojich poznámok ako JEX."
 	],
 	"Close Window": [
-		"Chiudi finestra"
+		"Zavrieť okno"
 	],
 	"Cmd-click to open": [
-		"Cmd-clic per aprire"
+		"Otvorte kliknutím a stlačením tlačidla Cmd"
 	],
 	"Cmd-click to open: %s": [
-		"Cmd-clic per aprire: %s"
+		"Otvorte kliknutím a stlačením tlačidla Cmd: %s"
 	],
 	"Code": [
-		"Codice"
+		"Kód"
 	],
 	"Code Block": [
-		"Blocco di codice"
+		"Blok kódu"
 	],
 	"Code View": [
-		"Codice"
+		"Zobraziť kód"
 	],
 	"Collaborate on a notebook with others": [
-		"Collabora su un taccuino con altri"
+		"Spolupracujte na zápisníku s ostatnými"
 	],
 	"Collaborate on notebooks with others": [
-		"Collabora su un taccuino con altri"
+		"Spolupracujte na zápisníkoch s ostatnými"
 	],
 	"Collapsed, press space to expand.": [
 		""
 	],
 	"Coming alarms": [
-		"Prossimi avvisi"
+		"Blížiace sa budíky"
 	],
 	"Comma-separated list of paths to directories to load the certificates from, or path to individual cert files. For example: /my/cert_dir, /other/custom.pem. Note that if you make changes to the TLS settings, you must save your changes before clicking on \"Check synchronisation configuration\".": [
-		"Elenco separato da virgole di percorsi alle cartelle per caricare i certificati o percorso dei singoli file cert. Ad esempio: /my/cert_dir, /other/custom.pem. Notare che se si apportano modifiche alle impostazioni TLS, è necessario salvare le modifiche prima di fare clic su \"Verifica configurazione sincronizzazione\"."
+		"Čiarkou oddelený zoznam ciest k priečinkom, z ktorých sa majú načítať certifikáty, alebo cesta k jednotlivým súborom cert. Napríklad: /moj/cert_priecinok, /iny/vlastny.pem. Upozorňujeme, že ak vykonáte zmeny v nastaveniach TLS, musíte zmeny uložiť pred kliknutím na „Skontrolovať nastavenie synchronizácie“."
 	],
 	"command": [
-		"comando"
+		"príkaz"
 	],
 	"Command": [
-		"Comando"
+		"Príkaz"
 	],
 	"Command palette": [
-		"Comandi"
+		"Paleta príkazov"
 	],
 	"Command palette...": [
-		"Comandi..."
+		"Paleta príkazov..."
 	],
 	"Compact": [
-		"Compatto"
+		"Kompaktné"
 	],
 	"Completed": [
-		"Completato"
+		"Dokončené"
 	],
 	"Completed decryption.": [
-		"Decrittografia completata."
+		"Dokončené dešifrovanie."
 	],
 	"Completed with warnings:\n%s": [
-		"Completato con avvisi:\n%s"
+		"Dokončené s upozorneniami:\n%s"
 	],
 	"Completed: %s (%s)": [
-		"Completato: %s (%s)"
+		"Dokončené: %s (%s)"
 	],
 	"completion date": [
-		"data completamento"
+		"dátum dokončenia"
 	],
 	"Compress old changes": [
-		"Comprimi le vecchie modifiche"
+		"Komprimovať staré zmeny"
 	],
 	"Configuration": [
-		"Configurazione"
+		"Nastavenie"
 	],
 	"Confirm password cannot be empty": [
-		"La password di conferma non può essere vuota"
+		"Potvrdenie hesla nemôže byť prázdne"
 	],
 	"Confirm password:": [
-		"Conferma password:"
+		"Potvrdiť heslo:"
 	],
 	"Confirmation": [
-		"Conferma"
+		"Potvrdenie"
 	],
 	"Conflicted: %d": [
-		"Conflitti: %d"
+		"Konfliktné: %d"
 	],
 	"Conflicts": [
-		"Conflitti"
+		"Konflikty"
 	],
 	"Conflicts (attachments)": [
-		"Conflitti (allegati)"
+		"Konflikty (prílohy)"
 	],
 	"Connect to Joplin Cloud": [
-		"Connetti a Joplin Cloud"
+		"Pripojte sa k Joplin Cloud"
 	],
 	"Consolidated billing": [
-		"Fatturazione consolidata"
+		"Konsolidovaná fakturácia"
 	],
 	"Content provided by %s": [
-		"Contenuto fornito da %s"
+		"Obsah poskytol %s"
 	],
 	"Content provided by: %s": [
-		"Contenuto fornito da: %s"
+		"Obsah poskytol: %s"
 	],
 	"Continue": [
-		"Continua"
+		"Pokračovať"
 	],
 	"Convert to note": [
-		"Converti in nota"
+		"Premeniť na poznámku"
 	],
 	"Convert to todo": [
-		"Converti in Todo"
+		"Premeniť na úlohu"
 	],
 	"Converting speech to text...": [
-		"Conversione della voce in testo..."
+		"Prevod reči na text..."
 	],
 	"Copy": [
-		"Copia"
+		"Kopírovať"
 	],
 	"Copy dev mode command to clipboard": [
-		"Copia il comando della modalità sviluppatore negli appunti"
+		"Kopírovať príkaz dev mode do schránky"
 	],
 	"Copy external link": [
-		"Copia link esterno"
+		"Kopírovať externý odkaz"
 	],
 	"Copy image": [
-		"Copia immagine"
+		"Kopírovať obrázok"
 	],
 	"Copy Link Address": [
-		"Copia l'indirizzo del link"
+		"Kopírovať adresu odkazu"
 	],
 	"Copy link to website": [
-		"Copia link a sito web"
+		"Kopírovať odkaz na webovú stránku"
 	],
 	"Copy Markdown link": [
-		"Copia il link Markdown"
+		"Kopírovať odkaz Markdown"
 	],
 	"Copy path to clipboard": [
-		"Copia il percorso negli appunti"
+		"Kopírovať cestu do schránky"
 	],
 	"Copy Shareable Link": [
-		"Copia link condivisibile",
-		"Copia link condivisibili"
+		"Kopírovať zdieľateľný odkaz",
+		"Kopírovať zdieľateľné odkazy",
+		"Kopírovať zdieľateľné odkazy"
 	],
 	"Copy to clipboard": [
-		"Copia negli appunti"
+		"Kopírovať do schránky"
 	],
 	"Copy token": [
-		"Copia token"
+		"Kopírovať token"
 	],
 	"Copy version info": [
-		"Copia informazioni sulla versione"
+		"Kopírovať informácie o verzii"
 	],
 	"Could not authorise application:\n\n%s\n\nPlease try again.": [
-		"Non è stato possibile autorizzare l'applicazione:\n\n%s\n\nRiprovare per favore."
+		"Nepodarilo sa autorizovať aplikáciu:\n\n%s\n\nSkúste to prosím znova."
 	],
 	"Could not connect to Joplin Server. Please check the Synchronisation options in the config screen. Full error was:\n\n%s": [
-		"Non è stato possibile connettersi al Joplin Server. Per favore controllare le opzioni di sincronizzazione nella relativa schermata di configurazione. Errore completo era:\n\n%s"
+		"Nepodarilo sa pripojiť k serveru Joplin. Skontrolujte možnosti synchronizácie na stránke nastavenia. Úplná chyba bola:\n\n%s"
 	],
 	"Could not connect to plugin repository.": [
-		"Non è possibile connettersi al catalogo dei plugin."
+		"Nepodarilo sa pripojiť k úložisku doplnkov."
 	],
 	"Could not export notes: %s": [
-		"Impossibile esportare le note: %s"
+		"Nepodarilo sa exportovať poznámky: %s"
 	],
 	"Could not install plugin: %s": [
-		"Non è possibile installare il plugin: %s"
+		"Nepodarilo sa nainštalovať doplnok: %s"
 	],
 	"Could not respond to the invitation. Please try again, or check with the notebook owner if they are still sharing it.\n\nThe error was: \"%s\"": [
-		"Impossibile rispondere all'invito. Riprova o verifica con il proprietario del taccuino se lo condivide ancora.\n\nl'errore era: \"%s\""
+		"Na pozvánku nebolo možné reagovať. Skúste to prosím znova alebo sa informujte u majiteľa zápisníka, či ho stále zdieľa.\n\nChyba bola nasledovná: „%s“"
 	],
 	"Could not switch profile: %s": [
-		"Non è possibile cambiare profilo: %s"
+		"Nepodarilo sa prepnúť profil: %s"
 	],
 	"Could not upgrade master key: %s": [
-		"Non è possibile aggiornare la chiave master: %s"
+		"Nepodarilo sa aktualizovať hlavný kľúč: %s"
 	],
 	"Could not verify the share status of this notebook - aborting. Please try again when you are connected to the internet.": [
-		"Impossibile verificare lo stato di condivisione di questo taccuino. Interruzione in corso. Riprova quando sei connesso a Internet."
+		"Nepodarilo sa overiť stav zdieľania tohto zápisníka - prerušuje sa. Skúste to prosím znova, keď budete pripojení k internetu."
 	],
 	"Could not verify your identity: %s": [
-		"Impossibile verificare la tua identità: %s"
+		"Nepodarilo sa overiť vašu totožnosť: %s"
 	],
 	"Create": [
-		"Crea"
+		"Vytvoriť"
 	],
 	"Create a new notebook under a parent notebook.": [
-		"Crea un nuovo taccuino sotto un taccuino principale."
+		"Vytvorte nový zápisník pod nadradeným zápisníkom."
 	],
 	"Create a notebook": [
-		"Crea un Taccuino"
+		"Vytvoriť zápisník"
 	],
 	"Create new profile...": [
-		"Crea un nuovo profilo..."
+		"Vytvoriť nový profil..."
 	],
 	"Create notebook": [
-		"Crea un Taccuino"
+		"Vytvoriť zápisník"
 	],
 	"Create user": [
-		"Crea un utente"
+		"Vytvoriť používateľa"
 	],
 	"Created": [
-		"Creato"
+		"Vytvorené"
 	],
 	"created date": [
-		"data di creazione"
+		"dátum vytvorenia"
 	],
 	"Created local items: %d.": [
-		"Elementi locali creati: %d."
+		"Vytvorené lokálne položky: %d."
 	],
 	"Created locally": [
-		"Creato localmente"
+		"Vytvorené lokálne"
 	],
 	"Created remote items: %d.": [
-		"Elementi remoti creati: %d."
+		"Vytvorené vzdialené položky: %d."
 	],
 	"Created: ": [
-		"Creato: "
+		"Vytvorené: "
 	],
 	"Created: %d.": [
-		"Creato: %d."
+		"Vytvorené: %d."
 	],
 	"Created: %s": [
-		"Creato: %s"
+		"Vytvorené: %s"
 	],
 	"Creates a new note.": [
-		"Crea una nuova nota."
+		"Vytvorí novú poznámku."
 	],
 	"Creates a new notebook.": [
-		"Crea un nuovo Taccuino."
+		"Vytvorí nový zápisník."
 	],
 	"Creates a new to-do.": [
-		"Crea una nuovo \"Cose-da-fare\"."
+		"Vytvorí novú úlohu."
 	],
 	"Creating new note...": [
-		"Creazione nuova nota..."
+		"Vytvára sa nová poznámka..."
 	],
 	"Creating new to-do...": [
-		"Creazione di nuovo to-do..."
+		"Vytvára sa nová úloha..."
 	],
 	"Creating report...": [
-		"Creazione report..."
+		"Vytváranie správy..."
 	],
 	"Ctrl-click to open": [
-		"Ctrl-clic per aprire"
+		"Otvorte kliknutím so stlačeným klávesom Ctrl"
 	],
 	"Ctrl-click to open: %s": [
-		"Ctrl-clic per aprire: %s"
+		"Otvorte kliknutím so stlačeným klávesom Ctrl: %s"
 	],
 	"Current version is up-to-date.": [
-		"La versione attuale è aggiornata."
+		"Súčasná verzia je aktuálna."
 	],
 	"custom order": [
-		"ordine personalizzato"
+		"vlastné poradie"
 	],
 	"Custom order": [
-		"Ordine personalizzato"
+		"Vlastné poradie"
 	],
 	"Custom stylesheet for Joplin-wide app styles": [
-		"CSS per gli stili Joplin-wide app"
+		"Vlastná šablóna štýlov pre všetky štýly aplikácie Joplin"
 	],
 	"Custom stylesheet for rendered Markdown": [
-		"Foglio di stile personalizzato per visualizzare il markdown"
+		"Vlastná šablóna štýlov pre vykreslený Markdown"
 	],
 	"Custom TLS certificates": [
-		"Certificati TLS personalizzati"
+		"Vlastné certifikáty TLS"
 	],
 	"Customise the note publishing banner": [
-		"Personalizza il banner di pubblicazione delle note"
+		"Prispôsobiť banner na zverejňovanie poznámok"
 	],
 	"Cut": [
-		"Taglia"
+		"Vystrihnúť"
 	],
 	"Dark": [
-		"Scuro"
+		"Tmavá"
 	],
 	"Dashboard": [
-		"Pannello di controllo"
+		"Nástenka"
 	],
 	"Date": [
-		"Data"
+		"Dátum"
 	],
 	"Date format": [
-		"Formato della data"
+		"Formát dátumu"
 	],
 	"days": [
-		"giorni"
+		"dní"
 	],
 	"Decrease indent level": [
-		"Diminuisci il livello di rientro"
+		"Znížiť úroveň odsadenia"
 	],
 	"Decrypted items: %d": [
-		"Elementi decriptati: %d"
+		"Dešifrované položky: %d"
 	],
 	"Decrypted items: %s / %s": [
-		"Elementi decriptati: %s / %s"
+		"Dešifrované položky: %s / %s"
 	],
 	"Decrypting items: %d/%d": [
-		"Decrittografia elementi: %d/%d"
+		"Dešifrovanie položiek: %d/%d"
 	],
 	"Default": [
-		"Predefinito"
+		"Predvolené"
 	],
 	"Default: %s": [
-		"Predefinito: %s"
+		"Predvolené: %s"
 	],
 	"Delete": [
-		"Elimina"
+		"Vymazať"
 	],
 	"Delete attachment \"%s\"?": [
-		"Eliminare allegato \"%s\"?"
+		"Vymazať prílohu \"%s\"?"
 	],
 	"Delete expired sessions": [
-		"Elimina le sessioni scadute"
+		"Vymazať relácie s uplynutou platnosťou"
 	],
 	"Delete expired tokens": [
-		"Elimina i token scaduti"
+		"Vymazať tokeny s uplynutou platnosťou"
 	],
 	"Delete line": [
-		"Elimina riga"
+		"Vymazať riadok"
 	],
 	"Delete local data and re-download from sync target": [
-		"Elimina i dati locali e riscaricali dalla destinazione di sincronizzazione"
+		"Vymazať lokálne údaje a opätovne ich stiahnuť z cieľa synchronizácie"
 	],
 	"Delete note": [
-		"Eliminare la nota"
+		"Vymazať poznámku"
 	],
 	"Delete notebook": [
-		"Eliminare il taccuino"
+		"Vymazať zápisník"
 	],
 	"Delete plugin \"%s\"?": [
-		"Eliminare il plugin \"%s\"?"
+		"Vymazať doplnok \"%s\"?"
 	],
 	"Delete profile \"%s\"": [
-		"Eliminare il profilo \"%s\""
+		"Vymazať profil \"%s\""
 	],
 	"Delete selected notes": [
-		"Eliminare le note selezionate"
+		"Vymazať vybrané poznámky"
 	],
 	"Delete the Inbox notebook?\n\nIf you delete the inbox notebook, any email that's recently been sent to it may be lost.": [
-		"Eliminare il taccuino della Posta in arrivo?\n\nSe elimini il taccuino della posta in arrivo, tutti i messaggi di posta elettronica recentemente inviati ad esso potrebbero andare perduti."
+		"Vymazať zápisník Doručená pošta?\n\nAk vymažete zápisník doručenej pošty, všetky e-maily, ktoré doň boli nedávno odoslané, sa môžu stratiť."
 	],
 	"Delete this invitation? The recipient will no longer have access to this shared notebook.": [
-		"Cancellare questo invito? Il destinatario non avrà più accesso a questo taccuino condiviso."
+		"Vymazať túto pozvánku? Príjemca už nebude mať prístup k tomuto zdieľanému zápisníku."
 	],
 	"Delete this profile?": [
-		"Eliminare questo profilo?"
+		"Vymazať tento profil?"
 	],
 	"Deleted": [
-		"Eliminato"
+		"Vymazané"
 	],
 	"Deleted local items: %d.": [
-		"Elementi locali eliminati: %d."
+		"Odstránené lokálne položky: %d."
 	],
 	"Deleted remote items: %d.": [
-		"Elementi remoti eliminati: %d."
+		"Odstránené vzdialené položky: %d."
 	],
 	"Deletes notes permanently, skipping the trash.": [
-		"Elimina definitivamente le note, saltando il cestino."
+		"Natrvalo odstráni poznámky, pričom vynechá kôš."
 	],
 	"Deletes the given notebook.": [
-		"Elimina il seguente Taccuino."
+		"Odstráni daný zápisník."
 	],
 	"Deletes the notebook without asking for confirmation.": [
-		"Elimina il Taccuino senza richiedere una conferma."
+		"Vymaže zápisník bez vyžiadania potvrdenia."
 	],
 	"Deletes the notes matching <note-pattern>.": [
-		"Elimina le note che corrispondono a <note-pattern>."
+		"Vymaže poznámky zodpovedajúce <note-pattern>."
 	],
 	"Deletes the notes without asking for confirmation.": [
-		"Elimina le note senza chiedere conferma."
+		"Vymaže poznámky bez vyžiadania potvrdenia."
 	],
 	"Destination format: %s": [
-		"Formato di destinazione: %s"
+		"Formát cieľa: %s"
 	],
 	"Detailed": [
-		"Dettagliato"
+		"Podrobne"
 	],
 	"Directory": [
-		"Cartella"
+		"Priečinok"
 	],
 	"Directory to synchronise with (absolute path)": [
-		"Cartella da sincronizzare con (percorso assoluto)"
+		"Priečinok, s ktorým sa má synchronizovať (absolútna cesta)"
 	],
 	"Disable": [
-		"Disabilita"
+		"Zakázať"
 	],
 	"Disable encryption": [
-		"Disattiva Crittografia"
+		"Zakázať šifrovanie"
 	],
 	"Disable safe mode and restart": [
-		"Disabilita modalità sicura e riavvia"
+		"Zakázať núdzový režim a reštartovať"
 	],
 	"Disable Web Clipper Service": [
-		"Disattiva servizio Web Clipper"
+		"Zakázať službu Web Clipper"
 	],
 	"Disabled": [
-		"Disabilitato"
+		"Zakázané"
 	],
 	"Disabling encryption means *all* your notes and attachments are going to be re-synchronised and sent unencrypted to the sync target. Do you wish to continue?": [
-		"Disabilitare la crittografia significa *tutti* i tuoi appunti e gli allegati saranno risincronizzati e inviati in chiaro alla destinazione di sincronizzazione. Vuoi continuare?"
+		"Vypnutie šifrovania znamená, že všetky vaše poznámky a prílohy budú opätovne synchronizované a odoslané do cieľa synchronizácie v nešifrovanej podobe. Chcete pokračovať?"
 	],
 	"Discard": [
-		"Scartare"
+		"Zahodiť"
 	],
 	"Discard changes": [
-		"Ignora modifiche"
+		"Zahodiť zmeny"
 	],
 	"Dismiss": [
-		"Non visualizzare più"
+		"Odmietnuť"
 	],
 	"Displays a geolocation URL for the note.": [
-		"Mostra l'URL di geolocalizzazione per la nota."
+		"Zobrazí URL adresu geografickej polohy pre poznámku."
 	],
 	"Displays only the first top <num> notes.": [
-		"Mostra solo le prima <num> note."
+		"Zobrazí iba prvé vrchné <num> poznámky."
 	],
 	"Displays only the items of the specific type(s). Can be `n` for notes, `t` for to-dos, or `nt` for notes and to-dos (eg. `-tt` would display only the to-dos, while `-tnt` would display notes and to-dos.": [
-		"Mostra solo gli elementi del tipo specificato. Possono essere `n` per le note, `t` per le \"Cose-da-fare\" o `nt` per note e \"Cose-da-fare\". (es. `-tt` mostrerà solo le \"Cose-da-fare\", mentre `-tnt` mostrerà sia note che \"Cose-da-fare\"."
+		"Zobrazí len položky konkrétneho typu (typov). Môže byť `n` pre poznámky, `t` pre úlohy, alebo `nt` pre poznámky a úlohy (napr. `-tt` by zobrazilo len úlohy, zatiaľ čo `-tnt` by zobrazilo poznámky a úlohy."
 	],
 	"Displays summary about the notes and notebooks.": [
-		"Mostra un sommario delle note e dei taccuini."
+		"Zobrazí prehľad o poznámkach a zápisníkoch."
 	],
 	"Displays the complete information about note.": [
-		"Mostra le informazioni complete sulla nota."
+		"Zobrazí úplné informácie o poznámke."
 	],
 	"Displays the given note.": [
-		"Mostra la seguente nota."
+		"Zobrazí danú poznámku."
 	],
 	"Displays the notes in the current notebook. Use `ls /` to display the list of notebooks.": [
-		"Mostra le Note nel seguente Taccuino. Usa `ls /` per mostrare la lista dei Taccuini."
+		"Zobrazí poznámky v aktuálnom zápisníku. Na zobrazenie zoznamu zápisníkov použite `ls /`."
 	],
 	"Displays usage information.": [
-		"Mostra le informazioni di utilizzo."
+		"Zobrazí informácie o používaní."
 	],
 	"Displays version information": [
-		"Mostra le informazioni sulla versione"
+		"Zobrazí informácie o verzii"
 	],
 	"Do it now": [
-		"Fallo subito"
+		"Urobiť to hneď"
 	],
 	"Do not ask for confirmation.": [
-		"Non chiedere conferma."
+		"Nežiadať o potvrdenie."
 	],
 	"Do not lose the password as, for security purposes, this will be the *only* way to decrypt the data! To enable encryption, please enter your password below.": [
-		"Non perdere la password poiché, per motivi di sicurezza, questo sarà l'*unico* modo per decrittografare i dati! Per abilitare la crittografia, inserisci la tua password qui sotto."
+		"Nestraťte heslo, pretože z bezpečnostných dôvodov je to *jediný* spôsob, ako dešifrovať údaje! Ak chcete zapnúť šifrovanie, zadajte heslo nižšie."
 	],
 	"Donate, website": [
-		"Donazioni, sito web"
+		"Darujte, webová stránka"
 	],
 	"Done": [
-		"Fatto"
+		"Hotovo"
 	],
 	"Download": [
-		"Scarica"
+		"Stiahnuť"
 	],
 	"Download and install the relevant extension for your browser:": [
-		"Scarica e installa l'estensione adatta per il tuo browser:"
+		"Stiahnite a nainštalujte príslušné rozšírenie pre váš prehliadač:"
 	],
 	"Downloaded": [
-		"Scaricato"
+		"Stiahnuté"
 	],
 	"Downloaded and decrypted": [
-		"Scaricato e decrittato"
+		"Stiahnuté a dešifrované"
 	],
 	"Downloaded and encrypted": [
-		"Scaricato e criptato"
+		"Stiahnuté a zašifrované"
 	],
 	"Downloading": [
-		"Scaricamento"
+		"Sťahovanie"
 	],
 	"Downloading %s language files...": [
-		"Scaricamento risorse..."
+		"Sťahovanie jazykových súborov %s..."
 	],
 	"Downloading resources...": [
-		"Scaricamento risorse..."
+		"Sťahovanie zdrojov..."
 	],
 	"Dracula": [
-		"Dracula"
+		"Drakula"
 	],
 	"Draw picture": [
-		"Disegna l'immagine"
+		"Nakreslite obrázok"
 	],
 	"Drawing": [
-		"Disegno"
+		"Náčrt"
 	],
 	"Drop notes or files here": [
-		"Trascina qui note o file"
+		"Premiestnite sem poznámky alebo súbory"
 	],
 	"Dropbox": [
 		"Dropbox"
 	],
 	"Dropbox Login": [
-		"Login Dropbox"
+		"Prihlásenie do služby Dropbox"
 	],
 	"Due": [
-		"In scadenza"
+		"Termín"
 	],
 	"due date": [
-		"data di scadenza"
+		"dátum splnenia"
 	],
 	"Duplicate": [
-		"Duplicare"
+		"Duplikovať"
 	],
 	"Duplicate line": [
-		"Duplica riga"
+		"Duplikovať riadok"
 	],
 	"Duplicate selected notes": [
-		"Duplica le note selezionate"
+		"Duplikovať vybraté poznámky"
 	],
 	"Duplicates the notes matching <note> to [notebook]. If no notebook is specified the note is duplicated in the current notebook.": [
-		"Duplica le note che corrispondono a <note> nel [notebook]. Se nessun Taccuino è specificato, la nota viene duplicata nel Taccuino corrente."
+		"Duplikuje poznámky zodpovedajúce <note> do [zápisník]. Ak nie je zadaný žiadny zápisník, poznámka sa duplikuje do aktuálneho zápisníka."
 	],
 	"Edit": [
-		"Modifica"
+		"Upraviť"
 	],
 	"Edit in external editor": [
-		"Modifica in un editor esterno"
+		"Upraviť v externom editore"
 	],
 	"Edit in new window": [
 		""
 	],
 	"Edit link": [
-		"Modifica collegamento"
+		"Upraviť odkaz"
 	],
 	"Edit note.": [
-		"Modifica nota."
+		"Upraviť poznámku."
 	],
 	"Edit notebook": [
-		"Modifica Taccuino"
+		"Upraviť zápisník"
 	],
 	"Edit profile": [
-		"Modifica profilo"
+		"Upraviť profil"
 	],
 	"Edit profile configuration...": [
-		"Modifica configurazione profilo..."
+		"Upraviť konfiguráciu profilu..."
 	],
 	"Editor": [
 		"Editor"
 	],
 	"Editor font": [
-		"Editor caratteri"
+		"Písmo editora"
 	],
 	"Editor font family": [
-		"Editor famiglia caratteri"
+		"Rodina písiem editora"
 	],
 	"Editor font size": [
-		"Editor dimensione caratteri"
+		"Veľkosť písma editora"
 	],
 	"Editor maximum width": [
-		"Editor larghezza massima"
+		"Maximálna šírka editora"
 	],
 	"Editor monospace font family": [
-		"Editor con carattere a larghezza fissa"
+		"Rodina písma monospace pre editor"
 	],
 	"Editor: %s": [
 		"Editor: %s"
 	],
 	"Either \"text\" or \"json\"": [
-		"Sia \"testo\" che \"json\""
+		"Buď \"text\" alebo \"json\""
 	],
 	"Emacs": [
 		"Emacs"
 	],
 	"Email": [
-		"Email"
+		"E-mail"
 	],
 	"Email to note": [
-		"Da email a nota"
+		"E-mail do poznámky"
 	],
 	"Email to Note": [
-		"Da email a nota"
+		"E-mail do poznámky"
 	],
 	"Email To Note, login information": [
-		"Da email a nota, informazioni di accesso"
+		"E-mail do poznámky, prihlasovacie údaje"
 	],
 	"Emails": [
-		"Emails"
+		"E-maily"
 	],
 	"emphasised text": [
-		"testo sottolineato"
+		"zvýraznený text"
 	],
 	"Empty trash": [
-		"Svuota cestino"
+		"Vyprázdniť kôš"
 	],
 	"Enable": [
-		"Abilitato"
+		"Povoliť"
 	],
 	"Enable ++insert++ syntax": [
-		"Attiva sintassi ++insert++"
+		"Povoliť ++insert++ syntax"
 	],
 	"Enable ==mark== syntax": [
-		"Attiva sintassi ==mark=="
+		"Povoliť ==mark== syntax"
 	],
 	"Enable ^sup^ syntax": [
-		"Attiva sintassi ^sup^"
+		"Povoliť syntax ^sup^"
 	],
 	"Enable abbreviation syntax": [
-		"Abilita abbreviazioni"
+		"Povoliť syntax skratiek"
 	],
 	"Enable audio player": [
-		"Abilita riproduttore audio"
+		"Povoliť prehrávač zvuku"
 	],
 	"Enable biometrics authentication?": [
-		"Abilitare l'autenticazione biometrica?"
+		"Povoliť biometrické overenie?"
 	],
 	"Enable deflist syntax": [
-		"Abilita sintassi deflist"
+		"Povolenie syntax deflist"
 	],
 	"Enable encryption": [
-		"Attiva Crittografia"
+		"Povoliť šifrovanie"
 	],
 	"Enable file:// URLs for images and videos": [
 		""
 	],
 	"Enable footnotes": [
-		"Attiva note a piè pagina"
+		"Povoliť poznámky pod čiarou"
 	],
 	"Enable Fountain syntax support": [
-		"Attiva supporto sintassi Fountain"
+		"Povoliť podporu syntaxe Fountain"
 	],
 	"Enable Linkify": [
-		"Abilita Linkify"
+		"Povoliť Linkify"
 	],
 	"Enable markdown emoji": [
-		"Abilita emoji markdown"
+		"Povoliť emotikony markdown"
 	],
 	"Enable math expressions": [
-		"Attiva espressioni matematiche"
+		"Povoliť matematické výrazy"
 	],
 	"Enable Mermaid diagrams support": [
-		"Attiva supporto diagrammi Mermaid"
+		"Povoliť podporu diagramov Mermaid"
 	],
 	"Enable multimarkdown table extension": [
-		"Abilita estensione tavola dei contenuti"
+		"Povoliť rozšírenie tabuľky multimarkdown"
 	],
 	"Enable note history": [
-		"Attiva cronologia della nota"
+		"Povoliť históriu poznámok"
 	],
 	"Enable optical character recognition (OCR)": [
-		"Abilita riconoscimento ottico dei caratteri (OCR)"
+		"Povoliť optické rozpoznávanie znakov (OCR)"
 	],
 	"Enable or disable plugins": [
-		"Attiva o disattiva plugin"
+		"Povoliť alebo zakázať doplnky"
 	],
 	"Enable PDF viewer": [
-		"Abilita visualizzatore PDF"
+		"Povoliť prehliadač PDF"
 	],
 	"Enable plugin support": [
-		"Attiva supporto plugin"
+		"Povoliť podporu doplnkov"
 	],
 	"Enable soft breaks": [
-		"Abilita interruzioni soft"
+		"Povoliť soft breaks"
 	],
 	"Enable spellcheck in the text editor": [
-		"Abilita il controllo ortografico nell'editor di testo"
+		"Povoliť kontrolu pravopisu v textovom editore"
 	],
 	"Enable table of contents extension": [
-		"Abilita l'estensione indice"
+		"Povoliť rozšírenie obsahu"
 	],
 	"Enable the Markdown toolbar": [
-		"Abilita la barra degli strumenti Markdown"
+		"Povoliť panel nástrojov Markdown"
 	],
 	"Enable typographer support": [
-		"Attiva supporto tipografico"
+		"Povoliť podporu typografov"
 	],
 	"Enable video player": [
-		"Abilita riproduttore video"
+		"Povoliť prehrávač videa"
 	],
 	"Enable Web Clipper Service": [
-		"Abilita servizio Web Clipper"
+		"Povoliť službu Web Clipper"
 	],
 	"Enable ~sub~ syntax": [
-		"Attiva sintassi ~sub~"
+		"Povoliť syntax ~sub~"
 	],
 	"Enabled": [
-		"Attivato"
+		"Povolené"
 	],
 	"Enables Markdown list continuation, auto-closing HTML tags, and other markup autocompletions.": [
 		""
 	],
 	"Enabling encryption means *all* your notes and attachments are going to be re-synchronised and sent encrypted to the sync target.": [
-		"Abilitare la crittografia significa che *tutte* le tue note e i tuoi allegati verranno ri-sincronizzati e inviati crittografati alla destinazione di sincronizzazione."
+		"Zapnutie šifrovania znamená, že *všetky* vaše poznámky a prílohy budú opätovne synchronizované a odoslané zašifrované do cieľa synchronizácie."
 	],
 	"Encrypted": [
-		"Crittografato"
+		"Zašifrované"
 	],
 	"Encrypted items cannot be modified": [
-		"Gli elementi crittografati non possono essere modificati"
+		"Zašifrované položky nie je možné upraviť"
 	],
 	"Encryption": [
-		"Crittografia"
+		"Šifrovanie"
 	],
 	"Encryption Config": [
-		"Configurazione Crittografia"
+		"Nastavenie šifrovania"
 	],
 	"Encryption is: %s": [
-		"La crittografia è: %s"
+		"Šifrovanie je: %s"
 	],
 	"Encryption keys": [
-		"Chiavi di crittografia"
+		"Šifrovacie kľúče"
 	],
 	"Encryption:": [
-		"Crittografia:"
+		"Šifrovanie:"
 	],
 	"End-to-end encryption": [
-		"Crittografia End-to-end"
+		"End-to-end šifrovanie"
 	],
 	"Enter code here": [
-		"Inserisci qui il codice"
+		"Tu zadajte kód"
 	],
 	"Enter master password:": [
-		"Inserisci password principale:"
+		"Zadajte hlavné heslo:"
 	],
 	"Enter notebook title": [
-		"Inserisci titolo del Taccuino"
+		"Zadajte názov zápisníka"
 	],
 	"Enter password": [
-		"Inserisci password"
+		"Zadajte heslo"
 	],
 	"Enum": [
-		"Enumerare"
+		"Enum"
 	],
 	"Error": [
-		"Errore"
+		"Chyba"
 	],
 	"Error opening note in editor: %s": [
-		"Errore durante l'apertura della nota nell'editor: %s"
+		"Chyba pri otváraní poznámky v editore: %s"
 	],
 	"Error. Please check that URL, username, password, etc. are correct and that the sync target is accessible. The reported error was:": [
-		"Errore. Per favore controllare che URL, nome utente, password, etc. siano corretti e che la destinazione di sincronizzazione sia accessibile. L'errore riportato era:"
+		"Error. Please check that URL, username, password, etc. are correct and that the sync target is accessible. The reported error was:"
 	],
 	"Error: %s": [
-		"Errore %s"
+		"Chyba: %s"
 	],
 	"Errors only": [
-		"Solo gli errori"
+		"Iba chyby"
 	],
 	"Evernote Export File (as HTML)": [
-		"Esporta files di Evernote (come HTML)"
+		"Exportný súbor Evernote (ako HTML)"
 	],
 	"Evernote Export File (as Markdown)": [
-		"Esporta files di Evernote (come Markdown)"
+		"Exportný súbor Evernote (ako Markdown)"
 	],
 	"Evernote Export Files (Directory, as HTML)": [
-		"Esporta files di Evernote (Cartella, come HTML)"
+		"Exportné súbory Evernote (Priečinok, ako HTML)"
 	],
 	"Evernote Export Files (Directory, as Markdown)": [
-		"Esporta files di Evernote (Cartella, come Markdown)"
+		"Exportné súbory Evernote (Priečinok, ako Markdown)"
 	],
 	"Exits the application.": [
-		"Esci dall'applicazione."
+		"Ukončí aplikáciu."
 	],
 	"Expand %s": [
-		"Espandi %s"
+		"Rozbaliť %s"
 	],
 	"Expanded, press space to collapse.": [
 		""
 	],
 	"Export": [
-		"Esporta"
+		"Exportovať"
 	],
 	"Export all": [
-		"Esporta tutto"
+		"Exportovať všetko"
 	],
 	"Export all notes as JEX": [
-		"Esporta tutte le note come JEX"
+		"Exportovať všetky poznámky ako JEX"
 	],
 	"Export debug report": [
-		"Esporta il report di debug"
+		"Exportovať správu o ladení"
 	],
 	"Export Debug Report": [
-		"Esporta il Report di Debug"
+		"Exportovať správu o ladení"
 	],
 	"Export profile": [
-		"Esporta profilo"
+		"Exportovať profil"
 	],
 	"Exported successfully!": [
-		"Esportato con successo!"
+		"Úspešne exportované!"
 	],
 	"Exporting profile...": [
-		"Esportazione profilo..."
+		"Exportuje sa profil..."
 	],
 	"Exporting to \"%s\" as \"%s\" format. Please wait...": [
-		"Esportazione da \"%s\" in formato \"%s\". Per favore attendere..."
+		"Exportuje sa do formátu „%s“ ako „%s“. Počkajte prosím..."
 	],
 	"Exporting...": [
-		"Esportazione..."
+		"Exportovanie..."
 	],
 	"Exports Joplin data to the given path. By default, it will export the complete database including notebooks, notes, tags and resources.": [
-		"Esporta i dati da Joplin nella cartella selezionata. Come impostazione predefinita verrà esportato il database completo, inclusi i taccuini, note, etichette e risorse."
+		"Exportuje údaje aplikácie Joplin do zadanej cesty. V predvolenom nastavení sa exportuje kompletná databáza vrátane zápisníkov, poznámok, štítkov a zdrojov."
 	],
 	"Exports only the given note.": [
-		"Esporta solo la seguente nota."
+		"Exportuje iba danú poznámku."
 	],
 	"Exports only the given notebook.": [
-		"Esporta solo il seguente Taccuino."
+		"Exportuje iba daný zápisník."
 	],
 	"Fail-safe": [
-		"Fail-safe"
+		"Bezpečnostná poistka"
 	],
 	"Fail-safe: Do not wipe out local data when sync target is empty (often the result of a misconfiguration or bug)": [
-		"Fail-safe: Non rimuovere i dati locale quando la destinazione di sinc è vuota (spesso il risultato di una mal configurazione o di un bug)"
+		"Bezpečnosť pri poruche: Nevymažte lokálne údaje, keď je cieľ synchronizácie prázdny (často v dôsledku nesprávnej konfigurácie alebo chyby)."
 	],
 	"Fatal error:": [
-		"Errore fatale:"
+		"Závažná chyba:"
 	],
 	"Feature flags": [
-		"Flag di funzionalità"
+		"Príznaky funkcií"
 	],
 	"Fetched items: %d/%d.": [
-		"Elementi recuperati: %d/%d."
+		"Načítané položky: %d/%d."
 	],
 	"Fetching resources: %d/%d": [
-		"Recupero risorse: %d/%d"
+		"Načítavanie zdrojov: %d/%d"
 	],
 	"File": [
-		"File"
+		"Súbor"
 	],
 	"File system": [
-		"File system"
+		"Systém súborov"
 	],
 	"Filter": [
-		"Filtra"
+		"Filter"
 	],
 	"Filter tags": [
-		"Filtra i tag"
+		"Filtrovať štítky"
 	],
 	"Find: ": [
-		"Trovato: "
+		"Nájsť: "
 	],
 	"Firefox Extension": [
-		"Estensione Firefox"
+		"Rozšírenie Firefoxu"
 	],
 	"Fix search index": [
-		"Correggi indice di ricerca"
+		"Opraviť index vyhľadávania"
 	],
 	"Fixing search index...": [
-		"Correzione indice di ricerca..."
+		"Oprava indexu vyhľadávania..."
 	],
 	"Focus": [
-		"Focus"
+		"Prejsť na"
 	],
 	"Focus body": [
-		"Focus sul testo"
+		"Prejsť na telo"
 	],
 	"Focus title": [
-		"Focus sul titolo"
+		"Prejsť na názov"
 	],
 	"Follow link": [
 		""
 	],
 	"For debugging purpose only: export your profile to an external SD card.": [
-		"Solo per scopo di debugging: esporta il tuo profilo su una scheda SD esterna."
+		"Len na účely ladenia: exportujte svoj profil na externú SD kartu."
 	],
 	"For example \"%s\"": [
-		"Per esempio \"%s\""
+		"Napríklad \"%s\""
 	],
 	"For information on how to customise the shortcuts please visit %s": [
-		"Per informazioni su come personalizzare le scorciatoie si prega di visitare %s"
+		"Informácie o prispôsobení skratiek nájdete na %s"
 	],
 	"For more information about End-To-End Encryption (E2EE) and advice on how to enable it please check the documentation:": [
-		"Per ulteriori informazioni sulla crittografia end-to-end (E2EE) e consigli su come abilitarlo, consultare la documentazione:"
+		"Ďalšie informácie o end-to-end šifrovaní (E2EE) a rady, ako ho aktivovať, nájdete v dokumentácii:"
 	],
 	"For the list of keyboard shortcuts and config options, type `help keymap`": [
-		"Per l'elenco delle scorciatoie da tastiera e delle opzioni di configurazione, digita `help keymap`"
+		"Pre zoznam klávesových skratiek a možností konfigurácie napíšte `help keymap`"
 	],
 	"Force path style": [
-		"Forzare lo stile del percorso"
+		"Vynútiť štýl cesty"
 	],
 	"Forward": [
-		"Invia"
+		"Vpred"
 	],
 	"Found: %d.": [
-		"Trovato: %d."
+		"Nájdené: %d."
 	],
 	"FTS enabled: %d": [
-		"FTS attivato: %d"
+		"FTS povolené: %d"
 	],
 	"Full changelog": [
-		"Changelog completo"
+		"Úplný zoznam zmien"
 	],
 	"Full name": [
-		"Nome e cognome"
+		"Celé meno"
 	],
 	"General": [
-		"Generale"
+		"Všeobecné"
 	],
 	"Generated": [
-		"Generato"
+		"Vygenerované"
 	],
 	"Generating link...": [
-		"Generazione link...",
-		"Generazione links..."
+		"Generovanie odkazu...",
+		"Generovanie odkazov...",
+		"Generovanie odkazov..."
 	],
 	"Geolocation, spellcheck, editor toolbar, image resize": [
-		"Posizione, controllo ortografico, barra strumenti di modifica, ridimensionamento immagini"
+		"Geografická poloha, kontrola pravopisu, panel s nástrojmi editora, zmena veľkosti obrázka"
 	],
 	"Get it now:": [
-		"Scaricalo subito:"
+		"Získať teraz:"
 	],
 	"Get pre-releases when checking for updates": [
-		"Ottieni pre-rilasci durante controllo aggiornamenti"
+		"Získajte predbežné vydania pri kontrole aktualizácií"
 	],
 	"Gets or sets a config value. If [value] is not provided, it will show the value of [name]. If neither [name] nor [value] is provided, it will list the current configuration.": [
-		"Ricevi o imposta un valore di configurazione. se [value] non è impostato, verrà mostrato il valore del [name]. Se sia [name] che [valore] sono impostati, verrà mostrata la configurazione corrente."
+		"Získa alebo nastaví konfiguračnú hodnotu. Ak nie je zadaná hodnota [value], zobrazí sa hodnota [name]. Ak nie je zadaný ani [name], ani [value], vypíše aktuálnu konfiguráciu."
 	],
 	"go": [
 		""
@@ -1454,440 +1456,441 @@
 		""
 	],
 	"Go to Joplin Cloud profile": [
-		"Vai al profilo Joplin Cloud"
+		"Prejdite na profil Joplin Cloud"
 	],
 	"Go to line": [
 		""
 	],
 	"Go to source URL": [
-		"Vai all'URL"
+		"Prejsť na zdrojovú URL"
 	],
 	"Goto Anything...": [
-		"Cerca ovunque..."
+		"Prejsť na čokoľvek..."
 	],
 	"Grant authorisation": [
-		"Concedi autorizzazione"
+		"Udeliť povolenie"
 	],
 	"Have you authorised the application login in the above URL?": [
-		"Hai autorizzato l'accesso nell'URL sopra?"
+		"Povolili ste prihlásenie aplikácie vo vyššie uvedenej URL adrese?"
 	],
 	"Header %d": [
-		"Intestazione %d"
+		"Hlavička %d"
 	],
 	"Heading": [
-		"Intestazione"
+		"Nadpis"
 	],
 	"Help": [
-		"Aiuto"
+		"Pomoc"
 	],
 	"Here's what we do to make plugins safer:": [
-		"Ecco come rendiamo i plugin più sicuri:"
+		"Tu sa dozviete, čo robíme, aby boli doplnky bezpečnejšie:"
 	],
 	"Hermes enabled: %d": [
-		"Hermes attivato: %d"
+		"Hermes povolené: %d"
 	],
 	"Hide %s": [
-		"Nascondi %s"
+		"Skryť %s"
 	],
 	"Hide advanced": [
-		"Nascondi avanzato"
+		"Skryť pokročilé"
 	],
 	"Hide disabled": [
-		"Nascondi disabilitato"
+		"Skryť zakázané"
 	],
 	"Hide disabled keys": [
-		"Nascondi i tasti disabilitati"
+		"Skryť zakázané kľúče"
 	],
 	"Hide Joplin": [
-		"Nascondi Joplin"
+		"Skryť Joplin"
 	],
 	"Hide keyboard": [
-		"Nascondi tastiera"
+		"Skryť klávesnicu"
 	],
 	"Highlight": [
-		"Evidenzia"
+		"Zvýrazniť"
 	],
 	"Home": [
-		"Home"
+		"Domov"
 	],
 	"Horizontal Rule": [
-		"Riga orizzontale"
+		"Horizontálne pravidlo"
 	],
 	"HTML Directory": [
-		"Cartella HTML"
+		"HTML priečinok"
 	],
 	"HTML document": [
-		"Documento HTML"
+		"HTML dokument"
 	],
 	"HTML File": [
-		"File HTML"
+		"Súbor HTML"
 	],
 	"Hyperlink": [
-		"Collegamento ipertestuale"
+		"Hypertextový odkaz"
 	],
 	"Icon": [
-		"Icona"
+		"Ikona"
 	],
 	"ID": [
 		"ID"
 	],
 	"Idle": [
-		"Inattivo"
+		"Nečinné"
 	],
 	"If you have already authorised, please wait for the application to sync to Joplin Cloud.": [
-		"Se hai già concesso l'autorizzazione, aspetta che l'app si sincronizzi con Joplin Cloud."
+		"Ak ste už overili, počkajte, kým sa aplikácia zosynchronizuje s Joplin Cloud."
 	],
 	"Ignore": [
-		"Ignora"
+		"Ignorovať"
 	],
 	"Ignore TLS certificate errors": [
-		"Ignora gli errori del certificato TLS"
+		"Ignorovať chyby certifikátu TLS"
 	],
 	"Ignored items that cannot be synchronised": [
-		"Elementi ignorati che non possono essere sincronizzati"
+		"Ignorovať položky, ktoré nie je možné synchronizovať"
 	],
 	"Images": [
-		"Immagini"
+		"Obrázky"
 	],
 	"Import": [
-		"Importa"
+		"Importovať"
 	],
 	"Import and Export": [
-		"Importazione e Esportazione"
+		"Import a export"
 	],
 	"Import failed. Make sure a JEX file was selected.\nDetails: %s": [
-		"Importazione fallita. Controlla di aver selezionato un file JEX.Dettagli: %s"
+		"Import sa nepodaril. Skontrolujte, či bol vybraný súbor JEX.\nPodrobnosti: %s"
 	],
 	"Import from JEX": [
-		"Importa da JEX"
+		"Importovať z JEX"
 	],
 	"Import notes from a JEX (Joplin Export) file.": [
-		"Importa note da un file JEX (Joplin Export)."
+		"Importovať poznámky zo súboru JEX (Joplin Export)."
 	],
 	"Import or export your data": [
-		"Importa o esporta i tuoi dati"
+		"Importujte alebo exportujte svoje údaje"
 	],
 	"Imported successfully!": [
-		"Importato con successo!"
+		"Úspešne importované!"
 	],
 	"Importing from \"%s\" as \"%s\" format. Please wait...": [
-		"Importazione da \"%s\" come formato \"%s\". Si prega di attendere..."
+		"Importovanie z formátu „%s“ ako „%s“. Počkajte prosím..."
 	],
 	"Importing notes...": [
-		"Importazione delle note..."
+		"Importovanie poznámok..."
 	],
 	"Importing...": [
-		"Importazione..."
+		"Importuje sa..."
 	],
 	"Imports data into Joplin.": [
-		"Importa i dati in Joplin."
+		"Importuje údaje do Joplin."
 	],
 	"In \"Manual\" mode, attachments are downloaded only when you click on them. In \"Auto\", they are downloaded when you open the note. In \"Always\", all the attachments are downloaded whether you open the note or not.": [
-		"In modalità \"Manuale\", gli allegati sono scaricati solo quando si clicca su di essi. In \"Auto\" sono scaricati quando si apre la nota. In \"Sempre\" tutti gli allegati sono scaricati sia che si apra o no la nota."
+		"V režime „Manuálne“ sa prílohy sťahujú len vtedy, keď na ne kliknete. V režime „ Automaticky“ sa sťahujú pri otvorení poznámky. V režime „Vždy“ sa stiahnu všetky prílohy bez ohľadu na to, či poznámku otvoríte alebo nie."
 	],
 	"In any command, a note or notebook can be referred to by title or ID, or using the shortcuts `$n` or `$b` for, respectively, the currently selected note or notebook. `$c` can be used to refer to the currently selected item.": [
-		"In ciascun comando, si deve necessariamente definire una Nota o un Taccuino usando un titolo, un ID o usando le scorciatoie `$n` or `$b` per , rispettivamente, la nota o il Taccuino selezionato `$c` può essere usato per fare riferimento all'elemento selezionato."
+		"V každom príkaze sa na poznámku alebo zápisník môžete odvolať pomocou názvu alebo ID, alebo pomocou skratiek `$n` alebo `$b` pre aktuálne vybranú poznámku alebo zápisník. Na označenie aktuálne vybranej položky možno použiť `$c`."
 	],
 	"In order to associate a geo-location with the note, the app needs your permission to access your location.\n\nYou may turn off this option at any time in the Configuration screen.": [
-		"Per associare una geolocalizzazione alla nota, l'applicazione ha bisogno del permesso per accedere alla posizione.\n\nPuoi cambiare questa impostazione nel menu Configurazione."
+		"Aby mohla aplikácia priradiť geografickú polohu k poznámke, potrebuje vaše povolenie na prístup k vašej polohe.\n\nTúto možnosť môžete kedykoľvek vypnúť na stránke Nastavenie."
 	],
 	"In order to do so, your entire data set will have to be encrypted and synchronised, so it is best to run it overnight.\n\nTo start, please follow these instructions:\n\n1. Synchronise all your devices.\n2. Click \"%s\".\n3. Let it run to completion. While it runs, avoid changing any note on your other devices, to avoid conflicts.\n4. Once sync is done on this device, sync all your other devices and let it run to completion.\n\nImportant: you only need to run this ONCE on one device.": [
-		"Per farlo, il tuo intero data set deve essere criptato e sincronizzato, quindi è consigliabile lasciarlo fare di notte.\n\nPer iniziare, segui queste indicazioni:\n\n1. Sincronizza tutti i tuoi dispositivi.\n2. Clicca \"%s\".\n3. Aspetta che l'operazione venga completata. Per evitare conflitti, evita di modificare le note durante questo lasso di tempo.\n4. Una volta che questo dispositivo è stato sincronizzato, sincronizza tutti i dispositivi rimanenti e aspetta che finisca.\n\nImportante: questa operazione va eseguita SOLO UNA VOLTA in UN dispositivo."
+		"Na tento účel bude potrebné zašifrovať a synchronizovať celý súbor údajov, preto je najlepšie spustiť ho cez noc.\n\nAk chcete začať, postupujte podľa týchto pokynov:\n\n1. Synchronizujte všetky svoje zariadenia.\n2. Kliknite na tlačidlo „%s“.\n3. Nechajte funkciu bežať až do konca. Počas jej spustenia sa vyhnite zmene akejkoľvek poznámky na ostatných zariadeniach, aby ste predišli konfliktom.\n4. Po dokončení synchronizácie na tomto zariadení synchronizujte všetky ostatné zariadenia a nechajte ju prebehnúť do konca.\n\nDôležité: je potrebné to spustiť iba JEDENKRÁT na jednom zariadení."
 	],
 	"In order to synchronise, please upgrade your application to version %s+": [
-		"Per poter sincronizzare, aggiorna l'app alla versione %s+"
+		"Ak chcete synchronizovať, aktualizujte svoju aplikáciu na verziu %s+"
 	],
 	"In order to use file system synchronisation your permission to write to external storage is required.": [
-		"Per usare la sincronizzazione del file system è necessario il tuo permesso di scrittura sulla memoria esterna."
+		"Ak chcete používať synchronizáciu súborového systému, je potrebné povolenie na zápis do externého úložiska."
 	],
 	"In order to use the web clipper, you need to do the following:": [
-		"Per utilizzare il web clipper, devi fare quanto segue:"
+		"Ak chcete používať web clipper, musíte vykonať nasledujúce kroky:"
 	],
 	"In progress": [
-		"In corso"
+		"Prebieha"
 	],
 	"In: %s": [
-		"In: %s"
+		"V: %s"
 	],
 	"Incompatible": [
-		"Incompatibile"
+		"Nekompatibilné"
 	],
 	"Increase indent level": [
-		"Aumenta il livello di rientro"
+		"Zvýšiť úroveň odsadenia"
 	],
 	"Indent less": [
-		"Meno rientro"
+		"Odsadiť menej"
 	],
 	"Indent more": [
-		"Più rientro"
+		"Odsadiť viac"
 	],
 	"Info": [
 		""
 	],
 	"Information": [
-		"Informazioni"
+		"Informácie"
 	],
 	"Inline Code": [
-		"Codice inline"
+		"Vnorený kód"
 	],
 	"Insert": [
-		"Inserisci"
+		"Vložiť"
 	],
 	"Insert Hyperlink": [
-		"Inserire collegamento ipertestuale"
+		"Vložiť hypertextový odkaz"
 	],
 	"Insert time": [
-		"Inserisci data e ora"
+		"Vložiť čas"
 	],
 	"Install": [
-		"Installa"
+		"Inštalovať"
 	],
 	"Install from file": [
-		"Installa da file"
+		"Inštalácia zo súboru"
 	],
 	"Installed": [
-		"Installato"
+		"Nainštalované"
 	],
 	"Installed (%d):": [
-		"Installato (%d):"
+		"Nainštalované (%d):"
 	],
 	"Installing...": [
-		"Installazione..."
+		"Inštaluje sa..."
 	],
 	"Invalid": [
-		"Non valido"
+		"Neplatné"
 	],
 	"Invalid %s: %s.": [
-		"%s non valido: %s."
+		"Neplatné %s: %s."
 	],
 	"Invalid answer: %s": [
-		"Risposta non valida: %s"
+		"Neplatná odpoveď: %s"
 	],
 	"Invalid command: \"%s\"": [
-		"Comando non valido: \"%s\""
+		"Neplatný príkaz: \"%s\""
 	],
 	"Invalid option value: \"%s\". Possible values are: %s.": [
-		"Opzione non valida: \"%s\". I valori possibili sono: %s."
+		"Neplatná hodnota možnosti: „%s“. Možné hodnoty sú: %s."
 	],
 	"Invalid password": [
-		"Password non valida"
+		"Neplatné heslo"
 	],
 	"iOS version: %s": [
-		"versione iOS: %s"
+		"iOS verzia: %s"
 	],
 	"Italic": [
-		"Corsivo"
+		"Kurzíva"
 	],
 	"Item \"%s\" could not be downloaded: %s": [
-		"Elemento \"%s\" non può essere scaricato: %s"
+		"Položku \"%s\" nebolo možné stiahnuť: %s"
 	],
 	"Items": [
-		"Elementi"
+		"Položky"
 	],
 	"Items that cannot be decrypted": [
-		"Elementi che non possono essere decriptati"
+		"Položky, ktoré sa nedajú dešifrovať"
 	],
 	"Items that cannot be synchronised": [
-		"Elementi che non possono essere sincronizzati"
+		"Položky, ktoré sa nedajú synchronizovať"
 	],
 	"Joplin can synchronise your notes using various providers. Select one from the list below.": [
-		"Joplin può sincronizzare le tue note utilizzando vari provider. Seleziona uno dalla lista sotto."
+		"Joplin dokáže synchronizovať vaše poznámky pomocou rôznych poskytovateľov. Vyberte niektorého z nich z nižšie uvedeného zoznamu."
 	],
 	"Joplin Cloud": [
 		"Joplin Cloud"
 	],
 	"Joplin Cloud Login": [
-		"Accedi a Joplin Cloud"
+		"Prihlásenie do Joplin Cloud"
 	],
 	"Joplin Desktop": [
 		"Joplin Desktop"
 	],
 	"Joplin doesn't recognise the %s extension. Opening this file could be dangerous. What would you like to do?": [
-		"Joplin non riconosce l'estensione %s. L'apertura di questo file potrebbe essere pericolosa. Cosa vorresti fare?"
+		"Joplin nerozpoznáva príponu %s. Otvorenie tohto súboru môže byť nebezpečné. Čo by ste chceli urobiť?"
 	],
 	"Joplin Export Directory": [
-		"Cartella di esportazione di Joplin"
+		"Priečinok exportu Joplin"
 	],
 	"Joplin Export File": [
-		"Esporta file di Joplin"
+		"Exportný súbor Joplin"
 	],
 	"Joplin failed to decrypt these items multiple times, possibly because they are corrupted or too large. These items will remain on the device but Joplin will no longer attempt to decrypt them.": [
-		"Joplin ha fallito la decriptazione di questi elementi più volte, forse perché sono corrotti o troppo grandi. Questi elementi rimarranno sul dispositivo, ma Joplin non proverà più a decriptarli."
+		"Aplikácii Joplin sa tieto položky viackrát nepodarilo dešifrovať, pravdepodobne preto, že sú poškodené alebo príliš veľké. Tieto položky zostanú v zariadení, ale Joplin sa ich už nebude pokúšať dešifrovať."
 	],
 	"Joplin Forum": [
-		"Joplin Forum"
+		"Joplin Fórum"
 	],
 	"Joplin Mobile": [
-		"Joplin Mobile"
+		"Joplin Mobil"
 	],
 	"Joplin Server": [
 		"Joplin Server"
 	],
 	"Joplin Server email": [
-		"Email Server Joplin"
+		"Email servera Joplin"
 	],
 	"Joplin Server password": [
-		"Password Joplin Server"
+		"Heslo servera Joplin"
 	],
 	"Joplin Server URL": [
-		"URL Joplin Server"
+		"URL servera Joplin"
 	],
 	"Joplin Web Clipper allows saving web pages and screenshots from your browser to Joplin.": [
-		"Joplin Web Clipper consente di salvare pagine Web e schermate dal tuo browser in a Joplin."
+		"Joplin Web Clipper umožňuje ukladanie webových stránok a snímok obrazovky z vášho prehliadača do aplikácie Joplin."
 	],
 	"Joplin website": [
-		"Sito web Joplin"
+		"Webová stránka Joplin"
 	],
 	"Joplin's own sync service. Also gives access to Joplin-specific features such as publishing notes or collaborating on notebooks with others.": [
-		"Il servizio di sincronizzazione di Joplin. Dà anche accesso a funzionalità specifiche di Joplin come la pubblicazione di note o la collaborazione su taccuini con altri."
+		"Vlastná synchronizačná služba aplikácie Joplin. Poskytuje tiež prístup k funkciám špecifickým pre Joplin, ako je publikovanie poznámok alebo spolupráca na zápisníkoch s ostatnými."
 	],
 	"Keep note history for": [
-		"Mantieni la cronologia note per"
+		"Uchovávať históriu poznámok po dobu"
 	],
 	"Keep notes in the trash for": [
-		"Mantieni le note nel cestino per"
+		"Uchovávať poznámky v koši po dobu"
 	],
 	"Keyboard Mode": [
-		"Modalità Tastiera"
+		"Režim klávesnice"
 	],
 	"Keyboard Shortcut": [
-		"Scorciatoie da tastiera"
+		"Klávesová skratka"
 	],
 	"Keyboard Shortcuts": [
-		"Scorciatoie da tastiera"
+		"Klávesové skratky"
 	],
 	"Keychain Supported: %s": [
-		"Portachiavi supportato: %s"
+		"Podporovaný zväzok kľúčov: %s"
 	],
 	"Keys that need upgrading": [
-		"Chiavi master che devono essere aggiornate"
+		"Kľúče, ktoré si vyžadujú aktualizáciu"
 	],
 	"Landscape": [
-		"Orizzontale"
+		"Na šírku"
 	],
 	"Language": [
-		"Lingua"
+		"Jazyk"
 	],
 	"Language, date format": [
-		"Lingua, formato della data"
+		"Jazyk, formát dátumu"
 	],
 	"Last error: %s": [
-		"Ultimo errore: %s"
+		"Posledná chyba: %s"
 	],
 	"Later": [
-		"Dopo"
+		"Neskôr"
 	],
 	"Latitude": [
-		"Latitudine"
+		"Zemepisná šírka"
 	],
 	"Layout": [
-		"Disposizione"
+		"Rozloženie"
 	],
 	"Layout button sequence": [
-		"Layout della sequenza tasti"
+		"Sekvencia tlačidiel rozloženia"
 	],
 	"Learn more": [
-		"Per saperne di più"
+		"Viac informácií"
 	],
 	"Leave it blank to download the language files from the default website": [
-		"Lasciarlo vuoto per scaricare i file della lingua dal sito Web predefinito"
+		"Ak chcete prevziať jazykové súbory z predvolenej webovej lokality, nechajte pole prázdne"
 	],
 	"Leave notebook": [
-		"Lascia il taccuino"
+		"Opustiť zápisník"
 	],
 	"Leave notebook...": [
-		"Lascia il taccuino..."
+		"Opustiť zápisník..."
 	],
 	"Legal": [
-		"Legale"
+		"Legal"
 	],
 	"Letter": [
-		"Lettera"
+		"List"
 	],
 	"Light": [
-		"Chiaro"
+		"Svetlá"
 	],
 	"Like any software you install, plugins can potentially cause security issues or data loss.": [
-		"Come ogni programma che installi, i plugin possono causare problemi di sicurezza o perdita di dati."
+		"Tak ako každý nainštalovaný softvér, aj doplnky môžu potenciálne spôsobiť problémy so zabezpečením alebo stratu údajov."
 	],
 	"Lines": [
-		"Linee"
+		"Čiary"
 	],
 	"Link": [
-		"Link"
+		"Odkaz"
 	],
 	"Link description": [
-		"Descrizione del collegamento"
+		"Popis odkazu"
 	],
 	"Link has been copied to clipboard!": [
-		"Il link è stato copiato negli appunti!",
-		"I link sono stati copiati negli appunti!"
+		"Odkaz bol skopírovaný do schránky!",
+		"Odkazy bol skopírované do schránky!",
+		"Odkazy bol skopírované do schránky!"
 	],
 	"Link text": [
-		"Collega il testo"
+		"Text odkazu"
 	],
 	"List item": [
-		"Elemento della lista"
+		"Položka zoznamu"
 	],
 	"Loaded": [
-		"Caricato"
+		"Načítané"
 	],
 	"Loading...": [
-		"Caricamento..."
+		"Načítava sa..."
 	],
 	"Location": [
-		"Posizione"
+		"Poloha"
 	],
 	"Lock file is already being hold. If you know that no synchronisation is taking place, you may delete the lock file at \"%s\" and resume the operation.": [
-		"Trovato un file di blocco. Se si è certi che non è in corso alcuna sincronizzazione, è possibile eliminare il file di blocco in \"%s\" e riprendere l'operazione."
+		"Súbor zámku sa už uchováva. Ak viete, že žiadna synchronizácia neprebieha, môžete odstrániť súbor zámku na „%s“ a pokračovať v operácii."
 	],
 	"Log": [
-		"Log"
+		"Záznam"
 	],
 	"Login to Joplin Cloud.": [
-		"Accedi a Joplin Cloud."
+		"Prihláste sa do Joplin Cloud."
 	],
 	"Login with Dropbox": [
-		"Login Dropbox"
+		"Prihláste sa cez Dropbox"
 	],
 	"Login with OneDrive": [
-		"Accedi a OneDrive"
+		"Prihláste sa cez OneDrive"
 	],
 	"Logout": [
-		"Logout"
+		"Odhlásiť sa"
 	],
 	"Logs, profiles, sync status": [
-		"Registri, profili, stato sincronizzazione"
+		"Záznamy, profily, stav synchronizácie"
 	],
 	"Longitude": [
-		"Longitudine"
+		"Zemepisná dĺžka"
 	],
 	"Make a donation": [
-		"Fai una donazione"
+		"Prispejte"
 	],
 	"Manage master password": [
-		"Gestisci la password principale"
+		"Spravovať hlavné heslo"
 	],
 	"Manage master password...": [
-		"Gestisci la password principale..."
+		"Spravovať hlavné heslo..."
 	],
 	"Manage multiple users": [
-		"Gestisci più utenti"
+		"Spravovať viacerých používateľov"
 	],
 	"Manage profiles": [
-		"Gestisci i profili"
+		"Spravovať profily"
 	],
 	"Manage shared notebooks": [
-		"Gestisci i taccuini condivisi"
+		"Spravovať zdieľané zápisníky"
 	],
 	"Manage your plugins": [
-		"Gestisci plugins"
+		"Spravovať svoje doplnky"
 	],
 	"Manages E2EE configuration. Commands are `enable`, `disable`, `decrypt`, `status`, `decrypt-file`, and `target-status`.": [
-		"Gestisci la configurazione E2EE. I comandi sono `abilita`, `disabilita`, `decripta`, `stato`, `decripta-file` e `stato-target`."
+		"Spravuje konfiguráciu E2EE. Príkazy sú `enable`, `disable`, `decrypt`, `status`, `decrypt-file`, a `target-status`."
 	],
 	"Manual": [
-		"Manuale"
+		"Manuálne"
 	],
 	"Markdown": [
 		"Markdown"
@@ -1896,22 +1899,22 @@
 		"Markdown + Front Matter"
 	],
 	"Marks a to-do as done.": [
-		"Segna un \"Cose-da-fare\" come completato."
+		"Označí úlohu ako hotovú."
 	],
 	"Marks a to-do as non-completed.": [
-		"Marca un \"Cose-da-fare\" come non completata."
+		"Označí úlohu ako nedokončenú."
 	],
 	"Markup": [
-		"Marcatura"
+		"Markup"
 	],
 	"Master Key %s": [
-		"Chiave Master %s"
+		"Hlavný kľúč %s"
 	],
 	"Master password": [
-		"Password principale"
+		"Hlavné heslo"
 	],
 	"Master password:": [
-		"Password principale:"
+		"Hlavné heslo:"
 	],
 	"match case": [
 		""
@@ -1920,67 +1923,67 @@
 		""
 	],
 	"Max concurrent connections": [
-		"Massimo numero di connessioni concorrenti"
+		"Maximálny počet súbežných pripojení"
 	],
 	"Max Item Size": [
-		"Dimensione massima dell'articolo"
+		"Maximálna veľkosť položky"
 	],
 	"Max note or attachment size": [
-		"Dimensione massima della nota o dell'allegato"
+		"Maximálna veľkosť poznámky alebo prílohy"
 	],
 	"Max Total Size": [
-		"Dimensione totale massima"
+		"Maximálna celková veľkosť"
 	],
 	"Media player, math, diagrams, table of contents": [
-		"Lettore multimediale, matematica, diagrammi, indice"
+		"Prehrávač médií, matematika, diagramy, obsah"
 	],
 	"Minimise": [
-		"Minimizza"
+		"Minimalizovať"
 	],
 	"Missing keys": [
-		"Tasti mancanti"
+		"Chýbajúce kľúče"
 	],
 	"Missing Master Keys": [
-		"Chiave master mancante"
+		"Chýbajúce hlavné kľúče"
 	],
 	"Missing required argument: %s": [
-		"Argomento richiesto mancante: %s"
+		"Chýba požadovaný argument: %s"
 	],
 	"Missing required flag value: %s": [
-		"Flag richiesta mancante: %s"
+		"Chýba požadovaná hodnota príznaku: %s"
 	],
 	"Mobile data - auto-sync disabled": [
-		"Sincronizzazione automatica con dati mobili disattivata"
+		"Mobilné dáta – automatická synchronizácia je vypnutá"
 	],
 	"More info": [
-		"Maggiori informazioni"
+		"Viac informácií"
 	],
 	"More information": [
-		"Maggiori informazioni"
+		"Viac informácií"
 	],
 	"More than one item match \"%s\". Please narrow down your query.": [
-		"Più di un elemento corrisponde a \"%s\". Per favore restringi la ricerca."
+		"Viac ako jedna položka zodpovedá „%s“. Zúžte prosím vašu požiadavku."
 	],
 	"Most plugins have source code available for review on the plugin website.": [
-		"La maggior parte dei plugin ha il codice sorgente disponibile per la revisione sul sito web del plugin."
+		"Väčšina doplnkov má zdrojový kód k dispozícii na kontrolu na webovej stránke doplnku."
 	],
 	"Move %d notes to notebook \"%s\"?": [
-		"Spostare le note %d sul Taccuino \"%s\"?"
+		"Presunúť %d poznámok do zápisníka „%s“?"
 	],
 	"Move notebook \"%s\" to the trash?\n\nAll notes and sub-notebooks within this notebook will also be moved to the trash.": [
-		"Spostare il taccuino \"%s\" nel cestino?\n\nAnche tutte le note e cartelle di questo taccuino saranno spostate nel cestino."
+		"Presunúť zápisník \"%s\" do koša?\n\nDo koša sa presunú aj všetky poznámky a podradené zápisníky v tomto zápisníku."
 	],
 	"Move to notebook": [
-		"Sposta sul taccuino"
+		"Presunúť do zápisníka"
 	],
 	"Move to notebook...": [
-		"Sposta sul Taccuino..."
+		"Presunúť do zápisníka..."
 	],
 	"Move to notebook:": [
-		"Sposta sul taccuino:"
+		"Presunúť do zápisníka:"
 	],
 	"Moves the given <item> to [notebook]": [
-		"Sposta la <item> selezionata in [notebook]."
+		"Presunie danú <položku> do [zápisníka]"
 	],
 	"n": [
 		"n"
@@ -1989,196 +1992,196 @@
 		"N"
 	],
 	"Never resize": [
-		"Non ridimensionare mai"
+		"Nikdy nemeniť veľkosť"
 	],
 	"New invitations": [
-		"Nuovi inviti"
+		"Nové pozvánky"
 	],
 	"New note": [
-		"Nuova nota"
+		"Nová poznámka"
 	],
 	"New notebook": [
-		"Nuovo taccuino"
+		"Nový zápisník"
 	],
 	"New Notebook": [
-		"Nuovo taccuino"
+		"Nový zápisník"
 	],
 	"New notebook \"%s\" will be created and file \"%s\" will be imported into it": [
-		"Il nuovo Taccuino \"%s\" verrà creato e \"%s\" verrà importato"
+		"Vytvorí sa nový zápisník \"%s\" a importuje sa doň súbor \"%s\""
 	],
 	"New sub-notebook": [
-		"Nuovo sotto-taccuino"
+		"Nový pod-zápisník"
 	],
 	"New tags:": [
-		"Nuovi tag:"
+		"Nové značky:"
 	],
 	"New to-do": [
-		"Nuovo \"Cose-da-fare\""
+		"Nová úloha"
 	],
 	"New version: %s": [
-		"Nuova versione: %s"
+		"Nová verzia: %s"
 	],
 	"next": [
 		""
 	],
 	"Next match": [
-		"Prossima occorrenza"
+		"Ďalšia zhoda"
 	],
 	"Nextcloud": [
 		"Nextcloud"
 	],
 	"Nextcloud password": [
-		"Password Nextcloud"
+		"Heslo Nextcloud"
 	],
 	"Nextcloud username": [
-		"Nome Utente Nextcloud"
+		"Používateľské meno Nextcloud"
 	],
 	"Nextcloud WebDAV URL": [
-		"URL Nextcloud WebDAV"
+		"Nextcloud WebDAV URL adresa"
 	],
 	"no": [
-		"no"
+		"nie"
 	],
 	"No": [
-		"No"
+		"Nie"
 	],
 	"No active notebook.": [
-		"Nessun Taccuino attivo."
+		"Žiadny aktívny zápisník."
 	],
 	"No new invitations": [
-		"Nessun nuovo invito"
+		"Žiadne nové pozvánky"
 	],
 	"No notebook has been specified.": [
-		"Nessun taccuino è stato specificato."
+		"Nebol zadaný žiadny zápisník."
 	],
 	"No notebook selected.": [
-		"Nessun taccuino selezionato."
+		"Nie je vybratý žiadny zápisník."
 	],
 	"No notes in here. Create one by clicking on \"New note\".": [
-		"Non è presente nessuna nota. Creane una cliccando \"Nuova nota\"."
+		"Nie sú tu žiadne poznámky. Vytvorte ju kliknutím na „Nová poznámka“."
 	],
 	"No plugins are installed.": [
-		"Nessun plugin installato."
+		"Nie sú nainštalované žiadne doplnky."
 	],
 	"No resources!": [
-		"Nessuna risorsa!"
+		"Žiadne zdroje!"
 	],
 	"No results": [
-		"Nessun risultato"
+		"Žiadne výsledky"
 	],
 	"No such command: %s": [
-		"Nessun comando: %s"
+		"Žiadny takýto príkaz neexituje: %s"
 	],
 	"No suggestions": [
-		"Nessun suggerimento"
+		"Žiadne návrhy"
 	],
 	"No tab selected": [
-		"Nessuna scheda selezionata"
+		"Nie je vybratá žiadna karta"
 	],
 	"No text editor is defined. Please set it using `config editor <editor-path>`": [
-		"Non è definito nessun editor di testo. Per favore impostalo usando `config editor <editor-path>`"
+		"Nie je definovaný žiadny textový editor. Nastavte ho pomocou príkazu `config editor <cesta k editoru>`"
 	],
 	"Nord": [
 		"Nord"
 	],
 	"Not authenticated with %s. Please provide any missing credentials.": [
-		"Non autenticato con %s. Si prega di fornire le credenziali mancanti."
+		"Nie je overené pomocou %s. Uveďte všetky chýbajúce poverenia."
 	],
 	"Not downloaded": [
-		"Non scaricato"
+		"Nestiahnuté"
 	],
 	"Not generated": [
-		"Non generato"
+		"Nevygenerované"
 	],
 	"Not now": [
-		"Non ora"
+		"Teraz nie"
 	],
 	"note": [
-		"nota"
+		"pozn"
 	],
 	"Note": [
-		"Nota"
+		"Poznámka"
 	],
 	"Note area growth factor": [
-		"Fattore di crescita dell'area note"
+		"Faktor rastu plochy poznámky"
 	],
 	"Note attachments": [
-		"Allegati"
+		"Prílohy poznámok"
 	],
 	"Note attachments...": [
-		"Allegati..."
+		"Prílohy poznámok..."
 	],
 	"Note body": [
-		"Corpo della nota"
+		"Telo poznámky"
 	],
 	"Note does not exist: \"%s\". Create it?": [
-		"Non esiste la nota: \"%s\". Desideri crearla?"
+		"Poznámka neexistuje: „%s“. Vytvoriť ju?"
 	],
 	"Note editor": [
-		"Redattore di note"
+		"Editor poznámok"
 	],
 	"Note has been saved.": [
-		"La nota è stata salvata."
+		"Poznámka bola uložená."
 	],
 	"Note History": [
-		"Cronologia nota"
+		"História poznámok"
 	],
 	"Note is not a to-do: \"%s\"": [
-		"La nota non è un \"Cose-da-fare\": \"%s\""
+		"Poznámka nie je úlohou: \"%s\""
 	],
 	"Note list": [
-		"Lista della nota"
+		"Zoznam poznámok"
 	],
 	"Note list growth factor": [
-		"Fattore di crescita della lista note"
+		"Rastový faktor zoznamu poznámok"
 	],
 	"Note list style": [
-		"Stile dell'elenco delle note"
+		"Štýl zoznamu poznámok"
 	],
 	"Note properties": [
-		"Proprietà della nota"
+		"Vlastnosti poznámky"
 	],
 	"Note title": [
-		"Titolo della nota"
+		"Názov poznámky"
 	],
 	"Note&book": [
-		"Taccuino"
+		"Zápisník"
 	],
 	"Note: Does not work in all desktop environments.": [
-		"Nota: non funziona in tutti gli ambienti desktop."
+		"Poznámka: Nefunguje vo všetkých počítačových prostrediach."
 	],
 	"Note: When a note is shared, it will no longer be encrypted on the server.": [
-		"Nota: Quando una nota è condivisa, non sarà più criptata nel server."
+		"Poznámka: Keď je poznámka zdieľaná, nebude už na serveri šifrovaná."
 	],
 	"Notebook": [
-		"Taccuini"
+		"Zápisník"
 	],
 	"Notebook list growth factor": [
-		"Fattore di crescita del taccuino"
+		"Rastový faktor zoznamu zápisníkov"
 	],
 	"Notebook: %s": [
-		"Taccuini: %s"
+		"Zápisník: %s"
 	],
 	"Notebook: %s (%s)": [
-		"Taccuini: %s (%s)"
+		"Zápisník: %s (%s)"
 	],
 	"Notebooks": [
-		"Taccuini"
+		"Zápisníky"
 	],
 	"Notebooks cannot be named \"%s\", which is a reserved title.": [
-		"I blocchi non possono essere chiamati \"%s\". È un titolo riservato."
+		"Zápisníky nemôžu byť pomenované ako „%s“, pretože ide o vyhradený názov."
 	],
 	"Notes": [
-		"Note"
+		"Poznámky"
 	],
 	"Notes and settings are stored in: %s": [
-		"Le note e le impostazioni sono memorizzate in: %s"
+		"Poznámky a nastavenia sú uložené v: %s"
 	],
 	"Notes can only be created within a notebook.": [
-		"Le note possono essere create all'interno del Taccuino."
+		"Poznámky možno vytvárať len v rámci zápisníka."
 	],
 	"Numbered List": [
-		"Elenco numerato"
+		"Číslovaný zoznam"
 	],
 	"OCR: Clear cache and re-download language data files": [
 		""
@@ -2187,214 +2190,214 @@
 		"OK"
 	],
 	"OLED Dark": [
-		"Scuro OLED"
+		"OLED Tmavá"
 	],
 	"On %s: %s": [
-		"Su %s: %s"
+		"Dňa %s: %s"
 	],
 	"on line": [
 		""
 	],
 	"One of your master keys use an obsolete encryption method.": [
-		"Una delle tue chiavi master usano un metodo di crittografia obsoleto."
+		"Jeden z vašich hlavných kľúčov používa zastaranú metódu šifrovania."
 	],
 	"One or more items are currently encrypted and you may need to supply a master password. To do so please type `e2ee decrypt`. If you have already supplied the password, the encrypted items are being decrypted in the background and will be available soon.": [
-		"Uno o più elementi sono attualmente crittografati e potrebbe essere necessario fornire una password principale. Per fare ciò, digitare `e2ee decrypt`. Se hai già fornito la password, gli elementi crittografati vengono decifrati in background e saranno presto disponibile."
+		"Jedna alebo viac položiek je v súčasnosti zašifrovaných a možno bude potrebné zadať hlavné heslo. Na tento účel zadajte `e2ee decrypt`. Ak ste už heslo zadali, zašifrované položky sa dešifrujú na pozadí a čoskoro budú k dispozícii."
 	],
 	"One or more master keys need a password.": [
-		"Una o più chiavi master necessitano di una password."
+		"Jeden alebo viac hlavných kľúčov potrebuje heslo."
 	],
 	"OneDrive": [
 		"OneDrive"
 	],
 	"OneDrive Login": [
-		"Login OneDrive"
+		"OneDrive prihlásenie"
 	],
 	"Only one note can be printed at a time.": [
-		"Solo una nota alla volta può essere stampata."
+		"Súčasne je možné vytlačiť len jednu poznámku."
 	],
 	"Open": [
-		"Apri"
+		"Otvoriť"
 	],
 	"Open %s": [
-		"Aprire %s"
+		"Otvoriť %s"
 	],
 	"Open it": [
-		"Aprilo"
+		"Otvoriť s"
 	],
 	"Open PDF viewer": [
-		"Apri visualizzatore PDF"
+		"Otvoriť prehliadač PDF"
 	],
 	"Open profile directory": [
-		"Apri cartella modelli"
+		"Otvoriť priečinok profilu"
 	],
 	"Open Source": [
-		"Codice Sorgente disponibile"
+		"Otvoriť zdroj"
 	],
 	"Open Sync Wizard...": [
-		"Apri la procedura guidata di sincronizzazione..."
+		"Otvoriť Sprievodcu synchronizáciou..."
 	],
 	"Open...": [
-		"Apri..."
+		"Otvoriť..."
 	],
 	"Opening section %s": [
-		"Apertura sezione %s"
+		"Otváranie sekcie %s"
 	],
 	"Operation cancelled": [
-		"Operazione annullata"
+		"Operácia zrušená"
 	],
 	"Options": [
-		"Opzioni"
+		"Možnosti"
 	],
 	"Ordered list": [
-		"Lista ordinata"
+		"Usporiadaný zoznam"
 	],
 	"Other applications...": [
-		"Altre applicazioni..."
+		"Iné aplikácie..."
 	],
 	"Output format: %s": [
-		"Formato di esportazione: %s"
+		"Výstupný formát: %s"
 	],
 	"Page orientation for PDF export": [
-		"Orientamento pagina per l'esportazione in PDF"
+		"Orientácia strany pre export do PDF"
 	],
 	"Page size for PDF export": [
-		"Dimensione pagina per l'esportazione in PDF"
+		"Veľkosť strany pre export do PDF"
 	],
 	"Password": [
-		"Password"
+		"Heslo"
 	],
 	"Password cannot be empty": [
-		"La password non può essere vuota"
+		"Heslo nemôže byť prázdne"
 	],
 	"Password:": [
-		"Password:"
+		"Heslo:"
 	],
 	"Passwords do not match!": [
-		"Le password non combaciano!"
+		"Heslá sa nezhodujú!"
 	],
 	"Paste": [
-		"Incolla"
+		"Vložiť"
 	],
 	"Paste as text": [
-		"Incolla come testo"
+		"Vložiť ako text"
 	],
 	"Path:": [
-		"Percorso:"
+		"Cesta:"
 	],
 	"PDF File": [
-		"PDF File"
+		"Súbor PDF"
 	],
 	"Per user. Minimum of %d users.": [
-		"Per utente. Minimo %d utenti."
+		"Na používateľa. Minimálne %d používateľov."
 	],
 	"Permanently delete note": [
-		"Eliminare definitivamente le note selezionate"
+		"Natrvalo odstrániť poznámku"
 	],
 	"Permanently delete note \"%s\"?": [
-		"Eliminare definitivamente la nota \"%s\"?"
+		"Natrvalo odstrániť poznámku \"%s\"?"
 	],
 	"Permanently delete notebook \"%s\"?\n\nAll notes and sub-notebooks within this notebook will be permanently deleted.": [
-		"Eliminare definitivamente il taccuino \"%s\"?\n\nAnche tutte le note e sotto-taccuini di questo taccuino saranno eliminate definitivamente."
+		"Trvalo odstrániť zápisník „%s“?\n\nVšetky poznámky a podradené zápisníky v rámci tohto zápisníka budú natrvalo vymazané."
 	],
 	"Permanently delete these %d notes?": [
-		"Eliminare definitivamente queste %d note?"
+		"Natrvalo odstrániť týchto %d poznámok?"
 	],
 	"Permanently deletes the notebook, skipping the trash.": [
-		"Elimina definitivamente il taccuino, saltando il cestino."
+		"Trvalo odstráni zápisník, pričom vynechá kôš."
 	],
 	"Permission needed": [
-		"Permesso richiesto"
+		"Vyžaduje sa povolenie"
 	],
 	"Please click on \"%s\" to proceed, or set the passwords in the \"%s\" list below.": [
-		"Fare clic su \"%s\" per procedere oppure impostare le password nell'elenco \"%s\" di seguito."
+		"Pokračujte kliknutím na \"%s\" alebo nastavte heslá v zozname \"%s\" nižšie."
 	],
 	"Please confirm that you would like to re-encrypt your complete database.": [
-		"Per favore conferma di voler criptare nuovamente il tuo database per intero."
+		"Potvrďte prosím, že chcete znova zašifrovať vašu kompletnú databázu."
 	],
 	"Please enter your password in the master key list below before upgrading the key.": [
-		"Per favore inserisci la tua password nella chiave master qui sotto prima di aggiornare la chiave."
+		"Pred aktualizáciou kľúča zadajte svoje heslo do nižšie uvedeného zoznamu hlavných kľúčov."
 	],
 	"Please note that if it is a large notebook, it may take a few minutes for all the notes to show up on the recipient's device.": [
-		"Tieni presente che se si tratta di un taccuino di grandi dimensioni, potrebbero essere necessari alcuni minuti prima che tutte le note vengano visualizzate sul dispositivo del destinatario."
+		"Upozorňujeme, že ak ide o veľký zápisník, môže trvať niekoľko minút, kým sa všetky poznámky zobrazia na zariadení príjemcu."
 	],
 	"Please open the following URL in your browser to authenticate the application. The application will create a directory in \"Apps/Joplin\" and will only read and write files in this directory. It will have no access to any files outside this directory nor to any other personal data. No data will be shared with any third party.": [
-		"Per favore apri il seguente URL nel tuo browser per autenticare l'applicazione. L'applicazione creerà una cartella in \"Apps/Joplin\" e leggerà/scriverà file solo in questa cartella. Non avrà accesso a nessun file all'esterno di questa cartella o ad alcun dato personale. Nessun dato verrà condiviso con terze parti."
+		"V prehliadači prosím otvorte nasledujúcu adresu URL, aby ste overili aplikáciu. Aplikácia vytvorí priečinok v „Apps/Joplin“ a bude čítať a zapisovať súbory len v tomto priečinku. Nebude mať prístup k žiadnym súborom mimo tohto adresára ani k žiadnym iným osobným údajom. Žiadne údaje sa nebudú zdieľať so žiadnou treťou stranou."
 	],
 	"Please record your voice...": [
-		"Per favore, registra la tua voce..."
+		"Nahrajte prosím svoj hlas..."
 	],
 	"Please select a notebook first.": [
-		"Per favore prima seleziona un Taccuino."
+		"Najprv si prosím vyberte zápisník."
 	],
 	"Please select the note or notebook to be deleted first.": [
-		"Per favore seleziona la nota o il taccuino da eliminare."
+		"Najprv prosím vyberte poznámku alebo zápisník, ktorý chcete odstrániť."
 	],
 	"Please select where the sync status should be exported to": [
-		"Per favore selezionare dove lo stato della sincronizzazione deve essere esportato"
+		"Vyberte prosím, kam sa má stav synchronizácie exportovať"
 	],
 	"Please specify import format for %s": [
-		"Si prega di specificare il formato di importazione per %s"
+		"Zadajte prosím formát importu pre %s"
 	],
 	"Please specify the notebook where the notes should be imported to.": [
-		"Si prega di specificare il Taccuino in cui importare le note."
+		"Uveďte prosím zápisník, do ktorého sa majú poznámky importovať."
 	],
 	"Please upgrade Joplin to version %s or later to use this plugin.": [
-		"Aggiorna Joplin alla versione %s per utilizzare questo plugin."
+		"Ak chcete používať tento doplnok, aktualizujte prosím Joplin na verziu %s alebo novšiu."
 	],
 	"Please wait for all attachments to be downloaded and decrypted. You may also switch to %s to edit the note.": [
-		"Attendi che tutti gli allegati vengano scaricati e decrittografati. Puoi anche passare a %s per modificare la nota."
+		"Počkajte prosím na stiahnutie a dešifrovanie všetkých príloh. Môžete tiež prepnúť na %s pre úpravu poznámky."
 	],
 	"Please wait...": [
-		"Attendere per favore...."
+		"Čakajte prosím..."
 	],
 	"Plugin message": [
-		"Messaggio plugin"
+		"Správa doplnku"
 	],
 	"Plugin panels": [
-		"Pannelli plugin"
+		"Panely doplnkov"
 	],
 	"Plugin repository failed to load": [
-		"Errore nel caricamento del catalogo plugin"
+		"Úložisko doplnkov sa nepodarilo načítať"
 	],
 	"Plugin search": [
-		"Ricerca plugin"
+		"Vyhľadávanie doplnkov"
 	],
 	"Plugin security": [
-		"Sicurezza plugin"
+		"Bezpečnosť doplnkov"
 	],
 	"Plugin tools": [
-		"Strumenti plugin"
+		"Nástroje doplnkov"
 	],
 	"Plugin WebView debugging": [
-		"Degub WebView dei plugin"
+		"Ladenie doplnku WebView"
 	],
 	"Plugins": [
-		"Plugin"
+		"Doplnky"
 	],
 	"Plugins extend Joplin with features that are not present by default. Plugins can extend Joplin's editor, viewer, and more.": [
-		"I plugin estendono Joplin con funzionalità non presenti normalmente. I plugin possono estendere l'editor, la visualizzazione, e altro."
+		"Doplnky rozširujú Joplin o funkcie, ktoré nie sú predvolene dostupné. Doplnky môžu rozšíriť editor, prehliadač a ďalšie funkcie aplikácie Joplin."
 	],
 	"Portrait": [
-		"Verticale"
+		"Na výšku"
 	],
 	"Possible keys/values:": [
-		"Chiave/valore possibili:"
+		"Možné kľúče/hodnoty:"
 	],
 	"Possible values: %s.": [
-		"Valori possibili: %s."
+		"Možné hodnoty: %s."
 	],
 	"Preferences": [
-		"Preferenze"
+		"Nastavenia"
 	],
 	"Preferences...": [
-		"Preferenze..."
+		"Nastavenia..."
 	],
 	"Preferred dark theme": [
-		"Preferisci il tema scuro"
+		"Uprednostňovaná tmavá téma"
 	],
 	"Preferred light theme": [
-		"Preferisci il tema chiaro"
+		"Uprednostňovaná svetlá téma"
 	],
 	"Preferred voice typing provider": [
 		""
@@ -2403,169 +2406,169 @@
 		""
 	],
 	"Press Ctrl+D or type \"exit\" to exit the application": [
-		"Premi Ctrl+D o digita \"exit\" per uscire dall'applicazione"
+		"Stlačte Ctrl+D alebo napíšte \"exit\" pre ukončenie aplikácie"
 	],
 	"Press the shortcut": [
-		"Premi il tasto da associare alla scorciatoia"
+		"Stlačte klávesovú skratku"
 	],
 	"Press the shortcut and then press ENTER. Or, press BACKSPACE to clear the shortcut.": [
-		"Premi il collegamento e poi premi INVIO oppure premi BACKSPACE per eliminare il collegamento."
+		"Stlačte klávesovú skratku a potom stlačte tlačidlo ENTER. Alebo stlačte BACKSPACE, aby ste skratku vymazali."
 	],
 	"Press to set the decryption password.": [
-		"Premi qui per impostare la password di decrittografia."
+		"Stlačte pre nastavenie dešifrovacieho hesla."
 	],
 	"Previous match": [
-		"Corrispondenza precedente"
+		"Predchádzajúca zhoda"
 	],
 	"Previous versions of this note": [
-		"Versione precedente di questa nota"
+		"Predchádzajúce verzie tejto poznámky"
 	],
 	"Print": [
-		"Stampa"
+		"Tlačiť"
 	],
 	"Priority support": [
-		"Supporto prioritario"
+		"Prioritná podpora"
 	],
 	"Privacy Policy": [
-		"Politica sulla Privacy"
+		"Zásady ochrany osobných údajov"
 	],
 	"Pro": [
 		"Pro"
 	],
 	"Process failed payment subscriptions": [
-		"Elabora gli abbonamenti a pagamento non riusciti"
+		"Spracovať neúspešné odbery platieb"
 	],
 	"Process oversized accounts": [
-		"Elaborare account di grandi dimensioni"
+		"Spracovať nadrozmerné účty"
 	],
 	"Process user deletions": [
-		"Elaborare le eliminazioni degli utenti"
+		"Spracovať vymazania používateľov"
 	],
 	"Processing": [
-		"In corso"
+		"Spracováva sa"
 	],
 	"Profile": [
-		"Profilo"
+		"Profil"
 	],
 	"Profile name": [
-		"Nome del profilo"
+		"Názov profilu"
 	],
 	"Profile name:": [
-		"Nome del profilo:"
+		"Názov profilu:"
 	],
 	"Profile Version: %s": [
-		"Profilo versione: %s"
+		"Verzia profilu: %s"
 	],
 	"Profiles": [
-		"Profili"
+		"Profily"
 	],
 	"Properties": [
-		"Proprietà"
+		"Vlastnosti"
 	],
 	"Proxy enabled": [
-		"Proxy abilitato"
+		"Proxy povolené"
 	],
 	"Proxy timeout (seconds)": [
-		"Timeout proxy (secondi)"
+		"Časový limit proxy servera (v sekundách)"
 	],
 	"Proxy URL": [
-		"URL proxy"
+		"Proxy URL adresa"
 	],
 	"Public-private key pair:": [
-		"Coppia di chiavi pubblica-privata:"
+		"Pár verejného a súkromného kľúča:"
 	],
 	"Publish note...": [
-		"Pubblica nota..."
+		"Zverejniť poznámku..."
 	],
 	"Publish Notes": [
-		"Pubblica note"
+		"Zverejniť poznámky"
 	],
 	"Publish notes to the internet": [
-		"Pubblicare note su Internet"
+		"Zverejniť poznámky na internete"
 	],
 	"Quit": [
-		"Esci"
+		"Ukončiť"
 	],
 	"Re-encrypt data": [
-		"Cripta nuovamente i dati"
+		"Znova zašifrovať údaje"
 	],
 	"Re-encryption": [
-		"Cripta nuovamente"
+		"Opätovné šifrovanie"
 	],
 	"Re-upload local data to sync target": [
-		"Ricarica i dati locali sulla destinazione di sincronizzazione"
+		"Opätovné odoslanie lokálnych údajov do cieľa synchronizácie"
 	],
 	"Read more about it": [
-		"Per saperne di più"
+		"Prečítajte si o tom viac"
 	],
 	"Read time: %s min": [
-		"Tempo di lettura: %s min"
+		"Čas čítania: %s min"
 	],
 	"Recipient has accepted the invitation": [
-		"Il destinatario ha accettato l'invito"
+		"Príjemca prijal pozvanie"
 	],
 	"Recipient has not yet accepted the invitation": [
-		"Il destinatario non ha ancora accettato l'invito"
+		"Príjemca ešte neprijal pozvanie"
 	],
 	"Recipient has rejected the invitation": [
-		"Il destinatario ha rifiutato l'invito"
+		"Príjemca odmietol pozvanie"
 	],
 	"Recipients:": [
-		"Destinatari:"
+		"Príjemcovia:"
 	],
 	"Recommended": [
-		"Raccomandato"
+		"Odporúčané"
 	],
 	"Recommended plugins": [
-		"Plugin raccomandato"
+		"Odporúčané doplnky"
 	],
 	"Redo": [
-		"Ripristina"
+		"Znova"
 	],
 	"Refresh": [
-		"Aggiorna"
+		"Obnoviť"
 	],
 	"Regular expression": [
-		"Espressione regolare"
+		"Regulárny výraz"
 	],
 	"Reject": [
-		"Rifiuta"
+		"Odmietnuť"
 	],
 	"Remove": [
-		"Rimuovi"
+		"Odstrániť"
 	],
 	"Remove tag \"%s\" from all notes?": [
-		"Rimuovere l'etichetta \"%s\" da tutte le note?"
+		"Odstrániť štítok \"%s\" zo všetkých poznámok?"
 	],
 	"Remove this search from the sidebar?": [
-		"Rimuovere questa ricerca dalla barra laterale?"
+		"Odstrániť toto vyhľadávanie z bočného panela?"
 	],
 	"Rename": [
-		"Rinomina"
+		"Premenovať"
 	],
 	"Rename notebook:": [
-		"Rinomina il taccuino:"
+		"Premenovať zápisník:"
 	],
 	"Rename tag:": [
-		"Rinomina etichetta:"
+		"Premenovať štítok:"
 	],
 	"Renames the given <item> (note or notebook) to <name>.": [
-		"Rinomina <item> (Nota o Taccuino) in <name>."
+		"Premenuje danú <item> (poznámku alebo zápisník) na <name>."
 	],
 	"Renew token": [
-		"Rinnova token"
+		"Obnoviť token"
 	],
 	"Replace": [
-		"Sostituisci"
+		"Nahradiť"
 	],
 	"Replace all": [
-		"Sostituisci tutto"
+		"Nahradiť všetko"
 	],
 	"Replace with...": [
-		"Sostituisci con..."
+		"Nahradiť s..."
 	],
 	"Replace: ": [
-		"Sostituisci: "
+		"Nahradiť: "
 	],
 	"replaced $ matches": [
 		""
@@ -2574,79 +2577,79 @@
 		""
 	],
 	"Report an issue": [
-		"Segnala un problema"
+		"Nahlásiť problém"
 	],
 	"Report any issues concerning the plugin.": [
-		"Segnala un problema riguardo al plugin."
+		"Nahláste akékoľvek problémy týkajúce sa doplnku."
 	],
 	"Report fraudulent plugin": [
-		"Segnala plugin fraudolento"
+		"Nahlásiť škodlivý doplnok"
 	],
 	"Report system": [
-		"Sistema di segnalazione"
+		"Systém hlásenia"
 	],
 	"Reports": [
-		"Segnalazioni"
+		"Hlásenia"
 	],
 	"Reset application layout": [
-		"Ripristina il layout dell'applicazione"
+		"Obnoviť rozloženie aplikácie"
 	],
 	"Reset master password": [
-		"Reimposta la password principale"
+		"Obnoviť hlavné heslo"
 	],
 	"Resize large images:": [
-		"Ridimensionare le immagini di grandi dimensioni:"
+		"Zmeniť veľkosť veľkých obrázkov:"
 	],
 	"Resources: %d.": [
-		"Risorse: %d."
+		"Zdroje: %d."
 	],
 	"Restart and upgrade": [
-		"Aggiorna e riavvia"
+		"Reštartovať a aktualizovať"
 	],
 	"Restart in safe mode": [
-		"Riavvia in modalità provvisoria"
+		"Reštartovať v núdzovom režime"
 	],
 	"Restart now": [
-		"Riavvia ora"
+		"Reštartovať teraz"
 	],
 	"Restore": [
-		"Ripristina"
+		"Obnoviť"
 	],
 	"Restore note": [
-		"Ripristina note"
+		"Obnoviť poznámku"
 	],
 	"Restore notebook": [
-		"Ripristina taccuino"
+		"Obnoviť zápisník"
 	],
 	"Restore the items matching <pattern> from the trash.": [
-		"Ripristina le note che corrispondono a <note-pattern> dal cestino."
+		"Obnoviť položky zodpovedajúce <pattern> z koša."
 	],
 	"Restored items": [
-		"Ripristina elementi"
+		"Obnovené položky"
 	],
 	"Restored Notes": [
-		"Ripristina note"
+		"Obnovené poznámky"
 	],
 	"Results (%d):": [
-		"Risultati (%d):"
+		"Výsledky (%d):"
 	],
 	"Retry": [
-		"Riprova"
+		"Skúsiť znova"
 	],
 	"Retry All": [
-		"Riprova tutti"
+		"Opakovať všetko"
 	],
 	"Reveal file in folder": [
-		"Visualizza file nella cartella"
+		"Odhaliť súbor v priečinku"
 	],
 	"Reverse sort order": [
-		"Inverti l'ordine"
+		"Obrátiť poradie"
 	],
 	"Reverses the sorting order.": [
-		"Inverti l'ordine."
+		"Obráti poradie zoradenia."
 	],
 	"Revision: %s (%s)": [
-		"Revisione: %s (%s)"
+		"Revízia: %s (%s)"
 	],
 	"Rich Text": [
 		""
@@ -2655,241 +2658,241 @@
 		""
 	],
 	"Runs the commands contained in the text file. There should be one command per line.": [
-		"Esegue comandi contenuti in un file di testo. Un comando per riga."
+		"Spustí príkazy obsiahnuté v textovom súbore. Na každom riadku by mal byť jeden príkaz."
 	],
 	"S3": [
-		"AWS S3"
+		"S3"
 	],
 	"S3 access key": [
-		"Chiave AWS S3"
+		"S3 prístupový kľúč"
 	],
 	"S3 bucket": [
-		"Bucket AWS S3"
+		"S3 bucket"
 	],
 	"S3 region": [
-		"Regione AWS S3"
+		"S3 región"
 	],
 	"S3 secret key": [
-		"Secret AWS"
+		"S3 tajný kľúč"
 	],
 	"S3 URL": [
-		"URL AWS S3"
+		"S3 URL adresa"
 	],
 	"Safe mode is currently active. Note rendering and all plugins are temporarily disabled.": [
-		"La modalità sicura è attiva. La renderizzazione delle note e tutti i plugin sono temporaneamente disattivati."
+		"V súčasnosti je aktívny núdzový režim. Pripomíname, že vykresľovanie a všetky doplnky sú dočasne vypnuté."
 	],
 	"Save": [
-		"Salva"
+		"Uložiť"
 	],
 	"Save alarm": [
-		"Salva avviso"
+		"Uložiť budík"
 	],
 	"Save as %s": [
-		"Salva come %s"
+		"Uložiť ako %s"
 	],
 	"Save as...": [
-		"Salva come..."
+		"Uložiť ako..."
 	],
 	"Save changes": [
-		"Salva i cambiamenti"
+		"Uložiť zmeny"
 	],
 	"Save changes?": [
-		"Salva i cambiamenti?"
+		"Uložiť zmeny?"
 	],
 	"Save geo-location with notes": [
-		"Salva geolocalizzazione con le note"
+		"Uložiť geografickú polohu s poznámkami"
 	],
 	"Scanned code": [
 		""
 	],
 	"Search": [
-		"Cerca"
+		"Hľadať"
 	],
 	"Search for plugins...": [
-		"Cerca plugins..."
+		"Hľadať doplnky..."
 	],
 	"Search for...": [
-		"Ricerca..."
+		"Hľadať..."
 	],
 	"Search hidden": [
-		"Ricerca nascosta"
+		"Hľadať skryté"
 	],
 	"Search in all the notes": [
-		"Cerca in tutte le note"
+		"Hľadať vo všetkých poznámkach"
 	],
 	"Search in current note": [
-		"Cerca nella nota corrente"
+		"Hľadať v aktuálnej poznámke"
 	],
 	"Search shown": [
-		"Ricerca visibile"
+		"Zobrazené vyhľadávanie"
 	],
 	"Search...": [
-		"Cerca..."
+		"Hľadať..."
 	],
 	"Search:": [
-		"Cerca:"
+		"Hľadať:"
 	],
 	"Searches for the given <pattern> in all the notes.": [
-		"Cerca <pattern> in tutte le note."
+		"Vyhľadá zadaný <vzor> vo všetkých poznámkach."
 	],
 	"See the pre-release page for more details: %s": [
-		"Vedi la pagina di pre-rilascio per maggiori dettagli: %s"
+		"Viac podrobností nájdete na stránke predbežného vydania: %s"
 	],
 	"Select": [
-		"Seleziona"
+		"Vybrať"
 	],
 	"Select all": [
-		"Seleziona tutto"
+		"Vybrať všetko"
 	],
 	"Select emoji...": [
-		"Seleziona emoji..."
+		"Vybrať emotikon..."
 	],
 	"Select file...": [
-		"Seleziona file..."
+		"Vybrať súbor..."
 	],
 	"Select parent notebook": [
-		"Seleziona il taccuino principale"
+		"Vybrať nadradený zápisník"
 	],
 	"Send bug report": [
-		"Invia il report di debug"
+		"Odoslať hlásenie o chybe"
 	],
 	"Server is already running on port %d": [
-		"Il server è già in esecuzione sulla porta %d"
+		"Server už beží na porte %d"
 	],
 	"Server is not running.": [
-		"Il server non è in esecuzione."
+		"Server nebeží."
 	],
 	"Server is running on port %d": [
-		"Il server è in esecuzione sulla porta %d"
+		"Server beží na porte %d"
 	],
 	"Set alarm": [
-		"Imposta avviso"
+		"Nastaviť budík"
 	],
 	"Set alarm:": [
-		"Imposta avviso:"
+		"Nastaviť budík:"
 	],
 	"Set it to 0 to make it take the complete available space. Recommended width is 600.": [
-		"Impostalo su 0 per occupare tutto lo spazio disponibile. La larghezza consigliata è 600."
+		"Nastavte ju na 0, aby zaberala celý dostupný priestor. Odporúčaná šírka je 600."
 	],
 	"Set the password": [
-		"Imposta la password"
+		"Set the password"
 	],
 	"Sets the property <name> of the given <note> to the given [value]. Possible properties are:\n\n%s": [
-		"Imposta la proprietà <name> della <note> data al [value] specificato. Le possibili proprietà sono:\n\n%s"
+		"Nastaví vlastnosť <name> danej <name> na danú [hodnotu]. Možné vlastnosti sú:\n\n%s"
 	],
 	"Settings": [
 		""
 	],
 	"Share": [
-		"Condividi"
+		"Zdieľať"
 	],
 	"Share a copy of all notes in a file format that can be imported by Joplin on a computer.": [
-		"Condividi una copia di tutte le note in un formato file che può essere importato da Joplin su un computer."
+		"Zdieľajte kópiu všetkých poznámok vo formáte súboru, ktorý môže byť importovaný aplikáciou Joplin na počítači."
 	],
 	"Share a notebook with others": [
-		"Condividi un taccuino con altri"
+		"Zdieľajte zápisník s ostatnými"
 	],
 	"Share from %s (%s)": [
-		"Condividi da %s (%s)"
+		"Zdieľať od %s (%s)"
 	],
 	"Share Notebook": [
-		"Condividi Taccuino"
+		"Zdieľať poznámku"
 	],
 	"Share notebook...": [
-		"Condividi taccuino..."
+		"Zdieľať poznámku..."
 	],
 	"Share permissions": [
-		"Condividere le autorizzazioni"
+		"Povolenia na zdieľanie"
 	],
 	"Shares": [
-		"Condivisioni"
+		"Zdieľania"
 	],
 	"Sharing notebook...": [
-		"Condividendo taccuino..."
+		"Zdieľanie poznámky..."
 	],
 	"Shortcuts are not available in CLI mode.": [
-		"Le scorciatoie non sono disponibili nella modalità CLI."
+		"Skratky nie sú dostupné v režime CLI."
 	],
 	"Show advanced": [
-		"Mostra opzioni avanzate"
+		"Zobraziť pokročilé"
 	],
 	"Show Advanced Settings": [
-		"Mostra opzioni avanzate"
+		"Zobraziť pokročilé nastavenia"
 	],
 	"Show all": [
-		"Mostra tutto"
+		"Zobraziť všetko"
 	],
 	"Show completed to-dos": [
-		"Mostra le \"Cose-da-fare\" completate"
+		"Zobraziť dokončené úlohy"
 	],
 	"Show disabled": [
-		"Mostra disabilitati"
+		"Zobraziť vypnuté"
 	],
 	"Show disabled keys": [
-		"Mostra pulsanti disabilitati"
+		"Zobraziť nepovolené kľúče"
 	],
 	"Show monospace fonts only.": [
-		"Mostra solo carattere a larghezza fissa."
+		"Zobraziť iba neproporčné písma."
 	],
 	"Show note counts": [
-		"Visualizza conteggio note"
+		"Zobraziť počet poznámok"
 	],
 	"Show sort order buttons": [
-		"Mostra i pulsanti di ordinamento"
+		"Zobraziť tlačidlá zoradenia"
 	],
 	"Show tray icon": [
-		"Visualizza nella barra delle applicazioni"
+		"Zobraziť ikonu na paneli úloh"
 	],
 	"Show/hide the sidebar": [
-		"Mostra/nascondi la barra laterale"
+		"Zobraziť/skryť bočný panel"
 	],
 	"Shrink large images before adding them to notes.": [
-		"Riduci le immagini di grandi dimensioni prima di aggiungerle alle note."
+		"Zmenšiť veľké obrázky pred ich pridaním do poznámok."
 	],
 	"Side menu closed": [
-		"Menù laterale chiuso"
+		"Bočná ponuka je zatvorená"
 	],
 	"Side menu opened": [
-		"Menù laterale aperto"
+		"Bočná ponuka otvorená"
 	],
 	"Sidebar": [
-		"Barra laterale"
+		"Bočný panel"
 	],
 	"Size": [
-		"Dimensione"
+		"Veľkosť"
 	],
 	"Skip this version": [
-		"Salta questa versione"
+		"Preskočiť túto verziu"
 	],
 	"Skipped items: %d (use --retry-failed-items to retry decrypting them)": [
-		"Elementi saltati: %d (utilizza --retry-failed-items per riprovare a decrittografarli)"
+		"Vynechané položky: %d (použite --retry-failed-items na opakovanie dešifrovania)"
 	],
 	"Skipped: %d.": [
-		"Saltato: %d."
+		"Vynechané: %d."
 	],
 	"Solarised Dark": [
-		"Scuro Solarizzato"
+		"Slnečná tmavá"
 	],
 	"Solarised Light": [
-		"Chiaro solarizzato"
+		"Slnečná svetlá"
 	],
 	"Some attachments could not be downloaded. Please try to download them again.": [
-		"Alcuni allegati non sono stati scaricati. Riprova."
+		"Niektoré prílohy nebolo možné stiahnuť. Skúste ich prosím stiahnuť znova."
 	],
 	"Some attachments need to be downloaded. Set the attachment download mode to \"always\" and try again.": [
-		"Alcuni allegati devono essere scaricati. Imposta la modalità di scaricamento degli allegati a \"sempre\" e riprova."
+		"Niektoré prílohy je potrebné stiahnuť. Nastavte režim sťahovania príloh na „vždy“ a skúste to znova."
 	],
 	"Some items cannot be decrypted.": [
-		"Alcuni elementi non possono essere decodificati."
+		"Niektoré položky nie je možné dešifrovať."
 	],
 	"Some items cannot be synchronised.": [
-		"Alcuni elementi non possono essere sincronizzati."
+		"Niektoré položky nie je možné synchronizovať."
 	],
 	"Some items cannot be synchronised. Press for more info.": [
-		"Alcuni elementi non possono essere sincronizzati. Premi per maggiori informazioni."
+		"Niektoré položky nie je možné synchronizovať. Stlačte pre viac informácií."
 	],
 	"Some items could not be synchronised. Please try to synchronise them first.": [
-		"Alcuni elementi non possono essere sincronizzati. Premi provare a sincronizzarli."
+		"Niektoré položky nebolo možné synchronizovať. Skúste ich prosím najprv synchronizovať."
 	],
 	"Sort \"%s\" in ascending order": [
 		""
@@ -2898,762 +2901,764 @@
 		""
 	],
 	"Sort notebooks by": [
-		"Ordina i taccuini per"
+		"Zoradiť zápisníky podľa"
 	],
 	"Sort notes by": [
-		"Ordina le note per"
+		"Zoradiť poznámky podľa"
 	],
 	"Sort selected lines": [
-		"Ordina alfabeticamente le righe selezionate"
+		"Zoradiť vybrané riadky"
 	],
 	"Sorts the item by <field> (eg. title, updated_time, created_time).": [
-		"Ordina per <field> (es. titolo, ultimo aggiornamento, creazione)."
+		"Zoradí položky podľa <pole> (napr. názov, updated_time, created_time)."
 	],
 	"Source": [
-		"Sorgente"
+		"Zdroj"
 	],
 	"Source format: %s": [
-		"Formato sorgente: %s"
+		"Formát zdroja: %s"
 	],
 	"Source: ": [
-		"Sorgente: "
+		"Zdroj: "
 	],
 	"Spacer": [
-		"Separatore"
+		"Oddelovač"
 	],
 	"Specify the port that should be used by the API server. If not set, a default will be used.": [
-		"Specifica la porta che deve essere usata dal server API. Se non viene settato, viene usato un valore di default."
+		"Zadajte port, ktorý má používať server API. Ak nie je nastavený, použije sa predvolený."
 	],
 	"Spell checker": [
-		"Controllo ortografico"
+		"Kontrola pravopisu"
 	],
 	"Split View": [
-		"Split View"
+		"Rozdelený pohľad"
 	],
 	"Start application minimised in the tray icon": [
-		"Avvia applicazione minimizzata nella barra delle applicazioni"
+		"Spustiť aplikáciu minimalizovanú na paneli s ikonou"
 	],
 	"Start, stop or check the API server. To specify on which port it should run, set the api.port config variable. Commands are (%s).": [
-		"Avvia, ferma o controlla il server API. Per specificare su quale porta deve essere eseguito, setta la variabile api.config. I comandi sono (%s)."
+		"Spustiť, zastaviť alebo skontrolovať server API. Ak chcete určiť, na ktorom porte má bežať, nastavte konfiguračnú premennú api.port. Príkazy sú (%s)."
 	],
 	"Starting decryption... Please wait as it may take several minutes depending on how much there is to decrypt.": [
-		"Avvio decrittazione... Attendere per favore, ci potrebbero volere diversi minuti per la decriptazione."
+		"Spustenie dešifrovania... Počkajte, prosím, pretože to môže trvať niekoľko minút v závislosti od toho, koľko je potrebné dešifrovať."
 	],
 	"Starting synchronisation...": [
-		"Inizio sincronizzazione..."
+		"Spúšťa sa synchronizácia..."
 	],
 	"Starting to edit note. Close the editor to get back to the prompt.": [
-		"Comincia a modificare la nota. Chiudi l'editor per tornare al prompt."
+		"Začína sa upravovať poznámka. Zatvorte editor, aby ste sa vrátili k výzve."
 	],
 	"Statistics": [
-		"Statistiche"
+		"Štatistiky"
 	],
 	"Statistics...": [
-		"Statistiche..."
+		"Štatistiky..."
 	],
 	"Status": [
-		"Stato"
+		"Stav"
 	],
 	"Status: %s": [
-		"Stato: %s"
+		"Stav: %s"
 	],
 	"Status: Started on port %d": [
-		"Stato: avviato sulla porta %d"
+		"Stav: Spustené na porte %d"
 	],
 	"Step 1: Enable the clipper service": [
-		"Passaggio 1: abilitare il servizio clipper"
+		"Krok 1: Povoľte službu clipper"
 	],
 	"Step 1: Open this URL in your browser to authorise the application:": [
-		"Passaggio 1: apri questa URL nel tuo browser per autorizzare l'applicazione:"
+		"Krok 1: Otvorte túto adresu URL vo svojom prehliadači, aby ste autorizovali aplikáciu:"
 	],
 	"Step 2: Enter the code provided by Dropbox:": [
-		"Passaggio 2: inserisci il codice fornito da Dropbox:"
+		"Krok 2: Zadajte kód poskytnutý službou Dropbox:"
 	],
 	"Step 2: Install the extension": [
-		"Passaggio 2: installare l'estensione"
+		"Krok 2: Nainštalujte rozšírenie"
 	],
 	"Stop": [
-		"Stop"
+		"Zastaviť"
 	],
 	"Stop external editing": [
-		"Interrompi modifiche esterne"
+		"Zastaviť externé úpravy"
 	],
 	"Storage space": [
-		"Spazio di archiviazione"
+		"Úložný priestor"
 	],
 	"Strikethrough": [
-		"Barrato"
+		"Prečiarknuté"
 	],
 	"strong text": [
-		"testo in grassetto"
+		"výrazný text"
 	],
 	"Submit": [
-		"Invio"
+		"Odoslať"
 	],
 	"Subscript": [
-		"Pedice"
+		"Dolný index"
 	],
 	"Success! Synchronisation configuration appears to be correct.": [
-		"Successo! La configurazione della sincronizzazione sembra essere corretta."
+		"Hotovo! Zdá sa, že konfigurácia synchronizácie je správna."
 	],
 	"Superscript": [
-		"Apice"
+		"Horný index"
 	],
 	"Swap line down": [
-		"Sposta la riga sotto"
+		"Vymeniť riadok nadol"
 	],
 	"Swap line up": [
-		"Sposta la riga sopra"
+		"Vymeniť riadok hore"
 	],
 	"Switch between note and to-do type": [
-		"Converti nota in \"Cose-da-fare\" e viceversa"
+		"Prepnúť medzi typom poznámky a úlohy"
 	],
 	"Switch profile": [
-		"Passa al profilo"
+		"Prepnúť profil"
 	],
 	"Switch to back-facing camera": [
 		""
 	],
 	"Switch to note type": [
-		"Converti in nota"
+		"Prepnúť na typ poznámky"
 	],
 	"Switch to profile %d": [
-		"Passa al profilo %d"
+		"Prepnúť na profil %d"
 	],
 	"Switch to to-do type": [
-		"Converti in \"Cose-da-fare\""
+		"Prepnúť na typ úlohy"
 	],
 	"Switches to [notebook] - all further operations will happen within this notebook.": [
-		"Passa tra [notebook] - tutte le ulteriori operazioni interesseranno il seguente Taccuino."
+		"Prepne na [zápisník] – všetky ďalšie operácie budú prebiehať v tomto zápisníku."
 	],
 	"Sync as many devices as you want": [
-		"Sincronizza tutti i dispositivi che desideri"
+		"Synchronizujte toľko zariadení, koľko len chcete"
 	],
 	"Sync Status": [
-		"Stato sincronizzazione"
+		"Stav synchronizácie"
 	],
 	"Sync status (synced items / total items)": [
-		"Stato di sincronizzazione (elementi sincronizzati / elementi totali)"
+		"Stav synchronizácie (synchronizované položky / celkový počet položiek)"
 	],
 	"Sync target must be upgraded! Run `%s` to proceed.": [
-		"La destinazione di sincronizzazione deve essere aggiornata! Avvia `%s` per procedere."
+		"Cieľ synchronizácie musí byť aktualizovaný! Spustite `%s` pre pokračovanie."
 	],
 	"Sync Target Upgrade": [
-		"Aggiorna la destinazione di sincronizzazione"
+		"Aktualizácia cieľa synchronizácie"
 	],
 	"Sync to provided target (defaults to sync.target config value)": [
-		"Sincronizza con l'obiettivo fornito (come predefinito il valore di configurazione sync.target)"
+		"Synchronizovať so zadaným cieľom (predvolené nastavenie na konfiguračnú hodnotu sync.target)"
 	],
 	"Sync Version: %s": [
-		"Sinc. versione: %s"
+		"Verzia synchronizácie: %s"
 	],
 	"Sync your notes": [
-		"Sincronizza le tue note"
+		"Synchronizujte svoje poznámky"
 	],
 	"Sync, encryption, proxy": [
-		"Sincronizzazione, crittografia, proxy"
+		"Synchronizácia, šifrovanie, proxy"
 	],
 	"Synchronisation": [
-		"Sincronizzazione"
+		"Synchronizácia"
 	],
 	"Synchronisation interval": [
-		"Intervallo di sincronizzazione"
+		"Interval synchronizácie"
 	],
 	"Synchronisation is already in progress.": [
-		"La sincronizzazione è già in corso."
+		"Synchronizácia už prebieha."
 	],
 	"Synchronisation Status": [
-		"Stato della sincronizzazione"
+		"Stav synchronizácie"
 	],
 	"Synchronisation target": [
-		"Destinazione di sincronizzazione"
+		"Cieľ synchronizácie"
 	],
 	"Synchronisation target: %s (%s)": [
-		"Posizione di sincronizzazione: %s (%s)"
+		"Cieľ synchronizácie: %s (%s)"
 	],
 	"Synchronise": [
-		"Sincronizza"
+		"Synchronizovať"
 	],
 	"Synchronise only over WiFi connection": [
-		"Sincronizza solo con la connessione WiFi"
+		"Synchronizácia iba cez WiFi pripojenie"
 	],
 	"Synchronises with remote storage.": [
-		"Sincronizza con l'archivio remoto."
+		"Synchronizuje sa so vzdialeným úložiskom."
 	],
 	"Synchronising...": [
-		"Sincronizzazione..."
+		"Synchronizuje sa..."
 	],
 	"Synchronizing...": [
-		"Sincronizzazione..."
+		"Synchronizuje sa..."
 	],
 	"Tabloid": [
 		"Tabloid"
 	],
 	"tag1, tag2, ...": [
-		"etichetta1, etichetta2, ..."
+		"štítok1, štítok2, ..."
 	],
 	"Tagged: %d.": [
-		"Etichettato: %d."
+		"Označené štítkom: %d."
 	],
 	"Tags": [
-		"Etichette"
+		"Štítky"
 	],
 	"Take photo": [
-		"Scatta foto"
+		"Odfotiť"
 	],
 	"Task \"%s\" failed with error: %s": [
-		"Compito \"%s\" fallito con errore: %s"
+		"Úloha \"%s\" zlyhala s chybou: %s"
 	],
 	"Task list": [
-		"Lista compiti"
+		"Zoznam úloh"
 	],
 	"Tasks": [
-		"Compiti"
+		"Úlohy"
 	],
 	"Teams": [
-		"Squadre"
+		"Tímy"
 	],
 	"Text document": [
-		"Documento di testo"
+		"Textový dokument"
 	],
 	"Text editor command": [
-		"Comando editor di testo"
+		"Príkaz textového editora"
 	],
 	"The [Web Clipper](%s) is a browser extension that allows you to save web pages and screenshots from your browser.": [
-		"Il [Web Clipper](%s) è un'estensione del browser che consente di salvare pagine web e schermate dal browser."
+		"[Web Clipper](%s) je rozšírenie prehliadača, ktoré vám umožňuje ukladať webové stránky a snímky obrazovky z vášho prehliadača."
 	],
 	"The active profile cannot be deleted. Switch to a different profile and try again.": [
-		"Il profilo attivo non può essere eliminato. Passa a un profilo diverso e riprova."
+		"Aktívny profil nie je možné odstrániť. Prepnite na iný profil a skúste to znova."
 	],
 	"The app is now going to close. Please relaunch it to complete the process.": [
-		"Ora l'applicazione si chiuderà. Per favore riavviala per completare il processo."
+		"Aplikácia sa teraz zatvorí. Na dokončenie procesu ju znovu spustite."
 	],
 	"The application did not close properly. Would you like to start in safe mode?": [
-		"L'applicazione non si è chiusa correttamente. Desideri iniziare in modalità provvisoria?"
+		"Aplikácia sa správne neukončila. Chcete ju spustiť v núdzovom režime?"
 	],
 	"The application has been authorised - you may now close this browser tab.": [
-		"L'applicazione è stata autorizzata - puoi chiudere questa scheda del browser."
+		"Aplikácia bola autorizovaná - teraz môžete zavrieť túto kartu prehliadača."
 	],
 	"The application has been authorised!": [
-		"L'applicazione è stata autorizzata con successo!"
+		"Aplikácia bola autorizovaná!"
 	],
 	"The application has been successfully authorised.": [
-		"L'applicazione è stata autorizzata con successo."
+		"Aplikácia bola úspešne autorizovaná."
 	],
 	"The application must be restarted for these changes to take effect.": [
-		"L'applicazione deve essere riavviata affinché le modifiche siano attive."
+		"Aplikácia musí byť reštartovaná, aby sa tieto zmeny prejavili."
 	],
 	"The attachments will no longer be watched when you switch to a different note.": [
-		"Gli allegati non verranno più monitorati quando passerai ad una nota differente."
+		"Po prepnutí na inú poznámku sa už prílohy nebudú sledovať."
 	],
 	"The command \"%s\" is only available in GUI mode": [
-		"Il comando \"%s\" è disponibile solo nella modalità grafica"
+		"Príkaz \"%s\" je dostupný len v režime GUI"
 	],
 	"The default admin password is insecure and has not been changed! [Change it now](%s)": [
-		"La password d'amministratore predefinita non è sicura e non è stata modificata! [Modificala ora](%s)"
+		"Predvolené heslo správcu je nezabezpečené a nebolo zmenené! [Zmeňte ho teraz](%s)"
 	],
 	"The default encryption method has been changed to a more secure one and it is recommended that you apply it to your data.": [
-		"Il metodo standard di criptazione è stato cambiato con uno più sicuro ed è consigliabile che tu lo applichi ai tuoi dati."
+		"Predvolená metóda šifrovania bola zmenená na bezpečnejšiu a odporúča sa použiť ju na vaše údaje."
 	],
 	"The default encryption method has been changed, you should re-encrypt your data.": [
-		"Il metodo di criptazione predefinito è stato cambiato, dovresti criptare nuovamente i tuoi dati."
+		"Predvolená metóda šifrovania bola zmenená, mali by ste znova zašifrovať svoje údaje."
 	],
 	"The default profile cannot be deleted": [
-		"Il profilo predefinito non può essere eliminato"
+		"Predvolený profil nie je možné odstrániť"
 	],
 	"The editor command (may include arguments) that will be used to open a note. If none is provided it will try to auto-detect the default editor.": [
-		"Il comando editor (può includere argomenti) che verrà utilizzato per aprire una nota. Se non ne viene fornita alcuna, cercherà di rilevare automaticamente l'editor predefinito."
+		"Príkaz editora (môže obsahovať argumenty), ktorý sa použije na otvorenie poznámky. Príkaz editora (môže obsahovať argumenty), ktorý sa použije na otvorenie poznámky. Ak nie je zadaný žiadny, pokúsi sa automaticky určiť predvolený editor."
 	],
 	"The factor property sets how the item will grow or shrink to fit the available space in its container with respect to the other items. Thus an item with a factor of 2 will take twice as much space as an item with a factor of 1.Restart app to see changes.": [
-		"Il fattore di crescita indica la crescita o il restringersi di un oggetto rispetto agli altri oggetti per adattarsi allo spazio disponibile nel contenitore. Un oggetto con un fattore 2 occuperà il doppio dello spazio rispetto ad un elemento con un fattore di 1. Riavvia il programma per vedere le modifiche."
+		"Vlastnosť faktora nastavuje, ako sa bude položka zväčšovať alebo zmenšovať, aby sa zmestila do dostupného priestoru v kontajneri vzhľadom na ostatné položky. Teda položka s faktorom 2 zaberie dvakrát viac miesta ako položka s faktorom 1. Reštartujte aplikáciu, aby ste videli zmeny."
 	],
 	"The following attachment matches your search query:": [
-		"Il seguente allegato corrisponde alla tua ricerca:",
-		"I seguenti allegati corrispondono alla tua ricerca:"
+		"Nasledujúca príloha zodpovedá vašej vyhľadávacej požiadavke:",
+		"Nasledujúce prílohy zodpovedajú vašej vyhľadávacej požiadavke:",
+		"Nasledujúce prílohy zodpovedajú vašej vyhľadávacej požiadavke:"
 	],
 	"The following attachments are being watched for changes:": [
-		"I seguenti allegati sono monitorati per eventuali modifiche:"
+		"V nasledujúcich prílohách sa sledujú zmeny:"
 	],
 	"The following keys use an out-dated encryption algorithm and it is recommended to upgrade them. The upgraded key will still be able to decrypt and encrypt your data as usual.": [
-		"Le chiavi seguenti utilizzano un algoritmo di crittografia obsoleto e si consiglia di aggiornarle. La chiave aggiornata sarà comunque in grado di decifrare e criptare normalmente i dati."
+		"Nasledujúce kľúče používajú zastaraný šifrovací algoritmus a odporúča sa ich aktualizácia. Aktualizovaný kľúč bude stále schopný dešifrovať a šifrovať vaše údaje ako zvyčajne."
 	],
 	"The following plugins may not support the current markdown editor:": [
 		""
 	],
 	"The Joplin team has vetted this plugin and it meets our standards for security and performance.": [
-		"Il team Joplin ha controllato questo plugin e soddisfa i nostri standard di sicurezza e prestazioni."
+		"Tím Joplin preveril tento doplnok a spĺňa naše štandardy pre bezpečnosť a výkon."
 	],
 	"The keys with these IDs are used to encrypt some of your items, however the application does not currently have access to them. It is likely they will eventually be downloaded via synchronisation.": [
-		"Le chiavi con questi ID vengono utilizzate per crittografare alcuni elementi, ma al momento l'applicazione non vi ha accesso. È probabile che alla fine vengano scaricate tramite la sincronizzazione."
+		"Kľúče s týmito identifikátormi sa používajú na šifrovanie niektorých vašich položiek, avšak aplikácia k nim v súčasnosti nemá prístup. Je pravdepodobné, že sa nakoniec stiahnu prostredníctvom synchronizácie."
 	],
 	"The master key has been upgraded successfully!": [
-		"La chiave master è stata aggiornata con successo!"
+		"Hlavný kľúč bol úspešne aktualizovaný!"
 	],
 	"The master keys with these IDs are used to encrypt some of your items, however the application does not currently have access to them. It is likely they will eventually be downloaded via synchronisation.": [
-		"Le chiavi principali con questi ID vengono utilizzate per crittografare alcuni dei tuoi articoli, tuttavia l'applicazione al momento non ha accesso ad essi. È probabile che verranno scaricati tramite la sincronizzazione."
+		"Hlavné kľúče s týmito identifikátormi sa používajú na šifrovanie niektorých vašich položiek, avšak aplikácia k nim v súčasnosti nemá prístup. Je pravdepodobné, že sa nakoniec stiahnu prostredníctvom synchronizácie."
 	],
 	"The note \"%s\" has been successfully restored to the notebook \"%s\".": [
-		"La nota \"%s\" è stata ripristinata con successo nel taccuino \"%s\"."
+		"Poznámka \"%s\" bola úspešne obnovená do zápisníka \"%s\"."
 	],
 	"The note was successfully moved to the trash.": [
-		"La nota è stata spostata con successo nel cestino.",
-		"Le note sono state spostata con successo nel cestino."
+		"Poznámka bola úspešne presunutá do koša.",
+		"Poznámky boli úspešne presunuté do koša.",
+		"Poznámky boli úspešne presunuté do koša."
 	],
 	"The notebook and its content was successfully moved to the trash.": [
-		"Il taccuino e il suo contenuto sono stati spostati con successo nel cestino."
+		"Zápisník a jeho obsah boli úspešne presunuté do koša."
 	],
 	"The notebook could not be saved: %s": [
-		"Il Taccuino non può essere salvato: %s"
+		"Zápisník sa nepodarilo uložiť: %s"
 	],
 	"The notes have been imported: %s": [
-		"Le note sono state importate: %s"
+		"Poznámky boli importované: %s"
 	],
 	"The possible commands are:": [
-		"I possibili comandi sono:"
+		"Možné príkazy sú:"
 	],
 	"The recipient could not be removed from the list. Please try again.\n\nThe error was: \"%s\"": [
-		"Impossibile rimuovere il destinatario dall'elenco. Per favore riprova.\n\nl'errore era: \"%s\""
+		"Príjemcu nebolo možné odstrániť zo zoznamu. Skúste to prosím znova.\n\nChyba bola: „%s“"
 	],
 	"The sync target cannot be changed for the following reason: %s\n\nIf the issue cannot be resolved, you may need to clear your data first by following these instructions:\n\n%s": [
-		"La destinazione di sincronizzazione non può essere modificata per il seguente motivo: %s\n\nSe il problema non può essere risolto, potrebbe essere necessario cancellare i dati seguendo queste istruzioni:\n\n%s"
+		"Cieľ synchronizácie nemožno zmeniť z nasledujúceho dôvodu: %s\n\nAk sa problém nedá vyriešiť, možno budete musieť najskôr vymazať údaje podľa týchto pokynov:\n\n%s"
 	],
 	"The sync target needs to be upgraded before Joplin can sync. The operation may take a few minutes to complete and the app needs to be restarted. To proceed please click on the link.": [
-		"La destinazione di sincronizzazione deve essere aggiornata prima che Joplin possa eseguire la sincronizzazione. L'operazione può richiedere alcuni minuti ed è necessario riavviare l'app. Per procedere clicca sul link."
+		"Pred synchronizáciou aplikácie Joplin je potrebné aktualizovať cieľ synchronizácie. Dokončenie operácie môže trvať niekoľko minút a aplikáciu je potrebné reštartovať. Ak chcete pokračovať, kliknite na odkaz."
 	],
 	"The sync target needs to be upgraded. Press this banner to proceed.": [
-		"La destinazione di sincronizzazione deve essere aggiornata. Avvia `%s` per procedere."
+		"The sync target needs to be upgraded. Press this banner to proceed."
 	],
 	"The synchronisation password is missing.": [
-		"Manca la password di sincronizzazione."
+		"Chýba synchronizačné heslo."
 	],
 	"The tag \"%s\" already exists. Please choose a different name.": [
-		"L'etichetta \"%s\" esiste già. Scegliere un nome differente."
+		"Štítok „%s“ už existuje. Zvoľte iný názov."
 	],
 	"The target to synchronise to. Each sync target may have additional parameters which are named as `sync.NUM.NAME` (all documented below).": [
-		"Ogni target di sincronizzazione può avere parametri aggiuntivi denominati come `sync.NUM.NAME` (tutti documentati di seguito)."
+		"Cieľ, s ktorým sa má synchronizovať. Každý cieľ synchronizácie môže mať ďalšie parametre, ktoré sú pomenované ako `sync.NUM.NAME` (všetky sú zdokumentované nižšie)."
 	],
 	"The web client does not support accepting encrypted shared notebooks. Please switch to the desktop or mobile app before accepting the share.\n\nError: \"%s\"": [
 		""
 	],
 	"The Web Clipper needs your authorisation to access your data.": [
-		"Il Web Clipper ha bisogno della tua autorizzazione per accedere ai tuoi dati."
+		"Web Clipper potrebuje vaše oprávnenie na prístup k vašim údajom."
 	],
 	"The web clipper service is enabled and set to auto-start.": [
-		"Il servizio Web clipper è abilitato e impostato per l'avvio automatico."
+		"Služba web clipper je povolená a nastavená na automatické spustenie."
 	],
 	"The web clipper service is not enabled.": [
-		"Il servizio web clipper non è abilitato."
+		"Služba web clipper nie je povolená."
 	],
 	"The WebDAV implementation of %s is incompatible with Joplin, and as such is no longer supported. Please use a different sync method.": [
-		"L'implementazione WebDAV di %s è incompatibile con Joplin e come tale non è più supportata. Utilizza un metodo di sincronizzazione diverso."
+		"Implementácia WebDAV %s nie je kompatibilná s aplikáciou Joplin, a preto už nie je podporovaná. Použite inú metódu synchronizácie."
 	],
 	"Theme": [
-		"Tema"
+		"Téma"
 	],
 	"Themes, editor font": [
-		"Temi, editor caratteri"
+		"Témy, písmo editora"
 	],
 	"There are currently no notes. Create one by clicking on the (+) button.": [
-		"Al momento non ci sono note. Creane una cliccando sul bottone (+)."
+		"V súčasnosti nie sú k dispozícii žiadne poznámky. Vytvorte ju kliknutím na tlačidlo (+)."
 	],
 	"There are no notes in the trash folder.": [
-		"Non c'è nessuna nota nel cestino."
+		"V priečinku koša nie sú žiadne poznámky."
 	],
 	"There are unsaved changes.": [
-		"Sono presenti modifiche non salvate."
+		"Máte neuložené zmeny."
 	],
 	"There is no data to export.": [
-		"Non ci sono dati da esportare."
+		"Neexistujú žiadne údaje na export."
 	],
 	"There was a [conflict](%s) on the attachment below.\n\n%s": [
-		"Si è verificato un [conflitto](%s) nel seguente allegato.\n\n%s"
+		"V nižšie uvedenej prílohe došlo ku [konfliktu](%s).\n\n%s"
 	],
 	"There was an error downloading this attachment:": [
-		"Errore nello scaricamento di questo allegato:"
+		"Pri sťahovaní tejto prílohy sa vyskytla chyba:"
 	],
 	"These items failed to sync, but have been marked as \"ignored\". They won't cause the sync warning to appear, but still aren't synced. To unignore, click \"retry\".": [
-		"Questi elementi non sono stati sincronizzati, ma sono stati contrassegnati come “ignorati”. L'avviso di sincronizzazione rimarrà, ma questi elemento non saranno comunque sincronizzati. Per annullare la sincronizzazione, clicca su “riprova”."
+		"Tieto položky sa nepodarilo synchronizovať, ale boli označené ako „ignorované“. Nezobrazí sa pri nich upozornenie o synchronizácii, ale stále nie sú synchronizované. Ak chcete zrušiť ignorovanie, kliknite na tlačidlo „skúsiť znova“."
 	],
 	"These items will remain on the device but will not be uploaded to the sync target. In order to find these items, either search for the title or the ID (which is displayed in brackets above).": [
-		"Questi elementi rimarranno sul dispositivo ma non verranno caricati nella destinazione di sincronizzazione. Per trovare questi elementi, cercare il titolo o l'ID (che viene visualizzato tra parentesi qui sopra)."
+		"Tieto položky zostanú v zariadení, ale nebudú odoslané do cieľa synchronizácie. Ak chcete nájsť tieto položky, vyhľadajte buď názov, alebo ID (ktoré je zobrazené v zátvorkách vyššie)."
 	],
 	"These plugins enhance the Markdown renderer with additional features. Please note that, while these features might be useful, they are not standard Markdown and thus most of them will only work in Joplin. Additionally, some of them are *incompatible* with the WYSIWYG editor. If you open a note that uses one of these plugins in that editor, you will lose the plugin formatting. It is indicated below which plugins are compatible or not with the WYSIWYG editor.": [
-		"Questi plugin migliorano il render Markdown aggiungendo funzionalità. Per favore nota che anche se sono utili non seguono lo standard Markdown e quindi la maggior parte di loro funzionerà solo con Joplin. Inoltre alcuni di essi sono *incompatibili* con l'editor WYSIWYG. Se apri una nota che utilizza questi plugin nell'editor WYSIWYG, perderai la formattazione dei plugin. Qui sotto trovi indicato quali plugin sono compatibili o meno con l'editor WYSIWYG."
+		"Tieto doplnky vylepšujú vykresľovač Markdown o ďalšie funkcie. Upozorňujeme, že hoci tieto funkcie môžu byť užitočné, nie sú štandardným Markdown, a preto väčšina z nich bude fungovať len v Jopline. Okrem toho sú niektoré z nich *nekompatibilné* s editorom WYSIWYG. Ak v tomto editore otvoríte poznámku, ktorá používa niektorý z týchto doplnkov, stratíte formátovanie doplnku. Nižšie sú uvedené, ktoré zásuvné moduly sú alebo nie sú kompatibilné s editorom WYSIWYG."
 	],
 	"This allows another user to share a notebook with you, and you can then both collaborate on it. It does not however allow you to share a notebook with someone else, unless you have the feature \"%s\".": [
-		"Ciò consente a un altro utente di condividere un taccuino con te e potrete quindi collaborare entrambi. Tuttavia non ti consente di condividere un taccuino con qualcun altro, a meno che tu non abbia la funzione \"%s\"."
+		"To umožňuje inému používateľovi zdieľať s vami zápisník a obaja na ňom môžete spolupracovať. Neumožňuje vám však zdieľať zápisník s niekým iným, pokiaľ nemáte funkciu „%s“."
 	],
 	"This attachment does not have OCR data (Status: %s)": [
-		"Questo allegato non dispone di dati OCR (Stato: %s)"
+		"Táto príloha neobsahuje údaje OCR (Stav: %s)"
 	],
 	"This attachment is not downloaded or not decrypted yet": [
-		"Questo allegato non è ancora stato scaricato o decriptato"
+		"Táto príloha nie je stiahnutá alebo ešte nie je dešifrovaná"
 	],
 	"This authorisation token is only needed to allow third-party applications to access Joplin.": [
-		"Il token autorizzativo è necessario solo per permettere ad applicazioni di terze parti di accedere a Joplin."
+		"Tento autorizačný token je potrebný len na to, aby umožnil aplikáciám tretích strán pristupovať k Joplin."
 	],
 	"This drawing may have unsaved changes.": [
-		"Questo disegno potrebbe contenere modifiche non salvate."
+		"Tento náčrt môže mať neuložené zmeny."
 	],
 	"This is an advanced tool to show the attachments that are linked to your notes. Please be careful when deleting one of them as they cannot be restored afterwards.": [
-		"Questo è uno strumento avanzato che mostra gli allegati delle tue note. Presta attenzione quando ne cancelli uno perché non possono essere recuperati."
+		"Toto je pokročilý nástroj na zobrazenie príloh, ktoré sú prepojené s vašimi poznámkami.Pri odstraňovaní niektorej z nich buďte opatrní, pretože ich potom nemožno obnoviť."
 	],
 	"This note could not be deleted: %s": [
-		"Impossibile eliminare questa nota: %s",
-		"Impossibile eliminare queste note: %s"
+		"Túto poznámku nebolo možné vymazať: %s",
+		"Tieto poznámky nebolo možné vymazať: %s",
+		"Tieto poznámky nebolo možné vymazať: %s"
 	],
 	"This note could not be duplicated: %s": [
-		"Impossibile duplicare questa nota: %s",
-		"Impossibile duplicare queste note: %s"
+		"Túto poznámku nebolo možné duplikovať: %s",
+		"Tieto poznámky nebolo možné duplikovať: %s",
+		"Tieto poznámky nebolo možné duplikovať: %s"
 	],
 	"This note could not be moved: %s": [
-		"Impossibile spostare questa nota: %s",
-		"Impossibile spostare queste note: %s"
+		"Túto poznámku nebolo možné presunúť: %s",
+		"Tieto poznámky nebolo možné presunúť: %s",
+		"Tieto poznámky nebolo možné presunúť: %s"
 	],
 	"This note does not have geolocation information.": [
-		"Questa nota non ha informazione sulla geolocalizzazione."
+		"Táto poznámka neobsahuje informácie o geografickej polohe."
 	],
 	"This note has been modified:": [
-		"Questa note è stata modificata:"
+		"Táto poznámka bola upravená:"
 	],
 	"This note has no content. Click on \"%s\" to toggle the editor and edit the note.": [
-		"Questa nota non ha contenuto. Fai clic su \"%s\" per attivare l'editor e modificare la nota."
+		"Táto poznámka nemá žiadny obsah. Kliknutím na „%s“ prepnete editor a upravíte poznámku."
 	],
 	"This note has no history": [
-		"Questa nota non ha cronologia"
+		"Táto poznámka nemá históriu"
 	],
 	"This plugin doesn't support %s.": [
-		"Questo plugin non supporta %s."
+		"Tento doplnok nepodporuje %s."
 	],
 	"This Rich Text editor has a number of limitations and it is recommended to be aware of them before using it.": [
-		"Questo editor di testo RTF ha un certo numero di limitazioni e si raccomanda di conoscerle prima di utilizzarlo."
+		"Tento editor rozšíreného textu má niekoľko obmedzení a pred jeho použitím sa odporúča, aby ste si ich uvedomili."
 	],
 	"This service allows the browser extension to communicate with Joplin. When enabling it your firewall may ask you to give permission to Joplin to listen to a particular port.": [
-		"Questo servizio consente all'estensione del browser di comunicare con Joplin. Quando lo abiliti, il tuo firewall potrebbe chiederti di dare il permesso a Joplin di ascoltare una particolare porta."
+		"Táto služba umožňuje rozšíreniu prehliadača komunikovať so systémom Joplin. Pri jej zapnutí vás firewall môže požiadať o povolenie počúvať konkrétny port pre Joplin."
 	],
 	"This subfolder of the trash has no notes.": [
-		"Questa sottocartella del cestino non ha note."
+		"Tento podpriečinok koša neobsahuje žiadne poznámky."
 	],
 	"This will allow Joplin to run in the background. It is recommended to enable this setting so that your notes are constantly being synchronised, thus reducing the number of conflicts.": [
-		"Questo consentirà a Joplin di essere in esecuzione in background. È raccomandata l'attivazione di questa impostazione per sincronizzare costantemente le tue note e quindi ridurre il numero di conflitti."
+		"To umožní, aby aplikácia Joplin pracovala na pozadí. Toto nastavenie sa odporúča povoliť, aby sa vaše poznámky neustále synchronizovali, čím sa zníži počet konfliktov."
 	],
 	"This will open a new screen. Save your current changes?": [
-		"Questo aprirà una nuova schermata. Salvare le tue modifiche correnti?"
+		"Týmto sa otvorí nová obrazovka. Uložiť aktuálne zmeny?"
 	],
 	"This will permanently delete all items in the trash. Continue?": [
-		"Questo eliminerà definitivamente tutti gli elementi nel cestino. Continuare?"
+		"Týmto sa natrvalo odstránia všetky položky v koši. Pokračovať?"
 	],
 	"This will permanently delete the note \"%s\". Continue?": [
-		"Questo eliminerà definitivamente la nota \"%s\". Continuare?"
+		"Týmto sa natrvalo odstráni poznámka „%s“. Pokračovať?"
 	],
 	"This will remove the notebook from your collection and you will no longer have access to its content. Do you wish to continue?": [
-		"Ciò rimuoverà il taccuino dalla tua raccolta e non avrai più accesso al suo contenuto. Vuoi continuare?"
+		"Týmto odstránite zápisník zo svojej zbierky a už nebudete mať prístup k jeho obsahu. Chcete pokračovať?"
 	],
 	"Time format": [
-		"Formato dell'orario"
+		"Formát času"
 	],
 	"title": [
-		"titolo"
+		"názov"
 	],
 	"Title": [
-		"Titolo"
+		"Názov"
 	],
 	"To allow Joplin to synchronise with Dropbox, please follow the steps below:": [
-		"Per consentire a Joplin di sincronizzarsi con Dropbox, procedi come indicato di seguito:"
+		"Ak chcete povoliť Joplin synchronizáciu s Dropboxom, postupujte podľa nasledujúcich krokov:"
 	],
 	"To allow Joplin to synchronise with Joplin Cloud, please login using this URL:": [
-		"Per consentire a Joplin di sincronizzarsi con Joplin Cloud, accedi usando questo URL:"
+		"Ak chcete povoliť synchronizáciu Joplin s Joplin Cloud, prihláste sa pomocou tejto adresy URL:"
 	],
 	"To continue, please enter your master password below.": [
-		"Per continuare, inserisci la tua password principale qui sotto."
+		"Ak chcete pokračovať, nižšie zadajte svoje hlavné heslo."
 	],
 	"To delete a tag, untag the associated notes.": [
-		"Per eliminare un'etichetta, togli l'etichetta dalle note a cui è associata."
+		"Ak chcete odstrániť štítok, zrušte označenie súvisiacich poznámok."
 	],
 	"To delete: %d": [
-		"Da eliminare: %d"
+		"Na odstránenie: %d"
 	],
 	"To enter command line mode, press \":\"": [
-		"Per entrare nella modalità command line, premi \":\""
+		"Pre vstup do režimu príkazového riadka stlačte \":\""
 	],
 	"To exit command line mode, press ESCAPE": [
-		"Per uscire dalla modalità command line, premi ESC"
+		"Ak chcete ukončiť režim príkazového riadka, stlačte ESC"
 	],
 	"To manually sort the notes, the sort order must be changed to \"%s\" in the menu \"%s\" > \"%s\"": [
-		"Per ordinare le note con un ordine personalizzato il criterio di ordinamento deve essere impostato in \"%s\" nel menù \"%s\" > \"%s\""
+		"Pre manuálne triedenie poznámok je potrebné zmeniť poradie triedenia na \"%s\" v menu \"%s\" > \"%s\""
 	],
 	"To maximise/minimise the console, press \"tc\".": [
-		"Per massimizzare/minimizzare la console, premi \"tc\"."
+		"Ak chcete maximalizovať/minimalizovať konzolu, stlačte \"tc\"."
 	],
 	"To move from one pane to another, press Tab or Shift+Tab.": [
-		"Per passare da un pannello all'altro, premi Tab o Shift+Tab."
+		"Ak sa chcete presunúť z jedného panela do druhého, stlačte Tab alebo Shift+Tab."
 	],
 	"To retry decryption of these items. Run `e2ee decrypt --retry-failed-items`": [
-		"Per riprovare a decriptare questi elementi, esegui `e2ee decrypt --retry-failed-items`"
+		"Ak chcete opakovať dešifrovanie týchto položiek. Spustite `e2ee decrypt --retry-failed-items`"
 	],
 	"To switch the profile, the app is going to close and you will need to restart it.": [
-		"Per cambiare profilo, l'app si chiuderà e dovrai riavviarla."
+		"Ak chcete prepnúť profil, aplikácia sa zatvorí a budete ju musieť reštartovať."
 	],
 	"To work correctly, the app needs the following permissions. Please enable them in your phone settings, in Apps > Joplin > Permissions": [
-		"Per funzionare correttamente, l'app necessita delle seguenti autorizzazioni. Si prega di abilitarli nelle impostazioni del telefono, in App > Joplin > Autorizzazioni"
+		"Aby aplikácia správne fungovala, potrebuje nasledujúce povolenia. Povoľte ich v nastaveniach telefónu v časti Aplikácie > Joplin > Oprávnenia"
 	],
 	"to-do": [
-		"attività"
+		"úloha"
 	],
 	"To-do": [
-		"Attività"
+		"Úloha"
 	],
 	"to-do: %s": [
-		"attività: %s"
+		"úloha: %s"
 	],
 	"Toggle comment": [
-		"Attiva/disattiva commento"
+		"Prepnúť komentár"
 	],
 	"Toggle development tools": [
-		"Attiva/disattiva strumenti di sviluppo"
+		"Prepnúť vývojové nástroje"
 	],
 	"Toggle editor layout": [
-		"Cambia il layout dell'editor"
+		"Prepnúť rozloženie editora"
 	],
 	"Toggle editors": [
-		"Attiva/disattiva editor"
+		"Prepnúť editory"
 	],
 	"Toggle external editing": [
-		"Disattiva l'editing esterno"
+		"Prepnúť externé úpravy"
 	],
 	"Toggle menu bar": [
-		"Attiva/disattiva barra del menu"
+		"Prepnúť panel s ponukami"
 	],
 	"Toggle note history, keep notes for": [
-		"Attiva/disattiva storico note, mantieni note per"
+		"Prepnúť históriu poznámok, uchovávať poznámky po dobu"
 	],
 	"Toggle note list": [
-		"Attiva/disattiva lista delle note"
+		"Prepnúť zoznam poznámok"
 	],
 	"Toggle own sort order": [
-		"Attiva/disattiva il proprio ordinamento"
+		"Prepnúť vlastné poradie zoradenia"
 	],
 	"Toggle safe mode": [
-		"Attiva/disattiva la modalità provvisoria"
+		"Prepnúť núdzový režim"
 	],
 	"Toggle sidebar": [
-		"Attiva/disattiva barra laterale"
+		"Prepnúť bočný panel"
 	],
 	"Toggle sort order field": [
-		"Attiva/disattiva il campo dell'ordinamento"
+		"Prepnúť pole poradia zoradenia"
 	],
 	"Token has been copied to the clipboard!": [
-		"Il token è stato copiato negli appunti!"
+		"Token bol skopírovaný do schránky!"
 	],
 	"Tools": [
-		"Strumenti"
+		"Nástroje"
 	],
 	"Total Size": [
-		"Dimensione totale"
+		"Celková veľkosť"
 	],
 	"Total: %d/%d": [
-		"Totale: %d %d"
+		"Celkom: %d/%d"
 	],
 	"Trash": [
-		"Cestino"
+		"Kôš"
 	],
 	"Try again": [
-		"Riprova"
+		"Skúsiť znova"
 	],
 	"Try it now": [
-		"Prova subito"
+		"Skúste to teraz"
 	],
 	"Type `help [command]` for more information about a command; or type `help all` for the complete usage information.": [
-		"Digita `help [command]` per ottenere maggiori informazioni su un comando; o scrivi `help all` per le informazioni di utilizzo complete."
+		"Ak chcete získať ďalšie informácie o príkaze, zadajte `help [command]` alebo `help all` pre úplné informácie o použití."
 	],
 	"Type `joplin help` for usage information.": [
-		"Scrivi `joplin help` per informazioni sull'uso."
+		"Napíšte `joplin help` pre informácie o používaní."
 	],
 	"Type a note title or part of its content to jump to it. Or type # followed by a tag name, or @ followed by a notebook name. Or type : to search for commands.": [
-		"Scrivi il titolo di una nota o parte del suo contenuto per aprirla. Oppure digita # seguito dal nome di un'etichetta, oppure @ seguito dal nome di un taccuino. O scrivi : per cercare un comando."
+		"Ak chcete prejsť na poznámku, zadajte jej názov alebo časť jej obsahu. Alebo napíšte #, za ktorým nasleduje názov štítku, alebo @, za ktorým nasleduje názov zápisníka. Alebo napíšte : a vyhľadajte príkazy."
 	],
 	"Type new tags or select from list": [
-		"Digita nuove etichette o seleziona dalla lista"
+		"Zadajte nové štítky alebo vyberte zo zoznamu"
 	],
 	"Type: %s.": [
-		"Tipo: %s."
+		"Typ: %s."
 	],
 	"Unable to edit resource of type %s": [
-		"Impossibile modificare la risorsa di tipo %s"
+		"Nie je možné upraviť zdroj typu %s"
 	],
 	"Unable to share log data. Reason: %s": [
-		"Impossibile condividere i dati di registro. Motivi: %s"
+		"Nie je možné zdieľať údaje záznamu. Dôvod: %s"
 	],
 	"Uncompleted to-dos on top": [
-		"\"Cose-da-fare\" incomplete in cima alla lista"
+		"Nedokončené úlohy na vrchu"
 	],
 	"Undo": [
-		"Annulla"
+		"Späť"
 	],
 	"Uninstall and reinstall the application. Make sure you create a backup first by exporting all your notes as JEX from the desktop application.": [
-		"Disinstalla e reinstalla l'applicazione. Assicurati di creare prima un backup esportando tutte le note come JEX dall'applicazione desktop."
-	],
-	"Unknown": [
-		"Sconosciuto"
+		"Odinštalujte a znovu nainštalujte aplikáciu. Najskôr si vytvorte zálohu tak, že z aplikácie na ploche vyexportujete všetky poznámky ako JEX."
 	],
 	"Unknown file type": [
-		"Tipo file sconosciuto"
+		"Unknown file type"
 	],
 	"Unknown flag: %s": [
-		"Flag sconosciuta: %s"
+		"Neznámy príznak: %s"
 	],
 	"Unknown item type downloaded - please upgrade Joplin to the latest version": [
-		"Elemento scaricato sconosciuto - cortesemente aggiornare Joplin all'ultima versione"
+		"Stiahnutý neznámy typ položky - aktualizujte prosím Joplin na najnovšiu verziu"
 	],
 	"Unordered list": [
-		"Lista non ordinata"
+		"Neusporiadaný zoznam."
 	],
 	"Unpublish note": [
-		"Annulla pubblicazione nota"
+		"Zrušiť zverejnenie poznámky"
 	],
 	"Unshare": [
-		"Disattiva condivisione"
+		"Zrušiť zdieľanie"
 	],
 	"Unshare this notebook? The recipients will no longer have access to its content.": [
-		"Rimuovere la condivisione di questo taccuino? I destinatari non avranno più accesso a questo contenuto."
+		"Zrušiť zdieľanie tohto zápisníka? Príjemcovia už nebudú mať prístup k jeho obsahu."
 	],
 	"Unsupported image type: %s": [
-		"Tipo di immagine non supportata: %s"
+		"Nepodporovaný typ obrázka: %s"
 	],
 	"Unsupported link or message: %s": [
-		"Link o messaggio non supportato: %s"
+		"Nepodporovaný odkaz alebo správa: %s"
 	],
 	"Untitled": [
-		"Senza titolo"
+		"Nepomenované"
 	],
 	"Update": [
-		"Aggiorna"
+		"Aktualizovať"
 	],
 	"Update available": [
-		"Aggiornamento disponibile"
+		"Aktualizácia je k dispozícii"
 	],
 	"Update profile": [
-		"Aggiorna il profilo"
+		"Aktualizovať profil"
 	],
 	"Update total sizes": [
-		"Aggiorna le dimensioni totali"
+		"Aktualizovať celkové veľkosti"
 	],
 	"Updated": [
-		"Aggiornato"
+		"Aktualizované"
 	],
 	"updated date": [
-		"data di aggiornamento"
+		"aktualizovaný dátum"
 	],
 	"Updated local items: %d.": [
-		"Elementi locali aggiornati: %d."
+		"Aktualizované lokálne položky: %d."
 	],
 	"Updated remote items: %d.": [
-		"Elementi remoti aggiornati: %d."
+		"Aktualizované vzdialené položky: %d."
 	],
 	"Updated: ": [
-		"Aggiornato: "
+		"Aktualizované: "
 	],
 	"Updated: %d.": [
-		"Aggiornato: %d."
+		"Aktualizované: %d."
 	],
 	"Updated: %s": [
-		"Aggiornato: %s"
+		"Aktualizované: %s"
 	],
 	"Updating...": [
-		"Aggiornamento..."
+		"Aktualizuje sa..."
 	],
 	"Upgrade": [
-		"Aggiorna"
+		"Aktualizovať"
 	],
 	"Upgrade the sync target to the latest version.": [
-		"Aggiorna la destinazione di sincronizzazione all'ultima versione."
+		"Aktualizujte cieľ synchronizácie na najnovšiu verziu."
 	],
 	"URL": [
-		"URL"
+		"URL adresa"
 	],
 	"Usage: %s": [
-		"Uso: %s"
+		"Použitie: %s"
 	],
 	"Use biometrics to secure access to the app": [
-		"Utilizza la biometria per proteggere l'accesso all'app"
+		"Použite biometrické údaje na zabezpečenie prístupu do aplikácie"
 	],
 	"Use long list format. Format is ID, NOTE_COUNT (for notebook), DATE, TODO_CHECKED (for to-dos), TITLE": [
-		"Usa un formato lungo di lista. Il formato è ID, NOTE_COUNT (per i blocchi note), DATE, TODO_CHECKED (per le \"Cose-da-fare\"), TITLE"
+		"Použiť formát dlhého zoznamu. Formát je ID, NOTE_COUNT (pre zápisník), DATE, TODO_CHECKED (pre úlohy), TITLE"
 	],
 	"Use spell checker": [
-		"Usa controllo ortografico"
+		"Použiť kontrolu pravopisu"
 	],
 	"Use the arrows and page up/down to scroll the lists and text areas (including this console).": [
-		"Usa le frecce e pagina su/giù per scorrere le liste e le aree di testo (compresa questa console)."
+		"Pomocou šípok a tlačidiel page up/down posúvajte zoznamy a textové oblasti (vrátane tejto konzoly)."
 	],
 	"Use the arrows to move the layout items. Press \"Escape\" to exit.": [
-		"Utilizza le frecce per muovere gli elementi del layout. Premi \"Esc\" per uscire."
+		"Pomocou šípok môžete presúvať položky rozloženia. Stlačením tlačidla „Escape“ opustíte režim."
 	],
 	"Use this to rebuild the search index if there is a problem with search. It may take a long time depending on the number of notes.": [
-		"Usa questo per ricostruire l'indice di ricerca se c'è un problema con la ricerca. Potrebbe richiedere molto tempo, dipende dal numero di note."
+		"Ak sa vyskytne problém s vyhľadávaním, použite toto na obnovenie vyhľadávacieho indexu. Môže to trvať dlho v závislosti od počtu poznámok."
 	],
 	"Use your biometrics to secure access to your application. You can always set it up later in Settings.": [
-		"Utilizza i tuoi dati biometrici per proteggere l'accesso alla tua applicazione. Puoi sempre configurarlo in un secondo momento nelle Impostazioni."
+		"Na zabezpečenie prístupu do aplikácie použite svoje biometrické údaje. Vždy to môžete nastaviť neskôr v nastaveniach."
 	],
 	"Used for most text in the markdown editor. If not found, a generic proportional (variable width) font is used.": [
-		"Utilizzato per la maggior parte del testo degli editor di markdown. Se non trovato, sarà utilizzato un carattere proporzionale (larghezza variabile) generico."
+		"Používa sa pre väčšinu textu v editore markdown. Ak sa nenájde, použije sa všeobecné proporcionálne písmo (s premenlivou šírkou)."
 	],
 	"Used where a fixed width font is needed to lay out text legibly (e.g. tables, checkboxes, code). If not found, a generic monospace (fixed width) font is used.": [
-		"Utilizzato dove un carattere a larghezza fissa è necessario per mostrare il testo in maniera leggibile (ad es. tabelle, caselle di controllo, codice). Se non trovato, sarà utilizzato un carattere monospace (larghezza fissa) generico."
+		"Používa sa v prípadoch, keď je na čitateľné rozvrhnutie textu potrebná pevná šírka písma (napr. tabuľky, označovacie políčka, kód). Ak sa nenájde, použije sa všeobecné monospace písmo (s pevnou šírkou)."
 	],
 	"User deletions": [
-		"Eliminazioni di utenti"
+		"Vymazania používateľa"
 	],
 	"Users": [
-		"Utente"
+		"Používatelia"
 	],
 	"Valid": [
-		"Valido"
+		"Platné"
 	],
 	"Verify your identity": [
-		"Verifica la tua identità"
+		"Overte svoju totožnosť"
 	],
 	"View": [
-		"Vedi"
+		"Zobraziť"
 	],
 	"View OCR text": [
-		"Vedi testo OCR"
+		"Zobraziť text OCR"
 	],
 	"View on map": [
-		"Guarda sulla mappa"
+		"Zobraziť na mape"
 	],
 	"View them now": [
-		"Mostrali ora"
+		"Zobraziť ich teraz"
 	],
 	"Viewer": [
-		"Visualizzatore"
+		"Prehliadač"
 	],
 	"Vim": [
 		"Vim"
 	],
 	"Voice typing language files (URL)": [
-		"File della lingua di digitazione vocale (URL)"
+		"Súbory jazyka hlasového zadávania (URL)"
 	],
 	"Voice typing...": [
-		"Digitazione vocale..."
+		"Hlasové zadávanie..."
 	],
 	"Vosk": [
 		""
 	],
 	"Waiting for authorisation...": [
-		"In attesa dell'autorizzazione..."
+		"Čaká sa na overenie..."
 	],
 	"Warning": [
-		"Attenzione"
+		"Upozornenie"
 	],
 	"Warning: not all resources shown for performance reasons (limit: %s).": [
-		"Attenzione: non tutte le risorse sono state mostrate per motivi di prestazioni (limite: %s)."
+		"Varovanie: z výkonnostných dôvodov nie sú zobrazené všetky zdroje (limit: %s)."
 	],
 	"We have a system for reporting and removing problematic plugins.": [
-		"Abbiamo un sistema per segnalare e rimuovere i plugin problematici."
+		"Máme systém na hlásenie a odstraňovanie problematických doplnkov."
 	],
 	"We mark plugins developed by trusted Joplin community members as \"recommended\".": [
-		"Contrassegniamo i plugin sviluppati da membri fidati della comunità di Joplin come \"raccomandati\"."
+		"Doplnky vyvinuté dôveryhodnými členmi komunity Joplin označujeme ako \"odporúčané\"."
 	],
 	"Web Clipper": [
 		"Web Clipper"
@@ -3662,108 +3667,108 @@
 		"WebDAV"
 	],
 	"WebDAV password": [
-		"Password WebDAV"
+		"Heslo WebDAV"
 	],
 	"WebDAV URL": [
-		"URL WebDAV"
+		"WebDAV URL adresa"
 	],
 	"WebDAV username": [
-		"Nome Utente WebDAV"
+		"Používateľské meno WebDAV"
 	],
 	"Website and documentation": [
-		"Sito web e documentazione"
+		"Webová stránka a dokumentácia"
 	],
 	"WebView package: %s": [
-		"Pacchetto WebView: %s"
+		"Balíček WebView: %s"
 	],
 	"WebView version: %s": [
-		"Versione WebView: %s"
+		"Verzia WebView: %s"
 	],
 	"Welcome to Joplin!\n\nType `:help shortcuts` for the list of keyboard shortcuts, or just `:help` for usage information.\n\nFor example, to create a notebook press `mb`; to create a note press `mn`.": [
-		"Benvenuto in Joplin!\n\nDigita `:help shortcuts` per la lista delle scorciatoie da tastiera, oppure solo `:help` per le informazioni di utilizzo.\n\nPer esempio, per creare un taccuino digita `mb`; per creare una nota digita `mn`."
+		"Vitajte v Jopline!\n\nZadajte `:help shortcuts` pre zoznam klávesových skratiek alebo len `:help` pre informácie o použití.\n\nNapríklad pre vytvorenie zápisníka stlačte `mb`; pre vytvorenie poznámky stlačte `mn`."
 	],
 	"Welcome!": [
-		"Benvenuto!"
+		"Vitajte!"
 	],
 	"What are plugins?": [
-		"Che cosa sono i plugin?"
+		"Čo sú to doplnky?"
 	],
 	"When creating a new note:": [
-		"Quando si crea una nuova nota:"
+		"Pri vytváraní novej poznámky:"
 	],
 	"When creating a new to-do:": [
-		"Quando crei un nuovo \"Cose-da-fare\":"
+		"Pri vytváraní novej úlohy:"
 	],
 	"When enabled, the application will scan your attachments and extract the text from it. This will allow you to search for text in these attachments.": [
-		"Se attivato, l'applicazione scansiona gli allegati ed estrae il testo da essi. In questo modo è possibile cercare il testo negli allegati."
+		"Ak je táto funkcia zapnutá, aplikácia bude skenovať prílohy a extrahovať z nich text. To vám umožní vyhľadávať text v týchto prílohách."
 	],
 	"Whisper": [
 		""
 	],
 	"Window unresponsive.": [
-		"La finestra non risponde."
+		"Okno nereaguje."
 	],
 	"Words": [
-		"Parole"
+		"Slová"
 	],
 	"y": [
-		"s"
+		"y"
 	],
 	"Y": [
-		"S"
+		"Y"
 	],
 	"yes": [
-		"sì"
+		"áno"
 	],
 	"Yes": [
-		"Sì"
+		"Áno"
 	],
 	"You are about to attach a large image (%dx%d pixels). Would you like to resize it down to %d pixels before attaching it?": [
-		"Stai per allegare un'immagine di grandi dimensioni (%dx%d pixel). Vuoi scalare l'immagine a %d pixel prima di allegarla?"
+		"Chystáte sa pripojiť veľký obrázok (%dx%d pixelov). Chceli by ste pred pripojením zmeniť jeho veľkosť na %d pixelov?"
 	],
 	"You are logged in into Joplin Cloud, you can leave this screen now.": [
-		"Hai effettuato l'accesso a Joplin Cloud, puoi lasciare questa schermata."
+		"Ste prihlásený do Joplin Cloud, teraz môžete opustiť túto obrazovku."
 	],
 	"You currently have no notebooks.": [
-		"Al momento non hai taccuini."
+		"Momentálne nemáte žiadne zápisníky."
 	],
 	"You do not have any installed plugin.": [
-		"Non hai installato nessun plugin."
+		"Nemáte nainštalovaný žiadny doplnok."
 	],
 	"You may also type `status` for more information.": [
-		"Puoi anche scrivere `status` per ulteriori informazioni."
+		"Môžete tiež napísať `stav` pre viac informácií."
 	],
 	"You may use the tool below to re-encrypt your data, for example if you know that some of your notes are encrypted with an obsolete encryption method.": [
-		"Puoi usare lo strumento qui sotto per criptare nuovamente i tuoi dati, per esempio se sai che qualcuna delle tue note è criptata con un metodo obsoleto."
+		"Nižšie uvedený nástroj môžete použiť na opätovné zašifrovanie údajov, napríklad ak viete, že niektoré z vašich poznámok sú zašifrované zastaranou metódou šifrovania."
 	],
 	"You were unable to connect to Joplin Cloud. Please check your credentials and try again. Error:": [
-		"Impossibile connettersi a Joplin Cloud. Controllare le credenziali e riprovare. Errore:"
+		"Nepodarilo sa vám pripojiť k službe Joplin Cloud. Skontrolujte svoje poverenia a skúste to znova. Chyba:"
 	],
 	"Your account doesn't have access to this feature": [
-		"Il tuo account non ha accesso a questa funzionalità"
+		"Váš účet nemá prístup k tejto funkcii"
 	],
 	"Your choice: ": [
-		"La tua scelta: "
+		"Vaša voľba: "
 	],
 	"Your data is going to be re-encrypted and synced again.": [
-		"I tuoi dati verranno criptati nuovamente e sincronizzati."
+		"Vaše údaje budú znova zašifrované a synchronizované."
 	],
 	"Your Joplin Cloud credentials are invalid, please login.": [
-		"Le tue credenziali di Joplin Cloud non sono valide, riprova."
+		"Vaše poverenia Joplin Cloud sú neplatné, prihláste sa prosím."
 	],
 	"Your password is needed to decrypt some of your data.": [
-		"La tua password è necessaria per decrittografare alcuni dei tuoi dati."
+		"Na dešifrovanie niektorých údajov je potrebné vaše heslo."
 	],
 	"Your password is needed to decrypt some of your data. Type `:e2ee decrypt` to set it.": [
-		"La tua password è necessaria per decrittografare alcuni dei tuoi dati. Digita \":e2ee decrypt\" per impostarlo."
+		"Na dešifrovanie niektorých údajov je potrebné vaše heslo. Ak ho chcete nastaviť, zadajte `:e2ee decrypt`."
 	],
 	"Your version: %s": [
-		"La tua versione: %s"
+		"Vaša verzia: %s"
 	],
 	"Zoom In": [
-		"Aumenta zoom"
+		"Priblížiť"
 	],
 	"Zoom Out": [
-		"Diminuisci zoom"
+		"Oddialiť"
 	]
 }
