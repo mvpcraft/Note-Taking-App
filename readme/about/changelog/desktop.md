@@ -1,11 +1,5 @@
 # Joplin Desktop Changelog
 
-## [v3.2.8](https://github.com/laurent22/joplin/releases/tag/v3.2.8) - 2025-01-08T00:02:40Z
-
-- Fixed: Fix reordering notes in custom sort order when some notes are deleted ([#11592](https://github.com/laurent22/joplin/issues/11592)) ([#11226](https://github.com/laurent22/joplin/issues/11226) by [@personalizedrefrigerator](https://github.com/personalizedrefrigerator))
-- Fixed: Link watched files to the current window ([#11590](https://github.com/laurent22/joplin/issues/11590)) ([#11445](https://github.com/laurent22/joplin/issues/11445) by [@personalizedrefrigerator](https://github.com/personalizedrefrigerator))
-- Security: Remove the `name` attribute when rendering to HTML ([#11591](https://github.com/laurent22/joplin/issues/11591) by [@personalizedrefrigerator](https://github.com/personalizedrefrigerator))
-
 ## [v3.2.7](https://github.com/laurent22/joplin/releases/tag/v3.2.7) (Pre-release) - 2025-01-06T16:35:41Z
 
 - Improved: Plugins: Add Toast plugin API ([#11583](https://github.com/laurent22/joplin/issues/11583)) ([#11579](https://github.com/laurent22/joplin/issues/11579))
