@@ -1,11 +1,10 @@
 # Joplin iOS Changelog
 
-## [ios-v13.2.3](https://github.com/laurent22/joplin/releases/tag/ios-v13.2.3) - 2025-01-07T23:52:31Z
+## [ios-v13.2.4](https://github.com/laurent22/joplin/releases/tag/ios-v13.2.4) - 2025-01-08T00:11:58Z
 
 - New: Plugin API: Add support for the renderMarkup command (#11494 by [@personalizedrefrigerator](https://github.com/personalizedrefrigerator))
 - Improved: Accessibility: Improve sidemenu notebook list accessibility (#11556 by [@personalizedrefrigerator](https://github.com/personalizedrefrigerator))
 - Improved: Add an accordion for disabled master keys on encryption screen (#11529) (#11486 by [@pedr](https://github.com/pedr))
-- Improved: Add iOS Dark Icon (#11460) (#11119 by [@itzTheMeow](https://github.com/itzTheMeow))
 - Improved: Add more options when long pressing the icon on mobile (#11517) (#10374)
 - Improved: Display html notes using white theme (#11510) (#10609)
 - Improved: Mark biometric lock feature as stable (955d39b)
