@@ -74,7 +74,7 @@ impl<'a> Renderer<'a> {
         // all the styles to be shifted by minus one.
         // A better solution would be to look if there isn't anything wrong with the parser,
         // but I haven't found what could be causing this yet.
-        if text.starts_with("\u{000B}") && !indices.is_empty(){
+        if text.starts_with("\u{000B}") && !indices.is_empty() {
             indices.remove(0);
             styles.pop();
         }

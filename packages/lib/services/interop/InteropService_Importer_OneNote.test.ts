@@ -176,4 +176,15 @@ describe('InteropService_Importer_OneNote', () => {
 
 		BaseModel.setIdGenerator(originalIdGenerator);
 	});
+
+	skipIfNotCI('should remove hyperlink from title', async () => {
+		let idx = 0;
+		const originalIdGenerator = BaseModel.setIdGenerator(() => String(idx++));
+		const notes = await importNote(`${supportDir}/onenote/remove_hyperlink_on_title.zip`);
+
+		for (const note of notes) {
+			expect(note.body).toMatchSnapshot(note.title);
+		}
+		BaseModel.setIdGenerator(originalIdGenerator);
+	});
 });
