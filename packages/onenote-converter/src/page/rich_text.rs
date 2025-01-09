@@ -79,6 +79,20 @@ impl<'a> Renderer<'a> {
             styles.pop();
         }
 
+        // Probably the best solution here would be to rewrite the render_hyperlink to take this
+        // case in account, backtracking if necessary, but this will do for now
+        // https://github.com/laurent22/joplin/issues/11617
+        if text.starts_with("\u{fddf}") {
+            let first_indice = match indices.get(0) {
+                Some(i) => *i,
+                None => 0,
+            };
+            if first_indice == 1 {
+                indices.remove(0);
+                styles.pop();
+            }
+        }
+
         if indices.is_empty() {
             return Ok(fix_newlines(&text));
         }
@@ -108,11 +122,12 @@ impl<'a> Renderer<'a> {
             .zip(styles.iter())
             .map(|(text, style)| {
                 if style.hyperlink() {
-                    let result = self.render_hyperlink(text.clone(), style, in_hyperlink, is_href_finished);
+                    let result =
+                        self.render_hyperlink(text.clone(), style, in_hyperlink, is_href_finished);
                     if result.is_ok() {
                         in_hyperlink = true;
                         is_href_finished = result.as_ref().unwrap().1;
-                        Ok(result.unwrap().0) 
+                        Ok(result.unwrap().0)
                     } else {
                         Ok(text)
                     }
@@ -157,7 +172,10 @@ impl<'a> Renderer<'a> {
             let url_2 = url.strip_suffix('"');
 
             if url_2.is_some() {
-                return Ok((format!("<a href=\"{}\" style=\"{}\">", url_2.unwrap(), style), true));
+                return Ok((
+                    format!("<a href=\"{}\" style=\"{}\">", url_2.unwrap(), style),
+                    true,
+                ));
             } else {
                 // If we didn't find the double quotes means that href still has content in following styles
                 Ok((format!("<a href=\"{}", url), false))
@@ -172,10 +190,10 @@ impl<'a> Renderer<'a> {
                 Ok((text, false))
             }
         } else {
-            Ok((format!(
-                "<a href=\"{}\" style=\"{}\">{}</a>",
-                text, style, text
-            ), true))
+            Ok((
+                format!("<a href=\"{}\" style=\"{}\">{}</a>", text, style, text),
+                true,
+            ))
         }
     }
 
