@@ -1,5 +1,11 @@
 # Joplin Desktop Changelog
 
+## [v3.2.10](https://github.com/laurent22/joplin/releases/tag/v3.2.10) (Pre-release) - 2025-01-10T10:17:28Z
+
+- Improved: Allow installer to skip uninstallation step after repeated failures ([#11612](https://github.com/laurent22/joplin/issues/11612)) ([#11508](https://github.com/laurent22/joplin/issues/11508) by [@personalizedrefrigerator](https://github.com/personalizedrefrigerator))
+- Fixed: Drawing: Fix "insert drawing" button is not disabled in read-only notes (Upgrade Freehand Drawing to v2.14.0) ([#11613](https://github.com/laurent22/joplin/issues/11613) by [@personalizedrefrigerator](https://github.com/personalizedrefrigerator))
+- Fixed: Fix syncLockGoneError on sync with certain share configs ([#11611](https://github.com/laurent22/joplin/issues/11611)) ([#11594](https://github.com/laurent22/joplin/issues/11594) by [@personalizedrefrigerator](https://github.com/personalizedrefrigerator))
+
 ## [v3.2.9](https://github.com/laurent22/joplin/releases/tag/v3.2.9) (Pre-release) - 2025-01-09T22:58:42Z
 
 - Improved: Remove "URI malformed" alert ([#11576](https://github.com/laurent22/joplin/issues/11576)) ([#11575](https://github.com/laurent22/joplin/issues/11575) by Self Not Found)
