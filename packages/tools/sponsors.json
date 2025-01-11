@@ -1,7 +1,7 @@
 {
 	"github": [
 		{
-			"name": "matmoly"
+			"name": "felixstorm"
 		},
 		{
 			"name": "KentBrockman"
@@ -113,6 +113,11 @@
 			"title": "Achieve academic success with Edubirdie — your trusted partner for expert writing assistance and resources!",
 			"imageName": "Edubirdie.png",
 			"alt": "EduBirdie"
+		},
+		{
+			"url": "https://topagency.webflow.io",
+			"title": "WebDesignAgency",
+			"imageName": "WebDesignAgency.png"
 		}
 	],
 	"orgsOld": [
