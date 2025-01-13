@@ -1,5 +1,10 @@
 # Joplin Desktop Changelog
 
+## [v3.2.11](https://github.com/laurent22/joplin/releases/tag/v3.2.11) (Pre-release) - 2025-01-13T17:48:21Z
+
+- New: Accessibility: Add setting to increase scrollbar and other small control sizes ([#11627](https://github.com/laurent22/joplin/issues/11627) by [@personalizedrefrigerator](https://github.com/personalizedrefrigerator))
+- Fixed: Fix double-click to collapse notebooks ([#11625](https://github.com/laurent22/joplin/issues/11625)) ([#11624](https://github.com/laurent22/joplin/issues/11624) by [@personalizedrefrigerator](https://github.com/personalizedrefrigerator))
+
 ## [v3.2.10](https://github.com/laurent22/joplin/releases/tag/v3.2.10) (Pre-release) - 2025-01-10T10:17:28Z
 
 - Improved: Allow installer to skip uninstallation step after repeated failures ([#11612](https://github.com/laurent22/joplin/issues/11612)) ([#11508](https://github.com/laurent22/joplin/issues/11508) by [@personalizedrefrigerator](https://github.com/personalizedrefrigerator))
