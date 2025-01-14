@@ -158,3 +158,4 @@ ldaps
 Bluesky
 Tebi
 unwatcher
+pedr
