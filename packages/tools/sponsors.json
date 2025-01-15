@@ -119,6 +119,18 @@
 			"title": "WebDesignAgency",
 			"imageName": "WebDesignAgency.png",
 			"alt": "web design agency"
+		},
+		{
+			"url": "https://realgambling.ca/",
+			"title": "RealGambling.ca",
+			"imageName": "RealGambling.png",
+			"alt": "RealGambling.ca"
+		},
+		{
+			"url": "https://essaypro.com/",
+			"title": "write an essay online with EssayPro",
+			"imageName": "EssayPro.png",
+			"alt": "write an essay online with EssayPro"
 		}
 	],
 	"orgsOld": [
