@@ -7,6 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Joplin-CLI 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
 "Last-Translator: Liffindra Angga Zaaldian <findrakecil@icloud.com>\n"
 "Language-Team: \n"
 "Language: id_ID\n"
@@ -1018,7 +1020,7 @@ msgstr "Kode"
 
 #: packages/app-desktop/gui/NoteEditor/NoteBody/TinyMCE/TinyMCE.tsx:739
 msgid "Code Block"
-msgstr "Blok Kode"
+msgstr "Bidang Kode"
 
 #: packages/app-desktop/gui/NoteEditor/NoteBody/TinyMCE/TinyMCE.tsx:1444
 msgid "Code View"
@@ -1043,9 +1045,9 @@ msgstr "Alarm yang akan datang"
 #: packages/lib/models/settings/builtInMetadata.ts:1379
 msgid ""
 "Comma-separated list of paths to directories to load the certificates from, "
-"or path to individual cert files. For example: /my/cert_dir, /other/"
-"custom.pem. Note that if you make changes to the TLS settings, you must save "
-"your changes before clicking on \"Check synchronisation configuration\"."
+"or path to individual cert files. For example: /my/cert_dir, /other/custom."
+"pem. Note that if you make changes to the TLS settings, you must save your "
+"changes before clicking on \"Check synchronisation configuration\"."
 msgstr ""
 "Daftar jalur yang dipisahkan tanda koma menuju direktori untuk memuat "
 "sertifikat dari, atau jalur menuju berkas cert satuan. Contoh: /my/"
@@ -1533,6 +1535,8 @@ msgid ""
 "Delete model and re-download?\n"
 "This cannot be undone."
 msgstr ""
+"Hapus model dan unduh ulang?\n"
+"Ini tidak dapat dikembalikan."
 
 #: packages/lib/commands/deleteNote.ts:7
 msgid "Delete note"
@@ -1630,9 +1634,8 @@ msgid "Detailed"
 msgstr "Rincian"
 
 #: packages/app-mobile/components/screens/ConfigScreen/plugins/PluginBox/PluginChips.tsx:99
-#, fuzzy
 msgid "Dev"
-msgstr "Jatuh tempo"
+msgstr "Dev"
 
 #: packages/lib/services/interop/Module.ts:62
 msgid "Directory"
@@ -1782,9 +1785,8 @@ msgid "Download and install the relevant extension for your browser:"
 msgstr "Unduh dan pasang ekstensi yang berkaitan dengan peramban web Anda:"
 
 #: packages/app-mobile/components/voiceTyping/VoiceTypingDialog.tsx:206
-#, fuzzy
 msgid "Download updated model"
-msgstr "Telah diunduh"
+msgstr "Unduh model terbaru"
 
 #: packages/lib/models/Resource.ts:409
 msgid "Downloaded"
@@ -2267,7 +2269,7 @@ msgstr "Buka %s"
 
 #: packages/app-desktop/gui/Sidebar/listItemComponents/ExpandIcon.tsx:26
 msgid "Expanded, press space to collapse."
-msgstr "Terbuka, tekan spasi untuk melipat"
+msgstr "Terbuka, tekan spasi untuk melipat."
 
 #: packages/app-desktop/gui/KeymapConfig/KeymapConfigScreen.tsx:182
 #: packages/app-desktop/gui/Sidebar/hooks/useOnRenderItem.tsx:213
@@ -4289,7 +4291,7 @@ msgstr "Keluar"
 
 #: packages/app-mobile/components/voiceTyping/VoiceTypingDialog.tsx:206
 msgid "Re-download model"
-msgstr ""
+msgstr "Unduh ulang model"
 
 #: packages/app-desktop/gui/EncryptionConfigScreen/EncryptionConfigScreen.tsx:342
 msgid "Re-encrypt data"
@@ -6142,11 +6144,12 @@ msgid "Unsupported link or message: %s"
 msgstr "Tautan atau pesan tidak didukung: %s"
 
 #: packages/app-mobile/commands/openItem.ts:60
-#, fuzzy
 msgid ""
 "Unsupported link or message: %s.\n"
 "Error: %s"
-msgstr "Tautan atau pesan tidak didukung: %s"
+msgstr ""
+"Tautan atau pesan tidak didukung: %s.\n"
+"Galat: %s"
 
 #: packages/app-desktop/gui/ResourceScreen.tsx:123
 #: packages/lib/models/BaseItem.ts:921 packages/lib/path-utils.ts:27
@@ -6567,8 +6570,8 @@ msgid ""
 "Your password is needed to decrypt some of your data. Type `:e2ee decrypt` "
 "to set it."
 msgstr ""
-"Kata sandi Anda dibutuhkan untuk mendekripsi beberapa data Anda. Ketik "
-"`:e2ee decrypt` untuk mengaturnya."
+"Kata sandi Anda dibutuhkan untuk mendekripsi beberapa data Anda. Ketik `:"
+"e2ee decrypt` untuk mengaturnya."
 
 #: packages/app-desktop/checkForUpdates.ts:108
 msgid "Your version: %s"
