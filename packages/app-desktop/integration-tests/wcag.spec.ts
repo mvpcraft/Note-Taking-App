@@ -7,6 +7,7 @@ import { Page } from '@playwright/test';
 const createScanner = (page: Page) => {
 	return new AxeBuilder({ page })
 		.disableRules(['page-has-heading-one'])
+		// Needed because we're using Electron. See https://github.com/dequelabs/axe-core-npm/issues/1141
 		.setLegacyMode(true);
 };
 
@@ -61,6 +62,12 @@ test.describe('wcag', () => {
 
 		// Ensure that `:hover` styling is consistent between tests:
 		await mainScreen.noteEditor.noteTitleInput.hover();
+
+		await expectNoViolations(mainWindow);
+
+		// Should not find issues with the Rich Text Editor
+		await mainScreen.noteEditor.toggleEditorsButton.click();
+		await mainScreen.noteEditor.richTextEditor.click();
 
 		await expectNoViolations(mainWindow);
 	});

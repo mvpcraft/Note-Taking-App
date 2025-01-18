@@ -24,7 +24,7 @@ import { themeStyle } from '@joplin/lib/theme';
 import { loadScript } from '../../../utils/loadScript';
 import bridge from '../../../../services/bridge';
 import { TinyMceEditorEvents } from './utils/types';
-import type { Editor } from 'tinymce';
+import type { Editor, EditorEvent } from 'tinymce';
 import { joplinCommandToTinyMceCommands, TinyMceCommand } from './utils/joplinCommandToTinyMceCommands';
 import shouldPasteResources from './utils/shouldPasteResources';
 import lightTheme from '@joplin/lib/themes/light';
@@ -412,9 +412,11 @@ const TinyMCE = (props: NoteBodyEditorProps, ref: any) => {
 		element.setAttribute('id', 'tinyMceStyle');
 		editorContainerDom.head.appendChild(element);
 		element.appendChild(editorContainerDom.createTextNode(`
-			.joplin-tinymce .tox-editor-header {
-				padding-left: ${styles.leftExtraToolbarContainer.width + styles.leftExtraToolbarContainer.padding * 2}px;
-				padding-right: ${styles.rightExtraToolbarContainer.width + styles.rightExtraToolbarContainer.padding * 2}px;
+			.joplin-tinymce .tox-editor-header.tox-editor-header {
+				margin-left: ${styles.leftExtraToolbarContainer.width + styles.leftExtraToolbarContainer.padding * 2}px;
+				margin-right: ${styles.rightExtraToolbarContainer.width + styles.rightExtraToolbarContainer.padding * 2}px;
+				padding: 0;
+				box-shadow: none;
 			}
 			
 			.tox .tox-toolbar,
@@ -434,7 +436,8 @@ const TinyMCE = (props: NoteBodyEditorProps, ref: any) => {
 			}
 
 			.tox .tox-dialog__body-content,
-			.tox .tox-collection__item {
+			.tox .tox-collection__item,
+			.tox .tox-insert-table-picker__label {
 				color: ${theme.color};
 			}
 
@@ -473,7 +476,7 @@ const TinyMCE = (props: NoteBodyEditorProps, ref: any) => {
 			*/
 			
 			.tox .tox-dialog textarea {
-				font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+				font-family: Menlo, Monaco, Consolas, "Courier New", monospace !important;
 			}
 
 			.tox .tox-dialog-wrap__backdrop {
@@ -498,6 +501,7 @@ const TinyMCE = (props: NoteBodyEditorProps, ref: any) => {
 			.tox .tox-toolbar-label {
 				color: ${theme.color3} !important;
 				fill: ${theme.color3} !important;
+				background: transparent;
 			}
 
 			.tox .tox-statusbar a,
@@ -523,6 +527,11 @@ const TinyMCE = (props: NoteBodyEditorProps, ref: any) => {
 			.tox .tox-tbtn:focus,
 			.tox .tox-split-button:focus {
 				background-color: ${theme.backgroundColor3}
+			}
+
+			.tox .tox-tbtn:focus-visible,
+			.tox .tox-split-button:focus-visible {
+				background-color: ${theme.backgroundColorHover3}
 			}
 			
 			.tox .tox-tbtn:hover,
@@ -559,6 +568,12 @@ const TinyMCE = (props: NoteBodyEditorProps, ref: any) => {
 
 			.tox .tox-split-button:hover {
 				box-shadow: none;
+			}
+			
+			/* Decrease the spacing between groups */
+			.tox .tox-toolbar__group {
+				padding-left: 7px;
+				padding-right: 7px;
 			}
 
 			.tox-tinymce,
@@ -628,7 +643,7 @@ const TinyMCE = (props: NoteBodyEditorProps, ref: any) => {
 
 	useEffect(() => {
 		if (!editor) return;
-		editor.setMode(props.disabled ? 'readonly' : 'design');
+		editor.mode.set(props.disabled ? 'readonly' : 'design');
 	}, [editor, props.disabled]);
 
 	// -----------------------------------------------------------------------------------------
@@ -675,14 +690,19 @@ const TinyMCE = (props: NoteBodyEditorProps, ref: any) => {
 			const containerWindow = editorContainerDom.defaultView as any;
 			const editors = await containerWindow.tinymce.init({
 				selector: `#${editorContainer.id}`,
+
+				// Ensures that the "Premium plugins" toolbar option is disabled. See
+				// https://www.tiny.cloud/docs/tinymce/latest/editor-premium-upgrade-promotion/
+				promotion: false,
 				width: '100%',
 				body_class: 'jop-tinymce',
 				height: '100%',
 				resize: false,
+				highlight_on_focus: false,
 				icons: 'Joplin',
 				icons_url: 'gui/NoteEditor/NoteBody/TinyMCE/icons.js',
-				plugins: 'noneditable link joplinLists hr searchreplace codesample table',
-				noneditable_noneditable_class: 'joplin-editable', // Can be a regex too
+				plugins: 'link joplinLists searchreplace codesample table',
+				noneditable_class: 'joplin-editable', // Can be a regex too
 				iframe_aria_text: _('Rich Text editor. Press Escape then Tab to escape focus.'),
 
 				// #p: Pad empty paragraphs with &nbsp; to prevent them from being removed.
@@ -694,7 +714,7 @@ const TinyMCE = (props: NoteBodyEditorProps, ref: any) => {
 				relative_urls: false,
 				branding: false,
 				statusbar: false,
-				target_list: false,
+				link_target_list: false,
 				// Handle the first table row as table header.
 				// https://www.tiny.cloud/docs/plugins/table/#table_header_type
 				table_header_type: 'sectionCells',
@@ -703,13 +723,6 @@ const TinyMCE = (props: NoteBodyEditorProps, ref: any) => {
 				localization_function: _,
 				contextmenu: false,
 				browser_spellcheck: true,
-
-				// Work around an issue where images with a base64 SVG data URL would be broken.
-				//
-				// See https://github.com/tinymce/tinymce/issues/3864
-				//
-				// This was fixed in TinyMCE 6.1, so remove it when we upgrade.
-				images_dataimg_filter: (img: HTMLImageElement) => !img.src.startsWith('data:'),
 
 				formats: {
 					joplinHighlight: { inline: 'mark', remove: 'all' },
@@ -747,14 +760,15 @@ const TinyMCE = (props: NoteBodyEditorProps, ref: any) => {
 						tooltip: _('Inline Code'),
 						icon: 'sourcecode',
 						onAction: function() {
-							editor.execCommand('mceToggleFormat', false, 'code', { class: 'inline-code' });
+							// eslint-disable-next-line @typescript-eslint/no-explicit-any -- Old code before rule was applied
+							editor.execCommand('mceToggleFormat', false, 'code', { class: 'inline-code' } as any);
 						},
 						onSetup: function(api) {
 							api.setActive(editor.formatter.match('code'));
-							const unbind = editor.formatter.formatChanged('code', api.setActive).unbind;
+							const handle = editor.formatter.formatChanged('code', active => api.setActive(active));
 
 							return function() {
-								if (unbind) unbind();
+								handle?.unbind();
 							};
 						},
 					});
@@ -1206,9 +1220,10 @@ const TinyMCE = (props: NoteBodyEditorProps, ref: any) => {
 		}
 
 		// eslint-disable-next-line @typescript-eslint/no-explicit-any -- Old code before rule was applied
-		const onSetAttrib = (event: any) => {
+		const onSetAttrib = (event: EditorEvent<any>) => {
 			// Dispatch onChange when a link is edited
-			if (event.attrElm[0].nodeName === 'A') {
+			const target = Array.isArray(event.attrElm) ? event.attrElm[0] : event.attrElm;
+			if (target.nodeName === 'A') {
 				if (event.attrName === 'title' || event.attrName === 'href' || event.attrName === 'rel') {
 					onChangeHandler();
 				}
