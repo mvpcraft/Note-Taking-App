@@ -7,6 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Joplin-CLI 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
 "Last-Translator: ERYpTION\n"
 "Language-Team: \n"
 "Language: da_DK\n"
@@ -1034,9 +1036,9 @@ msgstr "Kommende alarmer"
 #: packages/lib/models/settings/builtInMetadata.ts:1379
 msgid ""
 "Comma-separated list of paths to directories to load the certificates from, "
-"or path to individual cert files. For example: /my/cert_dir, /other/"
-"custom.pem. Note that if you make changes to the TLS settings, you must save "
-"your changes before clicking on \"Check synchronisation configuration\"."
+"or path to individual cert files. For example: /my/cert_dir, /other/custom."
+"pem. Note that if you make changes to the TLS settings, you must save your "
+"changes before clicking on \"Check synchronisation configuration\"."
 msgstr ""
 "Komma-adskilt liste med stier til mapper der indlæses certifikater fra, "
 "eller stier til individuelle certifikatfiler. For eksempel: /my/cert_dir, /"
@@ -1527,6 +1529,8 @@ msgid ""
 "Delete model and re-download?\n"
 "This cannot be undone."
 msgstr ""
+"Slette model og download igen?\n"
+"Dette kan ikke gøres om."
 
 #: packages/lib/commands/deleteNote.ts:7
 msgid "Delete note"
@@ -1624,9 +1628,8 @@ msgid "Detailed"
 msgstr "Detailed"
 
 #: packages/app-mobile/components/screens/ConfigScreen/plugins/PluginBox/PluginChips.tsx:99
-#, fuzzy
 msgid "Dev"
-msgstr "Forfaldne"
+msgstr "Dev"
 
 #: packages/lib/services/interop/Module.ts:62
 msgid "Directory"
@@ -1774,9 +1777,8 @@ msgid "Download and install the relevant extension for your browser:"
 msgstr "Download og installer den relevante udvidelse til din browser:"
 
 #: packages/app-mobile/components/voiceTyping/VoiceTypingDialog.tsx:206
-#, fuzzy
 msgid "Download updated model"
-msgstr "Downloadet"
+msgstr "Download opdateret model"
 
 #: packages/lib/models/Resource.ts:409
 msgid "Downloaded"
@@ -2984,7 +2986,7 @@ msgstr "Joplin-forum"
 
 #: packages/app-mobile/utils/lockToSingleInstance.ts:16
 msgid "Joplin is already running."
-msgstr "Joplin kører allerede"
+msgstr "Joplin kører allerede."
 
 #: packages/lib/services/plugins/PluginService.ts:523
 msgid "Joplin Mobile"
@@ -4261,7 +4263,7 @@ msgstr "Afslut"
 
 #: packages/app-mobile/components/voiceTyping/VoiceTypingDialog.tsx:206
 msgid "Re-download model"
-msgstr ""
+msgstr "Download model igen"
 
 #: packages/app-desktop/gui/EncryptionConfigScreen/EncryptionConfigScreen.tsx:342
 msgid "Re-encrypt data"
@@ -6097,11 +6099,12 @@ msgid "Unsupported link or message: %s"
 msgstr "Ugyldigt link eller besked: %s"
 
 #: packages/app-mobile/commands/openItem.ts:60
-#, fuzzy
 msgid ""
 "Unsupported link or message: %s.\n"
 "Error: %s"
-msgstr "Ugyldigt link eller besked: %s"
+msgstr ""
+"Ikke-understøttet link eller besked: %s\n"
+"Fejl: %s"
 
 #: packages/app-desktop/gui/ResourceScreen.tsx:123
 #: packages/lib/models/BaseItem.ts:921 packages/lib/path-utils.ts:27
@@ -6253,8 +6256,8 @@ msgid ""
 "tables, checkboxes, code). If not found, a generic monospace (fixed width) "
 "font is used."
 msgstr ""
-"Bruges hvor en font med fast bredde er nødvendig for at vise læsbar tekst "
-"(f.eks. tabeller, afkrydsningsfelter, kode). Hvis ikke fundet, bruges en "
+"Bruges hvor en font med fast bredde er nødvendig for at vise læsbar tekst (f."
+"eks. tabeller, afkrydsningsfelter, kode). Hvis ikke fundet, bruges en "
 "generisk monospatieret (fast bredde) font."
 
 #: packages/server/src/services/MustacheService.ts:125
@@ -6524,8 +6527,8 @@ msgid ""
 "Your password is needed to decrypt some of your data. Type `:e2ee decrypt` "
 "to set it."
 msgstr ""
-"Din adgangskode er nødvendig for at dekryptere nogle af dine data. Tast "
-"`:e2ee decrypt` for at indstille den."
+"Din adgangskode er nødvendig for at dekryptere nogle af dine data. Tast `:"
+"e2ee decrypt` for at indstille den."
 
 #: packages/app-desktop/checkForUpdates.ts:108
 msgid "Your version: %s"
