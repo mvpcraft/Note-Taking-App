@@ -1057,6 +1057,20 @@ const builtInMetadata = (Setting: typeof SettingType) => {
 		// Deprecated in favour of windowContentZoomFactor
 		'style.zoom': { value: 100, type: SettingItemType.Int, public: false, storage: SettingStorage.File, isGlobal: true, appTypes: [AppType.Desktop], section: 'appearance', label: () => '', minimum: 50, maximum: 500, step: 10 },
 
+		'style.viewer.fontSize': {
+			value: 16,
+			type: SettingItemType.Int,
+			public: true,
+			storage: SettingStorage.File,
+			isGlobal: true,
+			appTypes: [AppType.Mobile],
+			section: 'appearance',
+			label: () => _('Viewer font size'),
+			minimum: 4,
+			maximum: 50,
+			step: 1,
+		},
+
 		'style.editor.fontSize': {
 			value: 15,
 			type: SettingItemType.Int,
