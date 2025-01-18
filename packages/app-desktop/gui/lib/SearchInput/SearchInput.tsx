@@ -71,7 +71,7 @@ export default function(props: Props) {
 			<SearchInput
 				ref={props.inputRef}
 				value={props.value}
-				type="text"
+				type="search"
 				placeholder={props.placeholder || _('Search...')}
 				onChange={onChange}
 				onFocus={props.onFocus}
