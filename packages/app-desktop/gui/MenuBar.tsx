@@ -877,7 +877,9 @@ function useMenu(props: Props) {
 				note: {
 					label: _('&Note'),
 					submenu: [
+						menuItemDic.openNoteInNewWindow,
 						menuItemDic.toggleExternalEditing,
+						separator(),
 						menuItemDic.setTags,
 						menuItemDic.showShareNoteDialog,
 						separator(),

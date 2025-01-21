@@ -32,6 +32,7 @@ export default function() {
 		'textSelectAll',
 		'textBulletedList',
 		'toggleExternalEditing',
+		'openNoteInNewWindow',
 		'toggleLayoutMoveMode',
 		'resetLayout',
 		'toggleMenuBar',
