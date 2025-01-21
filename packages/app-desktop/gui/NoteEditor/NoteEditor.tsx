@@ -539,6 +539,7 @@ function NoteEditorContent(props: NoteEditorProps) {
 			verticalAlign: 'top',
 			boxSizing: 'border-box',
 			flex: 1,
+			overflowX: 'scroll',
 		};
 
 		return (
