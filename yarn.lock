@@ -8602,7 +8602,7 @@ __metadata:
     "@joplin/turndown-plugin-gfm": ^1.0.61
     "@joplin/utils": ^3.2.5
     "@testing-library/react-hooks": 8.0.1
-    "@types/adm-zip": 0.5.5
+    "@types/adm-zip": 0.5.6
     "@types/fs-extra": 11.0.4
     "@types/jest": 29.5.12
     "@types/js-yaml": 4.0.9
@@ -12569,12 +12569,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/adm-zip@npm:0.5.5":
-  version: 0.5.5
-  resolution: "@types/adm-zip@npm:0.5.5"
+"@types/adm-zip@npm:0.5.6":
+  version: 0.5.6
+  resolution: "@types/adm-zip@npm:0.5.6"
   dependencies:
     "@types/node": "*"
-  checksum: 808c25b8a1c2e1c594cf9b1514e7953105cf96e19e38aa7dc109ff2537bda7345b950ef1f4e54a6e824e5503e29d24b0ff6d0aa1ff9bd4afb79ef0ef2df9ebab
+  checksum: f4ff999cef5030dfea1252727f94647a63eee7438844c7a477b3859dd2971cce3542123ebaafa507ad4304a4a4f0f8553b7034d6ea8132c941c54ccba76bac65
   languageName: node
   linkType: hard
 
