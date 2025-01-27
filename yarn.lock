@@ -8324,7 +8324,6 @@ __metadata:
     pretty-bytes: 5.6.0
     re-resizable: 6.9.17
     react: 18.3.1
-    react-datetime: 3.2.0
     react-dom: 18.3.1
     react-redux: 8.1.3
     react-select: 5.8.0
@@ -39081,7 +39080,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prop-types@npm:^15.5.7, prop-types@npm:^15.5.8, prop-types@npm:^15.6.0, prop-types@npm:^15.6.2, prop-types@npm:^15.7.2":
+"prop-types@npm:^15.5.8, prop-types@npm:^15.6.0, prop-types@npm:^15.6.2, prop-types@npm:^15.7.2":
   version: 15.7.2
   resolution: "prop-types@npm:15.7.2"
   dependencies:
@@ -39573,18 +39572,6 @@ __metadata:
     lodash.flow: ^3.3.0
     pure-color: ^1.2.0
   checksum: 00a12dddafc8a9025cca933b0dcb65fca41c81fa176d1fc3a6a9d0242127042e2c0a604f4c724a3254dd2c6aeb5ef55095522ff22f5462e419641c1341a658e4
-  languageName: node
-  linkType: hard
-
-"react-datetime@npm:3.2.0":
-  version: 3.2.0
-  resolution: "react-datetime@npm:3.2.0"
-  dependencies:
-    prop-types: ^15.5.7
-  peerDependencies:
-    moment: ^2.16.0
-    react: ^16.5.0 || ^17.0.0 || ^18.0.0
-  checksum: c3407beb64f44cd5944252bee1c4565fc138e3f1e81d8e4fd00d2aeac564a18848ee9af5f51fbbb39bba588f8c2d659570384af1ce8378d4e0049a6bdb083655
   languageName: node
   linkType: hard
 
