@@ -496,6 +496,7 @@ packages/app-desktop/gui/style/StyledInput.js
 packages/app-desktop/gui/style/StyledLink.js
 packages/app-desktop/gui/style/StyledMessage.js
 packages/app-desktop/gui/style/StyledTextInput.js
+packages/app-desktop/gui/utils/NoteListUtils.test.js
 packages/app-desktop/gui/utils/NoteListUtils.js
 packages/app-desktop/gui/utils/announceForAccessibility.js
 packages/app-desktop/gui/utils/convertToScreenCoordinates.js
@@ -572,6 +573,7 @@ packages/app-desktop/utils/customProtocols/constants.js
 packages/app-desktop/utils/customProtocols/handleCustomProtocols.test.js
 packages/app-desktop/utils/customProtocols/handleCustomProtocols.js
 packages/app-desktop/utils/customProtocols/registerCustomProtocols.js
+packages/app-desktop/utils/initializeCommandService.js
 packages/app-desktop/utils/isSafeToOpen.test.js
 packages/app-desktop/utils/isSafeToOpen.js
 packages/app-desktop/utils/restartInSafeModeFromMain.test.js
