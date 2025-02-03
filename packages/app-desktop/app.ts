@@ -556,6 +556,9 @@ class Application extends BaseApplication {
 			value: Setting.value('flagOpenDevTools'),
 		});
 
+		// Always disable for now - and disable too for the few apps that may have the flag enabled.
+		Setting.setValue('featureFlag.autoUpdaterServiceEnabled', false);
+
 		// Note: Auto-update is a misnomer in the code.
 		// The code below only checks, if a new version is available.
 		// We only allow Windows and macOS users to automatically check for updates

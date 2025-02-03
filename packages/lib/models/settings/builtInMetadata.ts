@@ -1672,7 +1672,7 @@ const builtInMetadata = (Setting: typeof SettingType) => {
 		'featureFlag.autoUpdaterServiceEnabled': {
 			value: false,
 			type: SettingItemType.Bool,
-			public: true,
+			public: false,
 			storage: SettingStorage.File,
 			appTypes: [AppType.Desktop],
 			label: () => 'Enable auto-updates',
