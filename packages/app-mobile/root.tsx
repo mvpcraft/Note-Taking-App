@@ -139,6 +139,7 @@ import DialogManager from './components/DialogManager';
 import lockToSingleInstance from './utils/lockToSingleInstance';
 import { AppState } from './utils/types';
 import { getDisplayParentId } from '@joplin/lib/services/trash';
+import PluginNotification from './components/plugins/PluginNotification';
 
 const logger = Logger.create('root');
 
@@ -1328,6 +1329,7 @@ class AppComponent extends React.Component {
 					</MenuProvider>
 				</SideMenu>
 				<PluginRunnerWebView />
+				<PluginNotification/>
 			</View>
 		);
 
