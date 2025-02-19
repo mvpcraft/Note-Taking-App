@@ -1,6 +1,6 @@
 # Joplin Server Changelog
 
-## [server-v3.3.1](https://github.com/laurent22/joplin/releases/tag/server-v3.3.1) - 2025-02-19T19:17:57Z
+## [server-v3.3.2](https://github.com/laurent22/joplin/releases/tag/server-v3.3.2) - 2025-02-19T22:00:04Z
 
 - New: Add logging statement to evaluate the performance of the sharing service (1d6c1e4)
 - New: Added more logging for sharing (2779a9c)
