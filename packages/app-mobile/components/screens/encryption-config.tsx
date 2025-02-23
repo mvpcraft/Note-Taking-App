@@ -260,17 +260,15 @@ const EncryptionConfigScreen = (props: Props) => {
 		}
 	};
 
-	for (let i = 0; i < props.masterKeys.filter(mk => masterKeyEnabled(mk)).length; i++) {
-		const mk = props.masterKeys[i];
-		mkComps.push(renderMasterKey(mk));
+	for (const enabledKey of props.masterKeys.filter(mk => masterKeyEnabled(mk))) {
+		mkComps.push(renderMasterKey(enabledKey));
 
-		const idx = nonExistingMasterKeyIds.indexOf(mk.id);
+		const idx = nonExistingMasterKeyIds.indexOf(enabledKey.id);
 		if (idx >= 0) nonExistingMasterKeyIds.splice(idx, 1);
 	}
 
-	for (let i = 0; i < props.masterKeys.filter(mk => !masterKeyEnabled(mk)).length; i++) {
-		const mk = props.masterKeys[i];
-		disabledMkComps.push(renderMasterKey(mk));
+	for (const disabledKey of props.masterKeys.filter(mk => !masterKeyEnabled(mk))) {
+		disabledMkComps.push(renderMasterKey(disabledKey));
 	}
 
 	const onToggleButtonClick = async () => {
