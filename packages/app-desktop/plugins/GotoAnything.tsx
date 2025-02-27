@@ -40,6 +40,39 @@ interface GotoAnythingSearchResult {
 	item_type?: ModelType;
 }
 
+// GotoAnything supports several modes:
+//
+// - Default: Search in note title, body. Can search for folders, tags, etc. This is the full
+//   featured GotoAnything.
+//
+// - TitleOnly: Search in note titles only.
+//
+// These different modes can be set from the `gotoAnything` command.
+
+export enum Mode {
+	Default = 0,
+	TitleOnly,
+}
+
+export interface UserDataCallbackEvent {
+	type: ModelType;
+	// eslint-disable-next-line @typescript-eslint/no-explicit-any -- Old code before rule was applied
+	item: any;
+}
+
+export type UserDataCallbackResolve = (event: UserDataCallbackEvent)=> void;
+export type UserDataCallbackReject = (error: Error)=> void;
+export interface UserDataCallback {
+	resolve: UserDataCallbackResolve;
+	reject: UserDataCallbackReject;
+}
+
+export interface GotoAnythingUserData {
+	startString?: string;
+	mode?: Mode;
+	callback?: UserDataCallback;
+}
+
 interface Props {
 	themeId: number;
 	// eslint-disable-next-line @typescript-eslint/ban-types -- Old code before rule was applied
@@ -47,8 +80,7 @@ interface Props {
 	// eslint-disable-next-line @typescript-eslint/no-explicit-any -- Old code before rule was applied
 	folders: any[];
 	showCompletedTodos: boolean;
-	// eslint-disable-next-line @typescript-eslint/no-explicit-any -- Old code before rule was applied
-	userData: any;
+	userData: GotoAnythingUserData;
 }
 
 interface State {
@@ -131,8 +163,8 @@ class DialogComponent extends React.PureComponent<Props, State> {
 	private itemListRef: any;
 	private listUpdateQueue_: AsyncActionQueue;
 	private markupToHtml_: MarkupToHtml;
-	// eslint-disable-next-line @typescript-eslint/no-explicit-any -- Old code before rule was applied
-	private userCallback_: any = null;
+	private userCallback_: UserDataCallback|null = null;
+	private mode_: Mode;
 
 	public constructor(props: Props) {
 		super(props);
@@ -141,6 +173,8 @@ class DialogComponent extends React.PureComponent<Props, State> {
 
 		this.userCallback_ = props?.userData?.callback;
 		this.listUpdateQueue_ = new AsyncActionQueue(100);
+
+		this.mode_ = props?.userData?.mode ? props.userData.mode : Mode.Default;
 
 		this.state = {
 			query: startString,
@@ -340,6 +374,13 @@ class DialogComponent extends React.PureComponent<Props, State> {
 
 				// eslint-disable-next-line @typescript-eslint/no-explicit-any -- Old code before rule was applied
 				resultsInBody = !!results.find((row: any) => row.fields.includes('body'));
+
+				if (this.mode_ === Mode.TitleOnly) {
+					resultsInBody = false;
+					results = results.filter(r => {
+						return r.fields.includes('title');
+					});
+				}
 
 				const resourceIds = results.filter(r => r.item_type === ModelType.Resource).map(r => r.item_id);
 				const resources = await Resource.resourceOcrTextsByIds(resourceIds);
@@ -584,8 +625,8 @@ class DialogComponent extends React.PureComponent<Props, State> {
 				aria-posinset={index + 1}
 			>
 				<div style={style.rowTitle} dangerouslySetInnerHTML={{ __html: titleHtml }}></div>
-				{fragmentComp}
-				{pathComp}
+				{this.mode_ === Mode.TitleOnly ? null : fragmentComp}
+				{this.mode_ === Mode.TitleOnly ? null : pathComp}
 			</div>
 		);
 	}
@@ -668,6 +709,14 @@ class DialogComponent extends React.PureComponent<Props, State> {
 		);
 	}
 
+	private helpText() {
+		if (this.mode_ === Mode.TitleOnly) {
+			return _('Type a note title to search for it.');
+		} else {
+			return _('Type a note title or part of its content to jump to it. Or type # followed by a tag name, or @ followed by a notebook name. Or type : to search for commands.');
+		}
+	}
+
 	public render() {
 		const style = this.style();
 		const helpTextId = 'goto-anything-help-text';
@@ -678,7 +727,7 @@ class DialogComponent extends React.PureComponent<Props, State> {
 				id={helpTextId}
 				style={style.help}
 				hidden={!this.state.showHelp}
-			>{_('Type a note title or part of its content to jump to it. Or type # followed by a tag name, or @ followed by a notebook name. Or type : to search for commands.')}</div>
+			>{this.helpText()}</div>
 		);
 
 		return (
